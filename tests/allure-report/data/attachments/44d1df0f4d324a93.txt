@@ -1,0 +1,3 @@
+INFO     root:test_file_checks.py:26 Starting test: Check for the Release Notes file
+INFO     root:fileverification.py:7 File found: C:\GRL\GRL-C3-MP-TPT\GRL-C3-TPT Release Notes.pdf
+INFO     root:test_file_checks.py:28 Release Notes file verification passed.

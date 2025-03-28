@@ -1,0 +1,4 @@
+[32mINFO    [0m root:configpage_panel.py:135 Verifying the checkbox functionality for Authentication Support
+[32mINFO    [0m root:configpage_panel.py:146 Authentication Support checkbox is unchecked by default
+[32mINFO    [0m root:configpage_panel.py:154 Authentication Support checkbox is now checked
+[32mINFO    [0m root:configpage_panel.py:161 Authentication Support checkbox is now unchecked

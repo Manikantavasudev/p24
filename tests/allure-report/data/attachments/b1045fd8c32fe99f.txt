@@ -1,0 +1,5 @@
+INFO     root:Qi_Exerciser.py:117 Verifying the input box functionality for A1
+ERROR    root:Qi_Exerciser.py:135 A1 input box failed to accept 100 random characters
+ERROR    root:Qi_Exerciser.py:145 A1 input box failed to accept 100 numbers
+ERROR    root:Qi_Exerciser.py:155 A1 input box failed to accept 100 letters
+ERROR    root:Qi_Exerciser.py:165 A1 input box failed to accept a combination of letters, numbers, and special characters

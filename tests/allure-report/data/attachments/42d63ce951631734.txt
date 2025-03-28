@@ -1,0 +1,7 @@
+[32mINFO    [0m root:test_UC1.py:262 Page title: GRL-C3-TPT Software
+[32mINFO    [0m root:test_UC1.py:263 Page URL: http://localhost:2004/v3220121.html
+[32mINFO    [0m root:test_UC1.py:267 Locating PRx Compliance Tests MPP V2.0.1 checkbox
+[32mINFO    [0m root:test_UC1.py:277 Checkbox is not selected. Selecting it now...
+[32mINFO    [0m root:test_UC1.py:288 Selected Tests: 0/141
+[33mWARNING [0m root:test_UC1.py:297 Mismatch! Expected 141/141 but found 0/141.
+[32mINFO    [0m root:test_UC1.py:48 Closing the WebDriver

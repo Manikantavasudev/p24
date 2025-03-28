@@ -1,0 +1,2 @@
+[32mINFO    [0m root:configpage_panel.py:217 Verifying the dropdown functionality for Supported Protocols
+[32mINFO    [0m root:configpage_panel.py:243 Available options in Supported Protocols:

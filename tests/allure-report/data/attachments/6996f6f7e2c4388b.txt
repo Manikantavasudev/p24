@@ -1,0 +1,3 @@
+INFO     root:configpage_panel.py:217 Verifying the dropdown functionality for Supported GetRequests
+INFO     root:configpage_panel.py:243 Available options in Supported GetRequests:
+INFO     root:test_config_panelchecks.py:151 Tearing down the browser

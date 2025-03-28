@@ -1,0 +1,2 @@
+[32mINFO    [0m root:browser_setup.py:36 Opening browser using way1
+[1m[31mERROR   [0m root:report_panel.py:248 Synthetic File button is not displayed.

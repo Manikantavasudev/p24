@@ -1,0 +1,5 @@
+INFO     root:configpage_panel.py:84 Verifying the input box functionality for Applicant Name
+INFO     root:configpage_panel.py:100 Applicant Name input box accepted 100 random characters: q$ker(NXUH)bTRfm"}c:"y-E@hTtF?%#*$MV{`G#702t#6GY`8]Wt}G'ri*.i-4tY>y8^U2l"LsinP=.tnFLm;cmq+M??/_H+J0a
+INFO     root:configpage_panel.py:110 Applicant Name input box accepted 100 numbers: 8544239840931476214577019081429310124746428910200081857153229616252800740754649216823446506194378391
+INFO     root:configpage_panel.py:120 Applicant Name input box accepted 100 letters: wQljnpUFqjtJhUxcACNjwHNfLqNbzEcbVgOYEzLhZGJrjzAErbErDXwGytpOxaIuWscsMXaZkgWrEPiXQVguTVHbvcxUUiDejwve
+INFO     root:configpage_panel.py:130 Applicant Name input box accepted a combination of letters, numbers, and special characters: HI9nf:dXE}%!pB}fSZ07"bb{H3|In)vnV`;7SnGa^-YbE`wAd?yo-PhLuZPB4](OuHKr+,5p3!?OWT_iwvdDr-@A57)_;6,{Z28p

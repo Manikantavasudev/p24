@@ -1,0 +1,4 @@
+INFO     root:configpage_panel.py:135 Verifying the checkbox functionality for Cloak Support
+INFO     root:configpage_panel.py:146 Cloak Support checkbox is unchecked by default
+INFO     root:configpage_panel.py:154 Cloak Support checkbox is now checked
+INFO     root:configpage_panel.py:161 Cloak Support checkbox is now unchecked

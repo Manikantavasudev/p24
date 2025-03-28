@@ -1,0 +1,4 @@
+[32mINFO    [0m root:configpage_panel.py:135 Verifying the checkbox functionality for Gain Linearization Support
+[32mINFO    [0m root:configpage_panel.py:146 Gain Linearization Support checkbox is unchecked by default
+[32mINFO    [0m root:configpage_panel.py:154 Gain Linearization Support checkbox is now checked
+[32mINFO    [0m root:configpage_panel.py:161 Gain Linearization Support checkbox is now unchecked

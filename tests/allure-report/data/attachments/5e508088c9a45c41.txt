@@ -1,0 +1,1 @@
+INFO     root:report_panel.py:245 Download Current HTML button is available.

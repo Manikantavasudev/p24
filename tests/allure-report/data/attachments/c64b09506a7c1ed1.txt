@@ -1,0 +1,1 @@
+[32mINFO    [0m root:browser_setup.py:36 Opening browser using way1

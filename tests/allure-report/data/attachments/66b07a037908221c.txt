@@ -1,0 +1,5 @@
+[32mINFO    [0m root:configpage_panel.py:135 Verifying the checkbox functionality for OB Support
+[32mINFO    [0m root:configpage_panel.py:146 OB Support checkbox is unchecked by default
+[32mINFO    [0m root:configpage_panel.py:154 OB Support checkbox is now checked
+[32mINFO    [0m root:configpage_panel.py:161 OB Support checkbox is now unchecked
+[32mINFO    [0m root:test_config_panelchecks.py:151 Tearing down the browser

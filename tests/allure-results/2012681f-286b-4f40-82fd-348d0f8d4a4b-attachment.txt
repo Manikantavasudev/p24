@@ -1,0 +1,8 @@
+INFO     root:test_UC1.py:236 Page title: GRL-C3-TPT Software
+INFO     root:test_UC1.py:237 Page URL: http://localhost:2004/v3220118.html
+INFO     root:test_UC1.py:241 Locating PRx Compliance Tests MPP V2.0.1 checkbox
+INFO     root:test_UC1.py:251 Checkbox is not selected. Selecting it now...
+INFO     root:test_UC1.py:262 Total Selected Test Cases: 1
+INFO     root:test_UC1.py:269 Total Available Test Cases: 13
+ERROR    root:test_UC1.py:285 Error occurred: Message:
+INFO     root:test_UC1.py:23 Closing the WebDriver

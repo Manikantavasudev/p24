@@ -1,0 +1,4 @@
+INFO     root:test_helppanel_checks.py:17 Starting test_TC2
+INFO     root:browser_setup.py:36 Opening browser using way1
+INFO     root:helppanel.py:50 Clicking on Help button
+INFO     root:helppanel.py:61 APP version matches expected version.

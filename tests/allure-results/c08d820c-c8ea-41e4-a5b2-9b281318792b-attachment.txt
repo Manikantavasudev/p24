@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_config_panelchecks.py:143 Setting up the browser
+[32mINFO    [0m root:browser_setup.py:36 Opening browser using way1

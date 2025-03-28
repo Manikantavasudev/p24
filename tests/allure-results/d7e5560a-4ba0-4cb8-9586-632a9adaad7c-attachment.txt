@@ -1,0 +1,4 @@
+INFO     root:configpage_panel.py:135 Verifying the checkbox functionality for Dup Support
+INFO     root:configpage_panel.py:146 Dup Support checkbox is unchecked by default
+INFO     root:configpage_panel.py:154 Dup Support checkbox is now checked
+INFO     root:configpage_panel.py:161 Dup Support checkbox is now unchecked

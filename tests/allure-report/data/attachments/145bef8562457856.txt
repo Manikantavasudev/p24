@@ -1,0 +1,5 @@
+[32mINFO    [0m root:test_helppanel_checks.py:42 Starting test_TC4
+[32mINFO    [0m root:browser_setup.py:36 Opening browser using way1
+[32mINFO    [0m root:helppanel.py:97 Checking if Email Support button is clickable
+[32mINFO    [0m root:helppanel.py:101 Help tab clicked successfully.
+[32mINFO    [0m root:helppanel.py:104 Email Support button located.

@@ -1,0 +1,2 @@
+[32mINFO    [0m root:Qi_Exerciser.py:117 Verifying the input box functionality for Δd_Tx
+[31m[1mERROR   [0m root:Qi_Exerciser.py:123 Δd_Tx input box is not available on the page

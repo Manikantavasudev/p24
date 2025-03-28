@@ -1,0 +1,2 @@
+[32mINFO    [0m root:Qi_Exerciser.py:168 Verifying the checkbox functionality for Q Factor Measurement Checkbox
+[32mINFO    [0m root:Qi_Exerciser.py:179 Q Factor Measurement Checkbox checkbox is unchecked by default

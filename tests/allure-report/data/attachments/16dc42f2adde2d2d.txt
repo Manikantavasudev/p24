@@ -1,0 +1,10 @@
+[32mINFO    [0m root:test_config_panelchecks.py:143 Setting up the browser
+[32mINFO    [0m root:browser_setup.py:36 Opening browser using way1
+[32mINFO    [0m root:configpage_panel.py:73 Opening Test Configuration Panel
+[32mINFO    [0m root:configpage_panel.py:76 clicking on body of the UI to enble the UI
+[32mINFO    [0m root:configpage_panel.py:80 Clicking on Edit SDF Button
+[32mINFO    [0m root:configpage_panel.py:84 Verifying the input box functionality for Manufacturer Code
+[32mINFO    [0m root:configpage_panel.py:100 Manufacturer Code input box accepted 100 random characters: A-we:Mrn#w+2&1vA8Kj<5/cmtQJTwRi,Nj^p$UT?qt5][>qx>dX*Jv!2gVt+koCZ/mT|>$4[F&ou*{Wcu1.8Mkui%%vK[VCPTe0=
+[32mINFO    [0m root:configpage_panel.py:110 Manufacturer Code input box accepted 100 numbers: 5275281570671727304445564958604912203079132325870817610450009053526274843853495632656154115308239433
+[32mINFO    [0m root:configpage_panel.py:120 Manufacturer Code input box accepted 100 letters: xEGZdMAhwRHvwGxlcDUARuSteWXiwJtxCpMFNVFoWNdmceLBKpxBDvlWXqtkbmSVUKHWhVygEbWJVnbOknMRzqNlKazpAkKUnYck
+[32mINFO    [0m root:configpage_panel.py:130 Manufacturer Code input box accepted a combination of letters, numbers, and special characters: ^ljV&{*zG3Yeq(430]I,H0GgxcIWu0H(r%kb<<|Fxs&cn6vQ2|9?a%[YTP\0ad@8u4D%B?O*f=|VD'9.9`3g[Z65Y#Msxz_T5.m`

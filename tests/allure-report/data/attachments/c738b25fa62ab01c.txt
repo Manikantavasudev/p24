@@ -1,0 +1,10 @@
+INFO     root:test_config_panelchecks.py:143 Setting up the browser
+INFO     root:browser_setup.py:35 Opening browser using way1
+INFO     root:configpage_panel.py:73 Opening Test Configuration Panel
+INFO     root:configpage_panel.py:76 clicking on body of the UI to enble the UI
+INFO     root:configpage_panel.py:80 Clicking on Edit SDF Button
+INFO     root:configpage_panel.py:84 Verifying the input box functionality for Product Name
+INFO     root:configpage_panel.py:100 Product Name input box accepted 100 random characters: \``pT]PeF#ft=^[F=L3D@#>2Ix|Px`=d$l{IS2g{$7h@HpO*:Gh^y[wX^=$D%[%VKRJT\QYF@GE<Gp5z1IliN,`oM%jS'H9;RuB>
+INFO     root:configpage_panel.py:110 Product Name input box accepted 100 numbers: 1196647009889281271845499041368084988097645661217457961753404532792116390042480044534817796017831177
+INFO     root:configpage_panel.py:120 Product Name input box accepted 100 letters: ItxRduOlMXFjnPuuEUvqNqEzhSgqGnRKcghLxrFsATdCKOpmisqIjHvBphBtOMDARgtOFWBbRGbAytNcwBUdKoYEVkynWzvjYQBG
+INFO     root:configpage_panel.py:130 Product Name input box accepted a combination of letters, numbers, and special characters: k_~U?}SUBDhOV8b$HkO|MGe5C=_;`Y0.247i2kDgaD/MrY>xgy@*vgDP/3I'1Oh9+xX{Pf9>3Y3}D}4B^p6eKN//it`FDP/vm]U9

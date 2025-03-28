@@ -1,0 +1,4 @@
+INFO     root:test_file_checks.py:18 Starting test: Check for the Readme file
+INFO     root:fileverification.py:7 File found: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+INFO     root:fileverification.py:28 File content verified: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+INFO     root:test_file_checks.py:21 Readme file verification passed.

@@ -1,0 +1,4 @@
+[32mINFO    [0m root:configpage_panel.py:135 Verifying the checkbox functionality for Restricted Mode Support
+[32mINFO    [0m root:configpage_panel.py:146 Restricted Mode Support checkbox is unchecked by default
+[32mINFO    [0m root:configpage_panel.py:154 Restricted Mode Support checkbox is now checked
+[32mINFO    [0m root:configpage_panel.py:161 Restricted Mode Support checkbox is now unchecked

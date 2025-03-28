@@ -1,0 +1,5 @@
+INFO     root:browser_setup.py:36 Opening browser using way1
+INFO     root:connection_panel.py:124 The 'Scan Network' button is visible on the UI.
+INFO     root:connection_panel.py:127 Clicking the 'Scan Network' button.
+INFO     root:connection_panel.py:137 The 'Connect' button is disabled during scanning as expected.
+INFO     root:connection_panel.py:148 Scanning process completed. The 'connection' button is visible again.

@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_UC1.py:36 Setting up the WebDriver

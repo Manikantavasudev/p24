@@ -1,0 +1,1 @@
+[31m[1mERROR   [0m root:report_panel.py:248 Report Data Management button is not displayed.

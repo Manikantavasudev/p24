@@ -1,0 +1,2 @@
+INFO     root:test_helppanel_checks.py:17 Starting test_TC2
+INFO     root:browser_setup.py:35 Opening browser using way1

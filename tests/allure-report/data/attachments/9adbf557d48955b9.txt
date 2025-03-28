@@ -1,0 +1,2 @@
+[32mINFO    [0m root:browser_setup.py:36 Opening browser using way1
+[31m[1mERROR   [0m root:report_panel.py:248 View Report button is not displayed.

@@ -1,0 +1,2 @@
+[32mINFO    [0m root:configpage_panel.py:217 Verifying the dropdown functionality for Supported Specification
+[1m[31mERROR   [0m root:configpage_panel.py:228 Supported Specification dropdown is not enabled

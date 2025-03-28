@@ -1,0 +1,5 @@
+INFO     root:test_helppanel_checks.py:29 Starting test_TC3
+INFO     root:browser_setup.py:35 Opening browser using way1
+INFO     root:helppanel.py:68 Clicking on Help button
+INFO     root:helppanel.py:84 Switched to new window: Knowledge Base | Create Support Ticket
+INFO     root:helppanel.py:89 New page title: Knowledge Base | Create Support Ticket

@@ -1,0 +1,9 @@
+[32mINFO    [0m root:browser_setup.py:35 Opening browser using way1
+[32mINFO    [0m root:connection_panel.py:159 Waiting for the Setup Diagram element to be visible
+[32mINFO    [0m root:connection_panel.py:163 Setup Diagram element is visible. Clicking it now.
+[32mINFO    [0m root:connection_panel.py:167 Waiting for the modal to display the expected text
+[32mINFO    [0m root:connection_panel.py:172 Modal displays the expected text: 'GRL-C3-TPT Setup Diagram'
+[32mINFO    [0m root:connection_panel.py:179 Screenshot of the Setup Diagram view taken after clicking OK.
+[32mINFO    [0m root:connection_panel.py:182 Waiting for the OK button to be clickable
+[32mINFO    [0m root:connection_panel.py:186 Clicking the OK button in the modal
+[32mINFO    [0m root:connection_panel.py:193 Modal dismissed; back to the Connection Panel.

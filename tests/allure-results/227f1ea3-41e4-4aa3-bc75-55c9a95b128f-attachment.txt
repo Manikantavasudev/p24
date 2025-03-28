@@ -1,0 +1,5 @@
+[32mINFO    [0m root:configpage_panel.py:84 Verifying the input box functionality for Cloak Retry Count
+[31m[1mERROR   [0m root:configpage_panel.py:102 Cloak Retry Count input box failed to accept 100 random characters
+[32mINFO    [0m root:configpage_panel.py:110 Cloak Retry Count input box accepted 100 numbers: 5341192339724709513636026181774999462893644936553097639368392902225604870327009131441935383755521445
+[31m[1mERROR   [0m root:configpage_panel.py:122 Cloak Retry Count input box failed to accept 100 letters
+[31m[1mERROR   [0m root:configpage_panel.py:132 Cloak Retry Count input box failed to accept a combination of letters, numbers, and special characters

@@ -1,0 +1,4 @@
+INFO     root:configpage_panel.py:135 Verifying the checkbox functionality for Restricted To Full Mode
+INFO     root:configpage_panel.py:146 Restricted To Full Mode checkbox is unchecked by default
+INFO     root:configpage_panel.py:154 Restricted To Full Mode checkbox is now checked
+INFO     root:configpage_panel.py:161 Restricted To Full Mode checkbox is now unchecked

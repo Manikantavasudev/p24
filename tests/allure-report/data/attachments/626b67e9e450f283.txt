@@ -1,0 +1,2 @@
+[32mINFO    [0m root:Qi_Exerciser.py:168 Verifying the checkbox functionality for PPS Volts Checkbox
+[1m[31mERROR   [0m root:Qi_Exerciser.py:174 PPS Volts Checkbox checkbox is not available on the page

@@ -1,0 +1,3 @@
+INFO     root:browser_setup.py:35 Opening browser using way1
+INFO     root:connection_panel.py:44 Verify The browser title in the UI tab should contain the text GRL-C3-TPT.
+INFO     root:connection_panel.py:52 The browser title is GRL-C3-TPT

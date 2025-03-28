@@ -1,0 +1,5 @@
+INFO     root:configpage_panel.py:84 Verifying the input box functionality for Manufacturer Code
+INFO     root:configpage_panel.py:100 Manufacturer Code input box accepted 100 random characters: tzK7JMyDoJRB"]On/<X$o..X}4v|Z,r3)py`!UU?|)sN'0N5G/*_Vp(rv`fo0mv")c9N(Jq='`_0%v%%QgV(3#Wvd9n.rI]}!Y]*
+INFO     root:configpage_panel.py:110 Manufacturer Code input box accepted 100 numbers: 2721980349684603285579357214751269287677774858443620567585408202188461341490751968306258706746541313
+INFO     root:configpage_panel.py:120 Manufacturer Code input box accepted 100 letters: LIywkZRkMHUUODuUXVqYkZFECUiKjTEyYozPtBIDLIchUsehRwBDQTdbSJzFTWwgtbHzMwuBMMrlffxylAVWPyiURtOLRtsWoCjW
+INFO     root:configpage_panel.py:130 Manufacturer Code input box accepted a combination of letters, numbers, and special characters: H@%7[QJ4f>.Rb]Bp_k{vx//'$k`&fue6*-dBfmotFB`j_cSK\ITA3!DyS7tv?m_,?,_=5>e`b{)n(w~uU\8Rt(`k;:r0pN)WSm$)

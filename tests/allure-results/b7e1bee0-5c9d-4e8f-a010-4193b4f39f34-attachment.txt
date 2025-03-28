@@ -1,0 +1,6 @@
+[32mINFO    [0m root:test_Qi_Exerciser_checks.py:71 Setting up the browser for Qi Exerciser Panel
+[32mINFO    [0m root:browser_setup.py:36 Opening browser using way1
+[32mINFO    [0m root:Qi_Exerciser.py:112 Opening Qi Exerciser Panel
+[32mINFO    [0m root:Qi_Exerciser.py:200 Verifying the dropdown functionality for Demodulator
+[32mINFO    [0m root:Qi_Exerciser.py:226 Available options in Demodulator:
+[32mINFO    [0m root:test_Qi_Exerciser_checks.py:78 Tearing down the browser

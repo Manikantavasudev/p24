@@ -1,0 +1,7 @@
+[32mINFO    [0m root:browser_setup.py:35 Opening browser using way1
+[32mINFO    [0m root:connection_panel.py:196 Opening application URL
+[32mINFO    [0m root:connection_panel.py:204 Initial tester status: Disconnected
+[32mINFO    [0m root:connection_panel.py:212 Entered wrong IP: 192.168.255.22
+[32mINFO    [0m root:connection_panel.py:220 Clicked on the Connect button.
+[32mINFO    [0m root:connection_panel.py:225 Tester status after clicking Connect: Invalid IP address format : 192.168.5.63192.168.255.22
+[32mINFO    [0m root:connection_panel.py:230 Expected error message is present: Invalid IP address format : 192.168.5.63192.168.255.22

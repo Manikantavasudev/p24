@@ -1,0 +1,15 @@
+[32mINFO    [0m root:test_UC1.py:36 Setting up the WebDriver
+[32mINFO    [0m root:test_UC1.py:58 Opening BA URL: http://localhost:2004
+[32mINFO    [0m root:test_UC1.py:67 Clearing existing IP Address field
+[32mINFO    [0m root:test_UC1.py:73 Entering new IP Address: 192.168.5.79
+[32mINFO    [0m root:test_UC1.py:80 Clicking the Connect button
+[32mINFO    [0m root:test_UC1.py:86 Verifying tester connection status
+[32mINFO    [0m root:test_UC1.py:89 Tester connection status: Connected
+[32mINFO    [0m root:test_UC1.py:114 Extracted Tester Status: Connected
+[32mINFO    [0m root:test_UC1.py:114 Extracted Serial Number: GRL-C3-MP-2023006
+[32mINFO    [0m root:test_UC1.py:114 Extracted Firmware Version: 5.0.1.29 / 1.9
+[32mINFO    [0m root:test_UC1.py:114 Extracted Next Calibration Date: 22 May 2025
+[32mINFO    [0m root:test_UC1.py:114 Extracted Tester IP Address: 192.168.5.79
+[32mINFO    [0m root:test_UC1.py:114 Extracted Port: 5002
+[32mINFO    [0m root:test_UC1.py:120 Extracted details: {'Tester Status': 'Connected', 'Serial Number': 'GRL-C3-MP-2023006', 'Firmware Version': '5.0.1.29 / 1.9', 'Next Calibration Date': '22 May 2025', 'Tester IP Address': '192.168.5.79', 'Port': '5002'}
+[32mINFO    [0m root:test_UC1.py:48 Closing the WebDriver

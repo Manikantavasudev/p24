@@ -1,0 +1,9 @@
+INFO     root:test_UC1.py:19 Setting up the WebDriver
+INFO     root:test_UC1.py:32 Opening BA URL: http://localhost:2004
+INFO     root:test_UC1.py:41 Clearing existing IP Address field
+INFO     root:test_UC1.py:47 Entering new IP Address: 192.168.5.63
+INFO     root:test_UC1.py:54 Clicking the Connect button
+INFO     root:test_UC1.py:60 Verifying tester connection status
+INFO     root:test_UC1.py:63 Tester connection status: IP address "192.168.5.63" unreachable
+ERROR    root:test_UC1.py:67 Error during connection setup: Tester did not connect successfully!
+assert 'Connected' in 'IP address "192.168.5.63" unreachable'

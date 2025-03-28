@@ -1,0 +1,4 @@
+[32mINFO    [0m root:configpage_panel.py:135 Verifying the checkbox functionality for WPID Support
+[32mINFO    [0m root:configpage_panel.py:146 WPID Support checkbox is unchecked by default
+[32mINFO    [0m root:configpage_panel.py:154 WPID Support checkbox is now checked
+[32mINFO    [0m root:configpage_panel.py:161 WPID Support checkbox is now unchecked

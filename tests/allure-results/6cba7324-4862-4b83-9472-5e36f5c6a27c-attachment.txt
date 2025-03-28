@@ -1,0 +1,5 @@
+INFO     root:configpage_panel.py:84 Verifying the input box functionality for Part Number
+INFO     root:configpage_panel.py:100 Part Number input box accepted 100 random characters: |6+0Z1`_+V)RT|}u%cwPj{IdqP6'b@]T6^yOhb$$y`B`!Qy^mYo+(oZ<<UATlA4"$CTc3yl'9f=m!U'Or2]CzroB,%;zJiOm82y:
+INFO     root:configpage_panel.py:110 Part Number input box accepted 100 numbers: 7797861071473449158168000105302915163842055214753128652690078981646985532743211229441914555479483230
+INFO     root:configpage_panel.py:120 Part Number input box accepted 100 letters: flLHEefFNitFtSSuFFbhanEAxPelQwddVoJJBTeQBkzLdZVbejrATMOhRUSFFJIIMUyNaCeZdsOLhJlDlSSIsXfBIgOpxVBQbyfY
+INFO     root:configpage_panel.py:130 Part Number input box accepted a combination of letters, numbers, and special characters: 7nQ#x2k^S$&mws?3^,cNLM!%mo,B:^^\@=&Um@Go1/5)7T)1{a$hhM?>ZOjk'.!3#k,M^\H&|)B!a4YypPAnN7T$u.='!E={!S7X

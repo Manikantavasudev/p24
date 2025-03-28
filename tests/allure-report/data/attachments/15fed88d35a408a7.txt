@@ -1,0 +1,2 @@
+[32mINFO    [0m root:Qi_Exerciser.py:200 Verifying the dropdown functionality for Demodulator
+[32mINFO    [0m root:test_Qi_Exerciser_checks.py:78 Tearing down the browser

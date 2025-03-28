@@ -1,0 +1,2 @@
+INFO     root:Qi_Exerciser.py:168 Verifying the checkbox functionality for PPS Volts Checkbox
+ERROR    root:Qi_Exerciser.py:174 PPS Volts Checkbox checkbox is not available on the page

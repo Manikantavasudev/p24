@@ -1,0 +1,5 @@
+INFO     root:configpage_panel.py:84 Verifying the input box functionality for Part Number
+ERROR    root:configpage_panel.py:102 Part Number input box failed to accept 100 random characters
+INFO     root:configpage_panel.py:110 Part Number input box accepted 100 numbers: 2025677266090283704377736513381715412022350474410637412929198375967276851102812332516748884733972871
+INFO     root:configpage_panel.py:120 Part Number input box accepted 100 letters: NMZOZcKUaqzHHiBXozISFfgUeqCnVfahQWdkVXsaUoZOMTOIetfenvvIAJspbwYsBOFZqrBxyROQVtcnRUVkIKxJvsarrCmARuef
+ERROR    root:configpage_panel.py:132 Part Number input box failed to accept a combination of letters, numbers, and special characters

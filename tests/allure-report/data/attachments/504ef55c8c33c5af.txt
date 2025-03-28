@@ -1,0 +1,4 @@
+[32mINFO    [0m root:configpage_panel.py:135 Verifying the checkbox functionality for PCH Data Packet Support
+[32mINFO    [0m root:configpage_panel.py:146 PCH Data Packet Support checkbox is unchecked by default
+[32mINFO    [0m root:configpage_panel.py:154 PCH Data Packet Support checkbox is now checked
+[32mINFO    [0m root:configpage_panel.py:161 PCH Data Packet Support checkbox is now unchecked

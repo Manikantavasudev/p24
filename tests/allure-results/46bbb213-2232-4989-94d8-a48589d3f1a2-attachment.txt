@@ -1,0 +1,5 @@
+[32mINFO    [0m root:configpage_panel.py:84 Verifying the input box functionality for QIID
+[1m[31mERROR   [0m root:configpage_panel.py:102 QIID input box failed to accept 100 random characters
+[32mINFO    [0m root:configpage_panel.py:110 QIID input box accepted 100 numbers: 9556676893559366590086245450295667721140687801953029886513259775325453426810618621702586297369181214
+[1m[31mERROR   [0m root:configpage_panel.py:122 QIID input box failed to accept 100 letters
+[1m[31mERROR   [0m root:configpage_panel.py:132 QIID input box failed to accept a combination of letters, numbers, and special characters

@@ -1,0 +1,27 @@
+INFO     root:test_UC1.py:262 Page title: GRL-C3-TPT Software
+INFO     root:test_UC1.py:263 Page URL: http://localhost:2004/v3220126.html
+INFO     root:test_UC1.py:267 Locating PRx Compliance Tests MPP V2.0.1 checkbox
+ERROR    root:test_UC1.py:300 Error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF688634C25+3179557]
+	(No symbol) [0x00007FF6882988A0]
+	(No symbol) [0x00007FF6881291CA]
+	(No symbol) [0x00007FF68817FA67]
+	(No symbol) [0x00007FF68817FC9C]
+	(No symbol) [0x00007FF6881D3627]
+	(No symbol) [0x00007FF6881A7C6F]
+	(No symbol) [0x00007FF6881D02F3]
+	(No symbol) [0x00007FF6881A7A03]
+	(No symbol) [0x00007FF6881706D0]
+	(No symbol) [0x00007FF688171983]
+	GetHandleVerifier [0x00007FF6886967CD+3579853]
+	GetHandleVerifier [0x00007FF6886AD1D2+3672530]
+	GetHandleVerifier [0x00007FF6886A2153+3627347]
+	GetHandleVerifier [0x00007FF68840092A+868650]
+	(No symbol) [0x00007FF6882A2FFF]
+	(No symbol) [0x00007FF68829F4A4]
+	(No symbol) [0x00007FF68829F646]
+	(No symbol) [0x00007FF68828EAA9]
+	BaseThreadInitThunk [0x00007FFB131E54E0+16]
+	RtlUserThreadStart [0x00007FFB138E485B+43]
+INFO     root:test_UC1.py:48 Closing the WebDriver

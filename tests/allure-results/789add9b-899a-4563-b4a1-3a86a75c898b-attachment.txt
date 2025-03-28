@@ -1,0 +1,27 @@
+[32mINFO    [0m root:test_UC1.py:36 Setting up the WebDriver
+[32mINFO    [0m root:test_UC1.py:130 Page title: 
+[32mINFO    [0m root:test_UC1.py:131 Page URL: data:,
+[32mINFO    [0m root:test_UC1.py:135 Clicking on Test Configuration
+[1m[31mERROR   [0m root:test_UC1.py:256 ❌ Error during test execution: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF677BA4C25+3179557]
+	(No symbol) [0x00007FF6778088A0]
+	(No symbol) [0x00007FF6776991CA]
+	(No symbol) [0x00007FF6776EFA67]
+	(No symbol) [0x00007FF6776EFC9C]
+	(No symbol) [0x00007FF677743627]
+	(No symbol) [0x00007FF677717C6F]
+	(No symbol) [0x00007FF6777402F3]
+	(No symbol) [0x00007FF677717A03]
+	(No symbol) [0x00007FF6776E06D0]
+	(No symbol) [0x00007FF6776E1983]
+	GetHandleVerifier [0x00007FF677C067CD+3579853]
+	GetHandleVerifier [0x00007FF677C1D1D2+3672530]
+	GetHandleVerifier [0x00007FF677C12153+3627347]
+	GetHandleVerifier [0x00007FF67797092A+868650]
+	(No symbol) [0x00007FF677812FFF]
+	(No symbol) [0x00007FF67780F4A4]
+	(No symbol) [0x00007FF67780F646]
+	(No symbol) [0x00007FF6777FEAA9]
+	BaseThreadInitThunk [0x00007FFEE8F2E8D7+23]
+	RtlUserThreadStart [0x00007FFEE957BF6C+44]

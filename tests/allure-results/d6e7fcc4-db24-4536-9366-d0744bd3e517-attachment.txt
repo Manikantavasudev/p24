@@ -1,0 +1,10 @@
+[32mINFO    [0m root:test_config_panelchecks.py:143 Setting up the browser
+[32mINFO    [0m root:browser_setup.py:36 Opening browser using way1
+[32mINFO    [0m root:configpage_panel.py:73 Opening Test Configuration Panel
+[32mINFO    [0m root:configpage_panel.py:76 clicking on body of the UI to enble the UI
+[32mINFO    [0m root:configpage_panel.py:80 Clicking on Edit SDF Button
+[32mINFO    [0m root:configpage_panel.py:84 Verifying the input box functionality for Part Number
+[32mINFO    [0m root:configpage_panel.py:100 Part Number input box accepted 100 random characters: +QMYOp6rT6b,ve3;EuH[XR6G:*U1Ac#1i3Un_+Dc|aK3&7CryB]Rg}mM?>0R$jnJ@vW4m}j/C4)JF<[3X$!g+KU/ofn''#AY^!|>
+[32mINFO    [0m root:configpage_panel.py:110 Part Number input box accepted 100 numbers: 7539968379291783776518548070216562446887463377211635907639670790265382473631428313845943144443609764
+[32mINFO    [0m root:configpage_panel.py:120 Part Number input box accepted 100 letters: eVOHlwNXnRYlSvlHJFTELNsemlAJQbUoCIrLwCUpADGkEkDvMONHREaMwQxmjmNQLValGxCbEZRpHCvcBgoFAFMZiYZaXEwjtpyB
+[32mINFO    [0m root:configpage_panel.py:130 Part Number input box accepted a combination of letters, numbers, and special characters: )rwMo@{-sp[pYs.5Kw.yd)'spS#X%x}}3\JMN0b)K#_0T|aOZ9]QyP2x9]]+k=7~.";l-lkg_cDF6j\Y%,:['&i%7B.jKc;.|HR'

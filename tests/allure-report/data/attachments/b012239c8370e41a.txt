@@ -1,0 +1,9 @@
+[32mINFO    [0m root:test_config_panelchecks.py:143 Setting up the browser
+[32mINFO    [0m root:browser_setup.py:36 Opening browser using way1
+[32mINFO    [0m root:configpage_panel.py:73 Opening Test Configuration Panel
+[32mINFO    [0m root:configpage_panel.py:76 clicking on body of the UI to enble the UI
+[32mINFO    [0m root:configpage_panel.py:80 Clicking on Edit SDF Button
+[32mINFO    [0m root:configpage_panel.py:135 Verifying the checkbox functionality for Gain Linearization Support
+[32mINFO    [0m root:configpage_panel.py:146 Gain Linearization Support checkbox is unchecked by default
+[32mINFO    [0m root:configpage_panel.py:154 Gain Linearization Support checkbox is now checked
+[32mINFO    [0m root:configpage_panel.py:161 Gain Linearization Support checkbox is now unchecked

@@ -1,0 +1,5 @@
+INFO     root:configpage_panel.py:84 Verifying the input box functionality for Applicant Name
+ERROR    root:configpage_panel.py:102 Applicant Name input box failed to accept 100 random characters
+INFO     root:configpage_panel.py:110 Applicant Name input box accepted 100 numbers: 3193627298540737581249510769520882736213286376131223191679593130011868372910980308527466784939055739
+INFO     root:configpage_panel.py:120 Applicant Name input box accepted 100 letters: MksLyZhkFxBbQGatltBPfMoUtbFFPDZCjxVUBCKECWTJKaCwmpvjsuFQJottcdnBWawYKuTrOICqJZMuZYvrutopYCYYyeSheUQq
+ERROR    root:configpage_panel.py:132 Applicant Name input box failed to accept a combination of letters, numbers, and special characters

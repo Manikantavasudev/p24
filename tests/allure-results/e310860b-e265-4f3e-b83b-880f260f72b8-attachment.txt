@@ -1,0 +1,2 @@
+INFO     root:configpage_panel.py:217 Verifying the dropdown functionality for Supported PROP Data Packets
+INFO     root:configpage_panel.py:243 Available options in Supported PROP Data Packets:

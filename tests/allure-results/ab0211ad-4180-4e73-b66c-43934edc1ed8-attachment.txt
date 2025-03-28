@@ -1,0 +1,2 @@
+INFO     root:test_Qi_Exerciser_checks.py:71 Setting up the browser for Qi Exerciser Panel
+INFO     root:browser_setup.py:35 Opening browser using way1

@@ -1,0 +1,7 @@
+INFO     root:test_file_checks.py:40 Starting test: Check for the Firmware files
+INFO     root:fileverification.py:16 Directory found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP
+INFO     root:fileverification.py:7 File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\BOOT.BIN
+INFO     root:fileverification.py:7 File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\image.ub
+INFO     root:fileverification.py:7 File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\start.sh
+INFO     root:fileverification.py:48 All firmware files are present.
+INFO     root:test_file_checks.py:43 Firmware files verification passed.

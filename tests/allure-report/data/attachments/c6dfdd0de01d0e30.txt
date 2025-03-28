@@ -1,0 +1,1 @@
+[32mINFO    [0m root:Qi_Exerciser.py:117 Verifying the input box functionality for A1

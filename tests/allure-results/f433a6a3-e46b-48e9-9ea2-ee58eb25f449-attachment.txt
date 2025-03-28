@@ -1,0 +1,2 @@
+INFO     root:configpage_panel.py:217 Verifying the dropdown functionality for Power Profile
+ERROR    root:configpage_panel.py:228 Power Profile dropdown is not enabled

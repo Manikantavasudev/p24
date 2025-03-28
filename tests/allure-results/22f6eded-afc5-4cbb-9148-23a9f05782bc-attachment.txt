@@ -1,0 +1,2 @@
+INFO     root:test_config_panelchecks.py:143 Setting up the browser
+INFO     root:browser_setup.py:35 Opening browser using way1

@@ -1,0 +1,6 @@
+[32mINFO    [0m root:Qi_Exerciser.py:117 Verifying the input box functionality for A1
+[1m[31mERROR   [0m root:Qi_Exerciser.py:135 A1 input box failed to accept 100 random characters
+[1m[31mERROR   [0m root:Qi_Exerciser.py:145 A1 input box failed to accept 100 numbers
+[1m[31mERROR   [0m root:Qi_Exerciser.py:155 A1 input box failed to accept 100 letters
+[1m[31mERROR   [0m root:Qi_Exerciser.py:165 A1 input box failed to accept a combination of letters, numbers, and special characters
+[32mINFO    [0m root:test_Qi_Exerciser_checks.py:78 Tearing down the browser

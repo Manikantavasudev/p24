@@ -1,0 +1,1 @@
+[32mINFO    [0m root:Qi_Exerciser.py:200 Verifying the dropdown functionality for Coil Type

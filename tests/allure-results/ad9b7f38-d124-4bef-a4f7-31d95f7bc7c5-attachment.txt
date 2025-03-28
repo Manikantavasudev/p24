@@ -1,0 +1,12 @@
+INFO     root:test_UC1.py:130 Page title: GRL-C3-TPT Software
+INFO     root:test_UC1.py:131 Page URL: http://localhost:2004/v3220126.html
+INFO     root:test_UC1.py:135 Clicking on Test Configuration
+INFO     root:test_UC1.py:139 Clicking on body of the UI to enable interactions
+INFO     root:test_UC1.py:143 Clicking on Edit SDF Button
+INFO     root:test_UC1.py:147 Entering Applicant Name
+INFO     root:test_UC1.py:150 Entering Product Name
+INFO     root:test_UC1.py:153 Clicking WPID Support Checkbox
+INFO     root:test_UC1.py:157 Clicking Update Button
+INFO     root:test_UC1.py:161 Clicking Export Button
+INFO     root:test_UC1.py:169 Waiting for JSON file to download
+ERROR    root:test_UC1.py:256 ❌ Error during test execution: [WinError 3] The system cannot find the path specified: 'C:\\WINDOWS\\system32\\config\\systemprofile\\Downloads'

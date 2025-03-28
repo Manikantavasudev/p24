@@ -1,0 +1,32 @@
+INFO     root:test_UC1.py:104 Page title: GRL-C3-TPT Software
+INFO     root:test_UC1.py:105 Page URL: http://localhost:2004/v3220118.html
+INFO     root:test_UC1.py:109 Clicking on Test Configuration
+ERROR    root:test_UC1.py:230 ❌ Error during test execution: Message: element click intercepted: Element <span class="leftnavbar-title">...</span> is not clickable at point (74, 247). Other element would receive the click: <div class="modal-backdrop"></div>
+  (Session info: chrome=134.0.6998.90)
+Stacktrace:
+	GetHandleVerifier [0x00007FF72DD8FE65+26629]
+	(No symbol) [0x00007FF72DCF6030]
+	(No symbol) [0x00007FF72DB8931A]
+	(No symbol) [0x00007FF72DBE77A9]
+	(No symbol) [0x00007FF72DBE5162]
+	(No symbol) [0x00007FF72DBE2201]
+	(No symbol) [0x00007FF72DBE1108]
+	(No symbol) [0x00007FF72DBD28A4]
+	(No symbol) [0x00007FF72DC07AAA]
+	(No symbol) [0x00007FF72DBD2156]
+	(No symbol) [0x00007FF72DC07CC0]
+	(No symbol) [0x00007FF72DC30169]
+	(No symbol) [0x00007FF72DC07883]
+	(No symbol) [0x00007FF72DBD0550]
+	(No symbol) [0x00007FF72DBD1803]
+	GetHandleVerifier [0x00007FF72E0E72DD+3529853]
+	GetHandleVerifier [0x00007FF72E0FDA42+3621858]
+	GetHandleVerifier [0x00007FF72E0F24F3+3575443]
+	GetHandleVerifier [0x00007FF72DE5B79A+860474]
+	(No symbol) [0x00007FF72DD008AF]
+	(No symbol) [0x00007FF72DCFCBE4]
+	(No symbol) [0x00007FF72DCFCD86]
+	(No symbol) [0x00007FF72DCEC2E9]
+	BaseThreadInitThunk [0x00007FFEE8F2E8D7+23]
+	RtlUserThreadStart [0x00007FFEE957BF6C+44]
+INFO     root:test_UC1.py:23 Closing the WebDriver

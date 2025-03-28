@@ -1,0 +1,5 @@
+INFO     root:configpage_panel.py:84 Verifying the input box functionality for Cloak Retry Count
+ERROR    root:configpage_panel.py:102 Cloak Retry Count input box failed to accept 100 random characters
+INFO     root:configpage_panel.py:110 Cloak Retry Count input box accepted 100 numbers: 6308635906845774218803964255482528605436004429701656947926787494098149676531255062131142070662811638
+ERROR    root:configpage_panel.py:122 Cloak Retry Count input box failed to accept 100 letters
+ERROR    root:configpage_panel.py:132 Cloak Retry Count input box failed to accept a combination of letters, numbers, and special characters

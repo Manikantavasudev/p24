@@ -1,0 +1,153 @@
+{
+  "Report": {
+    "report_panel": "//div[@id='left-toggle-group']/label[6]",
+    "View_report": "//button[@id='report_toolbar_refresh_button']",
+    "Download_cuurent_HTML" :"//button[@id='report_toolbar_download_html_button']",
+    "Download_BSUT_report": "//button[@id='report_toolbar_dwonload_dut_button']",
+    "report_data_management": "//button[text()='Report Data Management']",
+    "Synthetic File": "//button[text()='Synthetic File']"
+
+  },
+    "connection_page": {
+      "URL": "http://localhost:2004",
+      "IP_ADDRESS" :"192.168.5.77",
+      "update_FW_warning": "//img[@class='firmware-version-icon']",
+      
+
+      "TESTER_STATUS_XPATH": "(//div[@class='right-spacing-tester'])[1]",
+      "CONNECT_BUTTON_ID" :"connectionsetup_connect_button",
+      "IP_INPUT_XPATH" : "//input[@class='rc-select-search__field']",
+      "CLEAR_INPUT_XPATH" : "//i[@class='rc-select-selection__clear-icon']",
+      "POPUP_XPATH" : "//button[@class='popupButtons popupButton_Ok btn btn-success']",
+      "CONNECT_BUTTON": "//button[@id='connectionsetup_connect_button']",
+      "IP_ADDRESS_FIELD": "//div[@class='rc-select-selection__placeholder']",
+      "TESTER_STATUS": "//button[@id='connectionsetup_connect_button']"
+    },
+     "Testconfig_page":{
+      "Testconfig_page": "//span[contains(text(),'Test Configuration')]",
+      "EDIT_SDF_BTN": "//i[@class='fa fa-edit me-1 cursorPointer mt-1']",
+      "EXPORT_SDF": "//i[@class='fa fa-external-link cursorPointer mt-1']",
+      "TOOL_TIP_SDF": "//i[@class='fa fa-info-circle fa-sm ms-1']",
+      "Supported_Specification": "//div[@class='modal-body']//select[@id='SupportedSpecification']",
+      "powerprofile": "//div[@class='modal-body']//select[@id='PowerProfile']",
+      "ApplicantName": "//div[@class='modal-body']//input[@id='ApplicantName']",
+      "ProductName": "//div[@class='modal-body']//input[@id='ProductName']",
+      "QIID": "//div[@class='modal-body']//input[@id='QIID']",
+      "PartNumber": "//div[@class='modal-body']//input[@id='PartNumber']",
+      "Manufacturer_Code": "//div[@class='modal-body']//input[@id='ManufacturerCode']",
+      "SupportedPROPData_Packets": "//div[@class='modal-body']//div[starts-with(@data-instance-id, 'editEsdf-7')]",
+      "Supported_Protocols": "//div[@class='modal-body']//div[starts-with(@data-instance-id, 'editEsdf-8-SupportedProtocols')]",
+      "Maximum_Power": "//div[@class='modal-body']//input[@id='GuaranteedLoadPower']",
+      "CloakRetryCount": "//div[@class='modal-body']//input[@id='CloakRetryCount']",
+      "Supported_Cloak_Reasons": "//div[@class='modal-body']//div[starts-with(@data-instance-id, 'editEsdf-10-SupportedCloakReasons')]",
+      "Supported GetRequests": "//div[@class='modal-body']//div[starts-with(@data-instance-id, 'editEsdf-12-SupportedGetRequests')]",
+      "OB_Support": "//div[@class='modal-body']//input[@id='OBSupport-editEsdf']",
+      "Negotiation_Support": "//div[@class='modal-body']//input[@id='NegotiationSupport-editEsdf']",
+      "XIDDataPacket_Support": "//div[@class='modal-body']//input[@id='XIDDataPacketSupport-editEsdf']",
+      "RestrictedMode_Support": "//div[@class='modal-body']//input[@id='RestrictedModeSupport-editEsdf']",
+      "Cloak_Support": "//div[@class='modal-body']//input[@id='CloakSupport-editEsdf']",
+      "Gain Linearization Support":"//div[@class='modal-body']//input[@id='GainLinearizationSupport-editEsdf']",
+      "Dup_Support": "//div[@class='modal-body']//input[@id='DupSupport-editEsdf']",
+      "WPID_Support" : "//div[@class='modal-body']//input[@id='WPIDSupport-editEsdf']",
+      "PCHDataPacket_Support": "//div[@class='modal-body']//input[@id='PCHDataPacketSupport-editEsdf']",
+      "RestrictedToFullMode" : "//div[@class='modal-body']//input[@id='RestrictedToFullMode-editEsdf']", 
+      "Detect_Ping_Support": "//div[@class='modal-body']//input[@id='DetectPingSupport-editEsdf']",
+      "HPM_PingSupport": "//div[@class='modal-body']//input[@id='_128HMPPingSupport-editEsdf']",
+      "Auth_support_chkbox": "//div[@class='modal-body']//input[@id='AuthenticationSupport-editEsdf']",
+
+      "CLOSE_BTN": "//button[@class='btn-close']",
+      "edit_sdf_txt": "//DIV[@class='modal-title h4']"
+    
+
+
+    },
+    "Qi_Exerciser": {
+      "Coil_Configuration": "//h4[contains(text(),'Coil Configuration')]",
+      "coil_type": "//span[text()='Coil Type']/parent::div//button[contains(@class, 'dropdowncustom') and contains(@class, 'tpt_config_control_dropdown')]",
+      "Demodulator": "//span[text()='Demodulator']/parent::div//button[contains(@class, 'dropdowncustom') and contains(@class, 'tpt_config_control_dropdown')]",
+      "Inverter_Configuration": "//h4[contains(text(),'Inverter Configuration')]",
+      "PPS_volts_checkbox": "//input[@class='mt-0 td-input-checkbox']",
+      "Phase_shift": "//span[text()='Phase Shift']/following-sibling::input[@type='text' and contains(@class, 'packet-info-td-input-iv-tpt')]",
+      "Duty_cycle": "//span[text()='Duty Cycle']/following-sibling::input[contains(@class, 'packet-info-td-input-iv-tpt textbox form-control')]",
+      "Dead_Delay": "//span[text()='Dead Delay']/following-sibling::input[contains(@class, 'packet-info-td-input-iv-tpt textbox form-control')]",
+
+
+
+      
+      "Capacitance_Coupling": "//span[text()='Capacitance Coupling']/following-sibling::div/button[contains(@class, 'dropdown-toggle')]",
+      "Frequency_dropdown": "//span[text()='Frequency']/following-sibling::div/button[contains(@class, 'dropdown-toggle')]",
+      "PWM_Mode_dropdown": "//span[text()='PWM Mode']/following-sibling::div/button[contains(@class, 'dropdown-toggle')]",
+      "Q_factor_Measurement_checkbox": "//input[@id='high_coupling']",
+      "Set_Inverter": "//button[contains(text(),'Set Inverter')]",
+      "QI_EXERCISER_TAB": "//div[@id='left-toggle-group']/label[2]",
+
+
+      "A0_inputbox": "//span[text()='A0']/following-sibling::input[@class='packet-info-td-input-iv-tpt textbox form-control']",
+      "A1_inputbox": "//span[text()='A1']/following-sibling::input[@class='packet-info-td-input-iv-tpt textbox form-control']",
+      "d_Tx_inputbox": "//span[text()='Δd_Tx']/following-sibling::input[@class='packet-info-td-input-iv-tpt textbox form-control']",
+      "Ffactory_inputbox": "//span[text()='Ffactory']/following-sibling::input[@class='packet-info-td-input-iv-tpt textbox form-control']",
+      "Qfactory_inputbox": "//span[text()='Qfactory']/following-sibling::input[@class='packet-info-td-input-iv-tpt textbox form-control']",
+
+
+      "ofset_10W_less": "//span[text()='Offset < 10W']/following-sibling::input[@class='packet-info-td-input-iv-tpt textbox form-control']",
+      "ofset_10W_plus": "//span[text()='Offset > 10W']/following-sibling::input[@class='packet-info-td-input-iv-tpt textbox form-control']",
+      "PFO_offset_btn" : "//button[contains(@class, 'grl-button') and contains(normalize-space(.), 'PFO')]",
+      "enable_disble_clock":"//input[@id='cloak_configuration']",
+
+
+      "Selection_Mode_dropdown": "//span[text()='Selection Mode']/following-sibling::div//button",
+
+      "CPM_checkbox": "//input[@id='CPM']",
+      "NPM_checkbox": "//input[@id='NPM']",
+      "LPM_checkbox": "//input[@id='CPM']",
+      "HPM_checkbox": "//input[@id='CPM']",
+      "Aux_checkbox": "//input[@id='CPM']",
+
+
+
+
+
+      "Power_mode_API": "//input[@id='dPloss Delayed Commit']",
+      "dPloss": "//input[@id='dPloss Delayed Commit']",
+      "128kHz_input": "(//input[@class='packet-info-td-input-iv-tpt align'])[1]",
+      "CPM_V_input": "(//input[@class='packet-info-td-input-iv-tpt align'])[2]",
+      "CPM_V_ref2_input": "(//input[@class='packet-info-td-input-iv-tpt align'])[3]",
+      "CPM_input_input": "(//input[@class='packet-info-td-input-iv-tpt align'])[4]",
+      "LLM_V_ref_input": "(//input[@class='packet-info-td-input-iv-tpt align'])[5]",
+      "LLM_V_ref1_input": "(//input[@class='packet-info-td-input-iv-tpt align'])[6]",
+      "LLPM_input": "(//input[@class='packet-info-td-input-iv-tpt align'])[7]",
+      "NPM_ref1_input": "(//input[@class='packet-info-td-input-iv-tpt align'])[8]",
+      "NPM_input": "(//input[@class='packet-info-td-input-iv-tpt align'])[9]",
+      "HPM_ref0_input": "(//input[@class='packet-info-td-input-iv-tpt align'])[11]",
+      "HPM_ref1_input": "(//input[@class='packet-info-td-input-iv-tpt align'])[12]",
+      "HPM_input": "(//input[@class='packet-info-td-input-iv-tpt align'])[13]",
+      
+
+
+
+
+      "HiRes Measurement Data": "",
+      "vctx": "//label[@for='vctx']",
+      "phase": "//label[@for='phase']",
+      "magnitude": "//label[@for='magnitude']",
+      "realI": "//label[@for='realI']",
+      "realQ": "//label[@for='realQ']",
+
+
+
+
+
+      "FW_Write": "//textarea[@id='fw-bytes']",
+      "Reest_button": "//div[@class='col-12 d-flex fw_byte_area mb-2']//button[contains(text(),'Reset')]",
+      "Send_all": "//div[@class='col-12 d-flex fw_byte_area mb-2']//button[contains(text(),'Send All')]",
+      "Send_button": "//div[@class='col-12 d-flex fw_byte_area mb-2']//button[normalize-space(text())='Send']"
+    },
+    "help_page": {
+      "HELP_TAB": "//span[contains(text(),'Help')]",
+      "APP_VERSION": "//p[@class='navbar-primaryText']",
+      "APP_NAME": "//div[@id='top-navbar']/header/nav/div/div[2]/div/div/div/p",
+      "SUPPORT_BUTTON": "//a[@id='Ref1']",
+      "EMAIL_SUPPORT_BUTTON": "//a[@id='Ref2']",
+      "DEBUG_LOGS_BUTTON": "//a[@id='Ref3']"
+    }
+  }

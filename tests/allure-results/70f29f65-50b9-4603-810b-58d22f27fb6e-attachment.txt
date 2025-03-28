@@ -1,0 +1,2 @@
+INFO     root:Qi_Exerciser.py:200 Verifying the dropdown functionality for Demodulator
+INFO     root:test_Qi_Exerciser_checks.py:78 Tearing down the browser

@@ -1,0 +1,1 @@
+[32mINFO    [0m root:report_panel.py:245 Report Data Management button is available.

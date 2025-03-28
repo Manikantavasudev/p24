@@ -1,0 +1,6 @@
+INFO     root:test_helppanel_checks.py:52 Starting test_TC5
+INFO     root:browser_setup.py:35 Opening browser using way1
+INFO     root:helppanel.py:111 Checking Downloads debug logs button working properly in Help Panel or not
+INFO     root:helppanel.py:115 Help tab clicked successfully.
+INFO     root:helppanel.py:119 Debug Logs button clicked successfully.
+ERROR    root:helppanel.py:142 No files found in the download directory.

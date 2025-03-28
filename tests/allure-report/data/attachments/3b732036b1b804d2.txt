@@ -1,0 +1,5 @@
+[32mINFO    [0m root:test_helppanel_checks.py:29 Starting test_TC3
+[32mINFO    [0m root:browser_setup.py:35 Opening browser using way1
+[32mINFO    [0m root:helppanel.py:68 Clicking on Help button
+[32mINFO    [0m root:helppanel.py:84 Switched to new window: Knowledge Base | Create Support Ticket
+[32mINFO    [0m root:helppanel.py:89 New page title: Knowledge Base | Create Support Ticket

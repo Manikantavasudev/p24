@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test_file_checks.py:33 Starting test: Check for the Eload files
+[32mINFO    [0m root:fileverification.py:7 File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\PPS_ELOAD.bin
+[32mINFO    [0m root:test_file_checks.py:35 Eload file verification passed.

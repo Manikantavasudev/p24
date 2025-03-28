@@ -1,0 +1,10 @@
+[32mINFO    [0m root:test_config_panelchecks.py:143 Setting up the browser
+[32mINFO    [0m root:browser_setup.py:36 Opening browser using way1
+[32mINFO    [0m root:configpage_panel.py:73 Opening Test Configuration Panel
+[32mINFO    [0m root:configpage_panel.py:76 clicking on body of the UI to enble the UI
+[32mINFO    [0m root:configpage_panel.py:80 Clicking on Edit SDF Button
+[32mINFO    [0m root:configpage_panel.py:84 Verifying the input box functionality for Maximum Power
+[31m[1mERROR   [0m root:configpage_panel.py:102 Maximum Power input box failed to accept 100 random characters
+[31m[1mERROR   [0m root:configpage_panel.py:112 Maximum Power input box failed to accept 100 numbers
+[31m[1mERROR   [0m root:configpage_panel.py:122 Maximum Power input box failed to accept 100 letters
+[31m[1mERROR   [0m root:configpage_panel.py:132 Maximum Power input box failed to accept a combination of letters, numbers, and special characters
