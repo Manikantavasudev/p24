@@ -9,40 +9,20 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 import time
 from datetime import datetime
 # from utilities.browser_setup import FrameworkSettings
-
+# import os
 
 
 import os
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-# Read the config file
-# config = configparser.ConfigParser()
-# config.read("python.ini")  
-
-# Usage
-# config = FrameworkSettings()
-
-# @pytest.fixture(scope="session")
-# def get_url():
-#     """Returns the URL from the config file"""
-#     app_mode = ConfigReader.get("config", "application_mode")
-#     url = ConfigReader.get("config", "url")
-#     assert app_mode == "tpr"
-#     assert url == "http://localhost:3003"
 
 @pytest.fixture(scope="module", autouse=True)
 def driver():
     logging.info("Setting up the WebDriver")
-    # BA_URL@pytest.mark.url
-    # return config.get("settings", "url")
+
     driver = webdriver.Chrome()
 
-    # url = config.url
-    # print("URL : "+url)
-    # application_mode = config.application_mode
-    # print("Application mode "+application_mode)
-    
     driver.maximize_window()
     yield driver
     logging.info("Closing the WebDriver")
@@ -52,8 +32,10 @@ def driver():
 @pytest.mark.sanity
 def test_connect_to_tester(driver):
     BA_URL = "http://localhost:2004"
-    # BA_URL = @pytest.mark.url
-    TESTER_IP = "192.168.5.74"
+  
+    # TESTER_IP = "192.168.5.74"
+    TESTER_IP = os.getenv("TESTER_IP", "192.168.255.1")  # Default value if not set in Jenkins
+
 
     logging.info("Opening BA URL: %s", BA_URL)
     driver.get(BA_URL)
