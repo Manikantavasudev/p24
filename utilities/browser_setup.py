@@ -12,7 +12,7 @@ import os
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Get IP from environment variable (set by Jenkins parameter)
-TEST_IP = os.getenv("TEST_IP", "192.168.5.74")  # Default if not provided
+TEST_IP = os.getenv("TEST_IP", "192.168.255.1")  # Default if not provided
 logging.info(f"Using TEST_IP: {TEST_IP}")
 
 # Constants
@@ -22,17 +22,6 @@ CONNECT_BUTTON_ID = "connectionsetup_connect_button"
 IP_INPUT_XPATH = "//input[@class='rc-select-search__field']"
 CLEAR_INPUT_XPATH = "//i[@class='rc-select-selection__clear-icon']"
 POPUP_XPATH = "//button[@class='popupButtons popupButton_Ok btn btn-success']"
-
-
-# pytest parameter setup
-def pytest_addoption(parser):
-    parser.addoption("--test-ip", action="store", default="192.168.5.74", help="IP address for testing")
-
-
-@pytest.fixture
-def test_ip(request):
-    """Fixture to get test IP from command-line arguments"""
-    return request.config.getoption("--test-ip")
 
 
 class BrowserSetup:

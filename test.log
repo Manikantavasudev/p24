@@ -1,0 +1,127 @@
+2025-03-30 13:21:11,805 - INFO - Using TEST_IP: 192.168.255.1
+2025-03-30 13:21:11,870 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-03-30 13:21:13,907 - INFO - Opening browser using way1
+2025-03-30 13:21:23,642 - ERROR - Connection attempt 1 failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-03-30 13:23:49,303 - INFO - Using TEST_IP: 192.168.255.1
+2025-03-30 13:23:49,350 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-03-30 13:23:50,669 - INFO - Opening browser using way1
+2025-03-30 13:24:03,410 - INFO - Tester status: Connected
+2025-03-30 13:24:03,411 - INFO - Opening Qi Exerciser Panel
+2025-03-30 13:24:10,537 - INFO - Verifying the input box functionality for A0
+2025-03-30 13:24:11,101 - ERROR - A0 input box failed to accept 100 random characters
+2025-03-30 13:24:11,379 - ERROR - A0 input box failed to accept 100 numbers
+2025-03-30 13:24:11,643 - ERROR - A0 input box failed to accept 100 letters
+2025-03-30 13:24:11,887 - ERROR - A0 input box failed to accept a combination of letters, numbers, and special characters
+2025-03-30 13:24:11,891 - INFO - Verifying the input box functionality for A1
+2025-03-30 13:24:12,227 - ERROR - A1 input box failed to accept 100 random characters
+2025-03-30 13:24:12,446 - ERROR - A1 input box failed to accept 100 numbers
+2025-03-30 13:24:12,691 - ERROR - A1 input box failed to accept 100 letters
+2025-03-30 13:24:12,943 - ERROR - A1 input box failed to accept a combination of letters, numbers, and special characters
+2025-03-30 13:24:12,985 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-03-30 13:24:13,006 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-03-30 13:24:13,010 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-03-30 13:24:13,040 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-03-30 13:24:13,128 - INFO - Q Factor Measurement Checkbox checkbox is now checked
+2025-03-30 13:24:13,185 - INFO - Q Factor Measurement Checkbox checkbox is now unchecked
+2025-03-30 13:24:13,188 - INFO - Verifying the dropdown functionality for Coil Type
+2025-03-30 13:24:13,319 - INFO - Available options in Coil Type:
+2025-03-30 13:24:13,489 - INFO - Verifying the dropdown functionality for Demodulator
+2025-03-30 13:24:13,641 - INFO - Available options in Demodulator:
+2025-03-30 13:24:13,760 - INFO - Tearing down the browser
+2025-03-30 13:24:15,948 - INFO - Setting up the WebDriver
+2025-03-30 13:24:17,206 - INFO - Opening browser using way1
+2025-03-30 13:24:29,715 - INFO - Tester status: Connected
+2025-03-30 13:24:29,717 - INFO - Verifying tester connection status
+2025-03-30 13:24:29,743 - INFO - Tester connection status: Connected
+2025-03-30 13:24:29,791 - INFO - Extracted Tester Status: Connected
+2025-03-30 13:24:29,839 - INFO - Extracted Serial Number: GRL-C3-MP-2023006
+2025-03-30 13:24:29,894 - INFO - Extracted Firmware Version: 5.0.1.29 / 1.9
+2025-03-30 13:24:29,969 - INFO - Extracted Next Calibration Date: 22 May 2025
+2025-03-30 13:24:30,043 - INFO - Extracted Tester IP Address: 192.168.5.74
+2025-03-30 13:24:30,136 - INFO - Extracted Port: 5002
+2025-03-30 13:24:30,137 - INFO - Extracted details: {'Tester Status': 'Connected', 'Serial Number': 'GRL-C3-MP-2023006', 'Firmware Version': '5.0.1.29 / 1.9', 'Next Calibration Date': '22 May 2025', 'Tester IP Address': '192.168.5.74', 'Port': '5002'}
+2025-03-30 13:24:30,138 - ERROR - Error during verification: Mismatch for Serial Number: Expected 'GRL-C3-MP-2023052', got 'GRL-C3-MP-2023006'
+assert 'GRL-C3-MP-2023006' == 'GRL-C3-MP-2023052'
+  
+  - GRL-C3-MP-2023052
+  ?                ^^
+  + GRL-C3-MP-2023006
+  ?                ^^
+2025-03-30 13:24:30,475 - INFO - Closing the WebDriver
+2025-03-30 13:47:35,264 - INFO - Using TEST_IP: 192.168.255.1
+2025-03-30 13:47:35,304 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-03-30 13:47:36,595 - INFO - Opening browser using way1
+2025-03-30 13:47:48,895 - INFO - Tester status: Connected
+2025-03-30 13:47:48,896 - INFO - Opening Qi Exerciser Panel
+2025-03-30 13:47:56,022 - INFO - Verifying the input box functionality for A0
+2025-03-30 13:47:56,363 - ERROR - A0 input box failed to accept 100 random characters
+2025-03-30 13:47:56,585 - ERROR - A0 input box failed to accept 100 numbers
+2025-03-30 13:47:56,859 - ERROR - A0 input box failed to accept 100 letters
+2025-03-30 13:47:57,083 - ERROR - A0 input box failed to accept a combination of letters, numbers, and special characters
+2025-03-30 13:47:57,086 - INFO - Verifying the input box functionality for A1
+2025-03-30 13:47:57,353 - ERROR - A1 input box failed to accept 100 random characters
+2025-03-30 13:47:57,563 - ERROR - A1 input box failed to accept 100 numbers
+2025-03-30 13:47:57,792 - ERROR - A1 input box failed to accept 100 letters
+2025-03-30 13:47:58,024 - ERROR - A1 input box failed to accept a combination of letters, numbers, and special characters
+2025-03-30 13:47:58,060 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-03-30 13:47:58,075 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-03-30 13:47:58,079 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-03-30 13:47:58,108 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-03-30 13:47:58,205 - INFO - Q Factor Measurement Checkbox checkbox is now checked
+2025-03-30 13:47:58,264 - INFO - Q Factor Measurement Checkbox checkbox is now unchecked
+2025-03-30 13:47:58,266 - INFO - Verifying the dropdown functionality for Coil Type
+2025-03-30 13:47:58,428 - INFO - Available options in Coil Type:
+2025-03-30 13:47:58,557 - INFO - Verifying the dropdown functionality for Demodulator
+2025-03-30 13:47:58,649 - INFO - Available options in Demodulator:
+2025-03-30 13:47:58,763 - INFO - Tearing down the browser
+2025-03-30 13:48:00,966 - INFO - Setting up the WebDriver
+2025-03-30 13:48:02,244 - INFO - Opening browser using way1
+2025-03-30 13:48:12,604 - INFO - Tester status: Connected
+2025-03-30 13:48:12,606 - INFO - Verifying tester connection status
+2025-03-30 13:48:12,634 - INFO - Tester connection status: Connected
+2025-03-30 13:48:12,677 - INFO - Extracted Tester Status: Connected
+2025-03-30 13:48:12,720 - INFO - Extracted Serial Number: GRL-C3-MP-2023006
+2025-03-30 13:48:12,760 - INFO - Extracted Firmware Version: 5.0.1.29 / 1.9
+2025-03-30 13:48:12,797 - INFO - Extracted Next Calibration Date: 22 May 2025
+2025-03-30 13:48:12,837 - INFO - Extracted Tester IP Address: 192.168.5.74
+2025-03-30 13:48:12,878 - INFO - Extracted Port: 5002
+2025-03-30 13:48:12,879 - INFO - Extracted details: {'Tester Status': 'Connected', 'Serial Number': 'GRL-C3-MP-2023006', 'Firmware Version': '5.0.1.29 / 1.9', 'Next Calibration Date': '22 May 2025', 'Tester IP Address': '192.168.5.74', 'Port': '5002'}
+2025-03-30 13:48:12,881 - ERROR - Error during verification: Mismatch for Serial Number: Expected 'GRL-C3-MP-2023052', got 'GRL-C3-MP-2023006'
+assert 'GRL-C3-MP-2023006' == 'GRL-C3-MP-2023052'
+  
+  - GRL-C3-MP-2023052
+  ?                ^^
+  + GRL-C3-MP-2023006
+  ?                ^^
+2025-03-30 13:48:13,364 - INFO - Closing the WebDriver
+2025-03-30 21:54:57,819 - INFO - Using TEST_IP: 192.168.255.1
+2025-03-30 21:54:57,911 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-03-30 21:55:02,567 - INFO - Opening browser using way1
+2025-03-30 21:55:07,513 - ERROR - Connection attempt 1 failed: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF684C64C25+3179557]
+	(No symbol) [0x00007FF6848C88A0]
+	(No symbol) [0x00007FF684758FFC]
+	(No symbol) [0x00007FF68479F8DF]
+	(No symbol) [0x00007FF6847D7AF2]
+	(No symbol) [0x00007FF6847D244E]
+	(No symbol) [0x00007FF6847D14F9]
+	(No symbol) [0x00007FF6847255E5]
+	GetHandleVerifier [0x00007FF684CC67CD+3579853]
+	GetHandleVerifier [0x00007FF684CDD1D2+3672530]
+	GetHandleVerifier [0x00007FF684CD2153+3627347]
+	GetHandleVerifier [0x00007FF684A3092A+868650]
+	(No symbol) [0x00007FF6848D2FFF]
+	(No symbol) [0x00007FF6847241FF]
+	GetHandleVerifier [0x00007FF684D4FA28+4141608]
+	BaseThreadInitThunk [0x00007FF9358D54E0+16]
+	RtlUserThreadStart [0x00007FF936AA485B+43]
+
+2025-03-30 21:55:08,648 - INFO - Setting up the WebDriver
+2025-03-30 21:55:09,938 - INFO - Opening browser using way1
+2025-03-30 21:55:13,597 - ERROR - Connection attempt 1 failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-03-30 22:21:42,828 - INFO - Using TEST_IP: 192.168.25.25
+2025-03-30 22:21:42,870 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-03-30 22:21:44,705 - INFO - Opening browser using way1
+2025-03-30 22:21:57,097 - INFO - Tester status: Disconnected
+2025-03-30 22:22:10,289 - INFO - Tester status: IP address "192.168.25.25" unreachable

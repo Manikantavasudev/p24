@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-def load_xpaths(json_file="tests/Xpaths.json"):
+def load_xpaths(json_file="Xpaths.json"):
     try:
         with open(json_file, "r") as file:
             data = json.load(file)
