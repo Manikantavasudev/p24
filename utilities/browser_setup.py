@@ -62,9 +62,10 @@ from selenium.common.exceptions import TimeoutException
 import time
 import logging
 import configparser
+import os
 
 URL = "http://localhost:2004"
-IP_ADDRESS = "192.168.5.74"
+IP_ADDRESS = os.getenv("TEST_IP", "192.168.5.74")
 
 TESTER_STATUS_XPATH = "(//div[@class='right-spacing-tester'])[1]"
 CONNECT_BUTTON_ID = "connectionsetup_connect_button"
