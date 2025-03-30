@@ -9,74 +9,132 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 import time
 from datetime import datetime
 # from utilities.browser_setup import FrameworkSettings
-# import os
-
-
 import os
+
+
+# import os
+# # Configure logging
+# logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+
+
+# @pytest.fixture(scope="module", autouse=True)
+# def driver():
+#     logging.info("Setting up the WebDriver")
+
+#     driver = webdriver.Chrome()
+
+#     driver.maximize_window()
+#     yield driver
+#     logging.info("Closing the WebDriver")
+#     driver.quit()
+
+
+# @pytest.mark.sanity
+# def test_connect_to_tester(driver):
+#     BA_URL = "http://localhost:2004"
+  
+#     # TESTER_IP = "192.168.5.74"
+#     TESTER_IP = os.getenv("TESTER_IP", "192.168.255.1")  # Default value if not set in Jenkins
+
+
+#     logging.info("Opening BA URL: %s", BA_URL)
+#     driver.get(BA_URL)
+
+#     wait = WebDriverWait(driver, 10)
+
+#     try:
+#         # Clear existing IP address if the clear button exists
+#         try:
+#             ip_clear = wait.until(EC.element_to_be_clickable((By.XPATH, "//span[@class='rc-select-selection__clear']")))
+#             logging.info("Clearing existing IP Address field")
+#             ip_clear.click()
+#         except TimeoutException:
+#             logging.warning("Clear button not found. Skipping clearing IP field.")
+
+#         # Enter new IP address
+#         logging.info("Entering new IP Address: %s", TESTER_IP)
+#         ip_input = wait.until(EC.presence_of_element_located((By.XPATH, "//input[@class='rc-select-search__field']")))
+#         ip_input.send_keys(TESTER_IP)
+#         ip_input.send_keys(Keys.RETURN)
+#         time.sleep(5)
+
+#         # Click the Connect button
+#         logging.info("Clicking the Connect button")
+#         connect_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[@id='connectionsetup_connect_button']")))
+#         connect_button.click()
+#         time.sleep(5)
+
+#         # Verify tester connection status
+#         logging.info("Verifying tester connection status")
+#         status_element = wait.until(EC.presence_of_element_located((By.XPATH, "//td[contains(@class, 'tester-info-border')]/div[@class='right-spacing-tester']/b")))
+#         tester_status = status_element.text.strip()
+#         logging.info("Tester connection status: %s", tester_status)
+#         assert "Connected" in tester_status, "Tester did not connect successfully!"
+
+#     except Exception as e:
+#         logging.error(f"Error during connection setup: {e}")
+#         driver.save_screenshot("failure_screenshot.png")  # Capture screenshot for debugging
+#         pytest.fail(f"Test failed due to error: {e}")
+
+#     # Expected details
+#     EXPECTED_DETAILS = {
+#         "Tester Status": "Connected",
+#         "Serial Number": "GRL-C3-MP-2023052",
+#         "Firmware Version": "5.0.1.31 / 1.8",
+#         "Next Calibration Date": "03 July 2025",
+#         "Tester IP Address": "192.168.5.79",
+#         "Port": "5002"
+#     }
+
+#     # Extract details from the table
+#     extracted_details = {}
+#     for key in EXPECTED_DETAILS.keys():
+#         try:
+#             key_element = wait.until(EC.presence_of_element_located((By.XPATH, f"//td[contains(text(), '{key}')]")))
+#             value_element = key_element.find_element(By.XPATH, "./following-sibling::td//b")
+#             extracted_details[key] = value_element.text.strip()
+#             logging.info(f"Extracted {key}: {extracted_details[key]}")
+#         except (NoSuchElementException, TimeoutException) as e:
+#             logging.error(f"Error extracting {key}: {e}")
+#             extracted_details[key] = None
+
+#     # Log extracted details
+#     logging.info("Extracted details: %s", extracted_details)
+
+#     # Verify extracted details against expected details
+#     for key, expected_value in EXPECTED_DETAILS.items():
+#         assert extracted_details[key] == expected_value, f"Mismatch for {key}: Expected '{expected_value}', but got '{extracted_details[key]}'"
+
+#     logging.info("All details matched expected values")
+
+import pytest
+import logging
+import os
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
+from utilities.browser_setup import BrowserSetup
+
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-
-@pytest.fixture(scope="module", autouse=True)
+@pytest.fixture(scope="module")
 def driver():
     logging.info("Setting up the WebDriver")
-
-    driver = webdriver.Chrome()
-
-    driver.maximize_window()
+    browser = BrowserSetup()
+    BA_URL = "http://localhost:2004"
+    driver = browser.way1(BA_URL)  # This already handles the connection logic
     yield driver
     logging.info("Closing the WebDriver")
     driver.quit()
 
-
 @pytest.mark.sanity
 def test_connect_to_tester(driver):
-    BA_URL = "http://localhost:2004"
-  
-    # TESTER_IP = "192.168.5.74"
-    TESTER_IP = os.getenv("TESTER_IP", "192.168.255.1")  # Default value if not set in Jenkins
-
-
-    logging.info("Opening BA URL: %s", BA_URL)
-    driver.get(BA_URL)
-
+    """Test to verify tester connection and details using the existing way1() method"""
     wait = WebDriverWait(driver, 10)
-
-    try:
-        # Clear existing IP address if the clear button exists
-        try:
-            ip_clear = wait.until(EC.element_to_be_clickable((By.XPATH, "//span[@class='rc-select-selection__clear']")))
-            logging.info("Clearing existing IP Address field")
-            ip_clear.click()
-        except TimeoutException:
-            logging.warning("Clear button not found. Skipping clearing IP field.")
-
-        # Enter new IP address
-        logging.info("Entering new IP Address: %s", TESTER_IP)
-        ip_input = wait.until(EC.presence_of_element_located((By.XPATH, "//input[@class='rc-select-search__field']")))
-        ip_input.send_keys(TESTER_IP)
-        ip_input.send_keys(Keys.RETURN)
-        time.sleep(5)
-
-        # Click the Connect button
-        logging.info("Clicking the Connect button")
-        connect_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[@id='connectionsetup_connect_button']")))
-        connect_button.click()
-        time.sleep(5)
-
-        # Verify tester connection status
-        logging.info("Verifying tester connection status")
-        status_element = wait.until(EC.presence_of_element_located((By.XPATH, "//td[contains(@class, 'tester-info-border')]/div[@class='right-spacing-tester']/b")))
-        tester_status = status_element.text.strip()
-        logging.info("Tester connection status: %s", tester_status)
-        assert "Connected" in tester_status, "Tester did not connect successfully!"
-
-    except Exception as e:
-        logging.error(f"Error during connection setup: {e}")
-        driver.save_screenshot("failure_screenshot.png")  # Capture screenshot for debugging
-        pytest.fail(f"Test failed due to error: {e}")
-
-    # Expected details
+    
+    # Expected details - Consider moving these to a config file
     EXPECTED_DETAILS = {
         "Tester Status": "Connected",
         "Serial Number": "GRL-C3-MP-2023052",
@@ -86,26 +144,48 @@ def test_connect_to_tester(driver):
         "Port": "5002"
     }
 
-    # Extract details from the table
-    extracted_details = {}
-    for key in EXPECTED_DETAILS.keys():
-        try:
-            key_element = wait.until(EC.presence_of_element_located((By.XPATH, f"//td[contains(text(), '{key}')]")))
-            value_element = key_element.find_element(By.XPATH, "./following-sibling::td//b")
-            extracted_details[key] = value_element.text.strip()
-            logging.info(f"Extracted {key}: {extracted_details[key]}")
-        except (NoSuchElementException, TimeoutException) as e:
-            logging.error(f"Error extracting {key}: {e}")
-            extracted_details[key] = None
+    try:
+        # Verify tester connection status (way1() should have already established connection)
+        logging.info("Verifying tester connection status")
+        status_element = wait.until(
+            EC.presence_of_element_located(
+                (By.XPATH, "//td[contains(@class, 'tester-info-border')]/div[@class='right-spacing-tester']/b")
+            )
+        )
+        tester_status = status_element.text.strip()
+        logging.info("Tester connection status: %s", tester_status)
+        assert "Connected" in tester_status, "Tester did not connect successfully!"
 
-    # Log extracted details
-    logging.info("Extracted details: %s", extracted_details)
+        # Extract details from the table
+        extracted_details = {}
+        for key in EXPECTED_DETAILS.keys():
+            try:
+                key_element = wait.until(
+                    EC.presence_of_element_located((By.XPATH, f"//td[contains(text(), '{key}')]"))
+                )
+                value_element = key_element.find_element(By.XPATH, "./following-sibling::td//b")
+                extracted_details[key] = value_element.text.strip()
+                logging.info(f"Extracted {key}: {extracted_details[key]}")
+            except TimeoutException as e:
+                logging.error(f"Error extracting {key}: {e}")
+                extracted_details[key] = None
+                pytest.fail(f"Failed to extract {key} from tester details")
 
-    # Verify extracted details against expected details
-    for key, expected_value in EXPECTED_DETAILS.items():
-        assert extracted_details[key] == expected_value, f"Mismatch for {key}: Expected '{expected_value}', but got '{extracted_details[key]}'"
+        # Log extracted details
+        logging.info("Extracted details: %s", extracted_details)
 
-    logging.info("All details matched expected values")
+        # Verify extracted details against expected details
+        for key, expected_value in EXPECTED_DETAILS.items():
+            assert extracted_details[key] == expected_value, (
+                f"Mismatch for {key}: Expected '{expected_value}', got '{extracted_details[key]}'"
+            )
+
+        logging.info("All details matched expected values")
+
+    except Exception as e:
+        logging.error(f"Error during verification: {e}")
+        driver.save_screenshot("verification_failure.png")
+        pytest.fail(f"Test failed during verification: {e}")
 
 def test_SDF_jsonval(driver):
     wait = WebDriverWait(driver, 20)  # Increased timeout
