@@ -125,3 +125,442 @@ Stacktrace:
 2025-03-30 22:21:44,705 - INFO - Opening browser using way1
 2025-03-30 22:21:57,097 - INFO - Tester status: Disconnected
 2025-03-30 22:22:10,289 - INFO - Tester status: IP address "192.168.25.25" unreachable
+2025-03-31 09:39:40,771 - INFO - Using TEST_IP: 192.168.255.1
+2025-03-31 09:39:40,820 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-03-31 09:39:42,730 - INFO - Opening browser using way1
+2025-03-31 09:39:53,067 - INFO - Tester status: Connected
+2025-03-31 09:39:53,068 - INFO - Opening Qi Exerciser Panel
+2025-03-31 09:40:00,209 - INFO - Verifying the input box functionality for A0
+2025-03-31 09:40:00,527 - ERROR - A0 input box failed to accept 100 random characters
+2025-03-31 09:40:00,779 - ERROR - A0 input box failed to accept 100 numbers
+2025-03-31 09:40:01,034 - ERROR - A0 input box failed to accept 100 letters
+2025-03-31 09:40:01,275 - ERROR - A0 input box failed to accept a combination of letters, numbers, and special characters
+2025-03-31 09:40:01,278 - INFO - Verifying the input box functionality for A1
+2025-03-31 09:40:01,597 - ERROR - A1 input box failed to accept 100 random characters
+2025-03-31 09:40:01,953 - ERROR - A1 input box failed to accept 100 numbers
+2025-03-31 09:40:02,664 - ERROR - A1 input box failed to accept 100 letters
+2025-03-31 09:40:03,313 - ERROR - A1 input box failed to accept a combination of letters, numbers, and special characters
+2025-03-31 09:40:03,396 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-03-31 09:40:03,425 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-03-31 09:40:03,429 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-03-31 09:40:03,471 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-03-31 09:40:03,609 - INFO - Q Factor Measurement Checkbox checkbox is now checked
+2025-03-31 09:40:03,687 - INFO - Q Factor Measurement Checkbox checkbox is now unchecked
+2025-03-31 09:40:03,690 - INFO - Verifying the dropdown functionality for Coil Type
+2025-03-31 09:40:03,848 - INFO - Available options in Coil Type:
+2025-03-31 09:40:03,993 - INFO - Verifying the dropdown functionality for Demodulator
+2025-03-31 09:40:04,104 - INFO - Available options in Demodulator:
+2025-03-31 09:40:04,229 - INFO - Tearing down the browser
+2025-03-31 09:40:06,465 - INFO - Setting up the WebDriver
+2025-03-31 09:40:07,764 - INFO - Opening browser using way1
+2025-03-31 09:40:18,067 - INFO - Tester status: Connected
+2025-03-31 09:40:18,068 - INFO - Verifying tester connection status
+2025-03-31 09:40:18,095 - INFO - Tester connection status: Connected
+2025-03-31 09:40:18,137 - INFO - Extracted Tester Status: Connected
+2025-03-31 09:40:18,173 - INFO - Extracted Serial Number: GRL-C3-MP-2023006
+2025-03-31 09:40:18,198 - INFO - Extracted Firmware Version: 5.0.1.29 / 1.9
+2025-03-31 09:40:18,223 - INFO - Extracted Next Calibration Date: 22 May 2025
+2025-03-31 09:40:18,244 - INFO - Extracted Tester IP Address: 192.168.5.74
+2025-03-31 09:40:18,268 - INFO - Extracted Port: 5002
+2025-03-31 09:40:18,269 - INFO - Extracted details: {'Tester Status': 'Connected', 'Serial Number': 'GRL-C3-MP-2023006', 'Firmware Version': '5.0.1.29 / 1.9', 'Next Calibration Date': '22 May 2025', 'Tester IP Address': '192.168.5.74', 'Port': '5002'}
+2025-03-31 09:40:18,270 - ERROR - Error during verification: Mismatch for Serial Number: Expected 'GRL-C3-MP-2023052', got 'GRL-C3-MP-2023006'
+assert 'GRL-C3-MP-2023006' == 'GRL-C3-MP-2023052'
+  
+  - GRL-C3-MP-2023052
+  ?                ^^
+  + GRL-C3-MP-2023006
+  ?                ^^
+2025-03-31 09:40:18,651 - INFO - Closing the WebDriver
+2025-03-31 09:41:48,462 - INFO - Using TEST_IP: 192.168.255.1
+2025-03-31 09:41:48,513 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-03-31 09:41:49,739 - INFO - Opening browser using way1
+2025-03-31 09:42:00,073 - INFO - Tester status: Connected
+2025-03-31 09:42:00,073 - INFO - Opening Qi Exerciser Panel
+2025-03-31 09:42:07,170 - INFO - Verifying the input box functionality for A0
+2025-03-31 09:42:07,522 - ERROR - A0 input box failed to accept 100 random characters
+2025-03-31 09:42:07,737 - ERROR - A0 input box failed to accept 100 numbers
+2025-03-31 09:42:07,965 - ERROR - A0 input box failed to accept 100 letters
+2025-03-31 09:42:08,206 - ERROR - A0 input box failed to accept a combination of letters, numbers, and special characters
+2025-03-31 09:42:08,208 - INFO - Verifying the input box functionality for A1
+2025-03-31 09:42:08,458 - ERROR - A1 input box failed to accept 100 random characters
+2025-03-31 09:42:08,675 - ERROR - A1 input box failed to accept 100 numbers
+2025-03-31 09:42:08,889 - ERROR - A1 input box failed to accept 100 letters
+2025-03-31 09:42:09,113 - ERROR - A1 input box failed to accept a combination of letters, numbers, and special characters
+2025-03-31 09:42:09,140 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-03-31 09:42:09,153 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-03-31 09:42:09,156 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-03-31 09:42:09,180 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-03-31 09:42:09,255 - INFO - Q Factor Measurement Checkbox checkbox is now checked
+2025-03-31 09:42:09,305 - INFO - Q Factor Measurement Checkbox checkbox is now unchecked
+2025-03-31 09:42:09,307 - INFO - Verifying the dropdown functionality for Coil Type
+2025-03-31 09:42:09,419 - INFO - Available options in Coil Type:
+2025-03-31 09:42:09,507 - INFO - Verifying the dropdown functionality for Demodulator
+2025-03-31 09:42:09,606 - INFO - Available options in Demodulator:
+2025-03-31 09:42:09,704 - INFO - Tearing down the browser
+2025-03-31 09:42:11,929 - INFO - Setting up the WebDriver
+2025-03-31 09:42:13,171 - INFO - Opening browser using way1
+2025-03-31 09:42:23,498 - INFO - Tester status: Connected
+2025-03-31 09:42:23,499 - INFO - Verifying tester connection status
+2025-03-31 09:42:23,514 - INFO - Tester connection status: Connected
+2025-03-31 09:42:23,541 - INFO - Extracted Tester Status: Connected
+2025-03-31 09:42:23,563 - INFO - Extracted Serial Number: GRL-C3-MP-2023006
+2025-03-31 09:42:23,587 - INFO - Extracted Firmware Version: 5.0.1.29 / 1.9
+2025-03-31 09:42:23,609 - INFO - Extracted Next Calibration Date: 22 May 2025
+2025-03-31 09:42:23,634 - INFO - Extracted Tester IP Address: 192.168.5.74
+2025-03-31 09:42:23,659 - INFO - Extracted Port: 5002
+2025-03-31 09:42:23,660 - INFO - Extracted details: {'Tester Status': 'Connected', 'Serial Number': 'GRL-C3-MP-2023006', 'Firmware Version': '5.0.1.29 / 1.9', 'Next Calibration Date': '22 May 2025', 'Tester IP Address': '192.168.5.74', 'Port': '5002'}
+2025-03-31 09:42:23,661 - ERROR - Error during verification: Mismatch for Next Calibration Date: Expected '03 July 2025', got '22 May 2025'
+assert '22 May 2025' == '03 July 2025'
+  
+  - 03 July 2025
+  + 22 May 2025
+2025-03-31 09:42:28,032 - INFO - Closing the WebDriver
+2025-03-31 09:42:53,712 - INFO - Using TEST_IP: 192.168.255.1
+2025-03-31 09:42:53,746 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-03-31 09:42:55,057 - INFO - Opening browser using way1
+2025-03-31 09:43:05,541 - INFO - Tester status: Connected
+2025-03-31 09:43:05,541 - INFO - Opening Qi Exerciser Panel
+2025-03-31 09:43:12,640 - INFO - Verifying the input box functionality for A0
+2025-03-31 09:43:13,196 - ERROR - A0 input box failed to accept 100 random characters
+2025-03-31 09:43:13,489 - ERROR - A0 input box failed to accept 100 numbers
+2025-03-31 09:43:13,883 - ERROR - A0 input box failed to accept 100 letters
+2025-03-31 09:43:14,167 - ERROR - A0 input box failed to accept a combination of letters, numbers, and special characters
+2025-03-31 09:43:14,170 - INFO - Verifying the input box functionality for A1
+2025-03-31 09:43:14,431 - ERROR - A1 input box failed to accept 100 random characters
+2025-03-31 09:43:14,666 - ERROR - A1 input box failed to accept 100 numbers
+2025-03-31 09:43:14,918 - ERROR - A1 input box failed to accept 100 letters
+2025-03-31 09:43:15,157 - ERROR - A1 input box failed to accept a combination of letters, numbers, and special characters
+2025-03-31 09:43:15,202 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-03-31 09:43:15,219 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-03-31 09:43:15,223 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-03-31 09:43:15,251 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-03-31 09:43:15,351 - INFO - Q Factor Measurement Checkbox checkbox is now checked
+2025-03-31 09:43:15,430 - INFO - Q Factor Measurement Checkbox checkbox is now unchecked
+2025-03-31 09:43:15,435 - INFO - Verifying the dropdown functionality for Coil Type
+2025-03-31 09:43:15,573 - INFO - Available options in Coil Type:
+2025-03-31 09:43:15,702 - INFO - Verifying the dropdown functionality for Demodulator
+2025-03-31 09:43:15,805 - INFO - Available options in Demodulator:
+2025-03-31 09:43:15,967 - INFO - Tearing down the browser
+2025-03-31 09:43:18,200 - INFO - Setting up the WebDriver
+2025-03-31 09:43:19,389 - INFO - Opening browser using way1
+2025-03-31 09:43:29,984 - INFO - Tester status: Connected
+2025-03-31 09:43:29,985 - INFO - Verifying tester connection status
+2025-03-31 09:43:30,013 - INFO - Tester connection status: Connected
+2025-03-31 09:43:30,045 - INFO - Extracted Tester Status: Connected
+2025-03-31 09:43:30,077 - INFO - Extracted Serial Number: GRL-C3-MP-2023006
+2025-03-31 09:43:30,102 - INFO - Extracted Firmware Version: 5.0.1.29 / 1.9
+2025-03-31 09:43:30,125 - INFO - Extracted Next Calibration Date: 22 May 2025
+2025-03-31 09:43:30,150 - INFO - Extracted Tester IP Address: 192.168.5.74
+2025-03-31 09:43:30,172 - INFO - Extracted Port: 5002
+2025-03-31 09:43:30,172 - INFO - Extracted details: {'Tester Status': 'Connected', 'Serial Number': 'GRL-C3-MP-2023006', 'Firmware Version': '5.0.1.29 / 1.9', 'Next Calibration Date': '22 May 2025', 'Tester IP Address': '192.168.5.74', 'Port': '5002'}
+2025-03-31 09:43:30,173 - ERROR - Error during verification: Mismatch for Next Calibration Date: Expected '03 July 2025', got '22 May 2025'
+assert '22 May 2025' == '03 July 2025'
+  
+  - 03 July 2025
+  + 22 May 2025
+2025-03-31 09:43:30,445 - INFO - Closing the WebDriver
+2025-03-31 09:50:52,389 - INFO - Using TEST_IP: 192.168.255.1
+2025-03-31 09:50:52,396 - INFO - Setting up the WebDriver
+2025-03-31 09:56:47,614 - INFO - Using TEST_IP: 192.168.255.1
+2025-03-31 09:56:47,619 - INFO - Setting up the WebDriver
+2025-03-31 09:56:48,843 - INFO - Opening browser using way1
+2025-03-31 09:56:58,949 - INFO - Tester status: Connected
+2025-03-31 09:56:58,950 - INFO - Verifying tester connection status
+2025-03-31 09:56:58,967 - INFO - Tester connection status: Connected
+2025-03-31 09:56:58,967 - INFO - Tester connected successfully.
+2025-03-31 09:56:58,996 - INFO - Extracted Tester Status: Connected
+2025-03-31 09:56:59,018 - INFO - Extracted Serial Number: GRL-C3-MP-2023006
+2025-03-31 09:56:59,044 - INFO - Extracted Firmware Version: 5.0.1.29 / 1.9
+2025-03-31 09:56:59,067 - INFO - Extracted Next Calibration Date: 22 May 2025
+2025-03-31 09:56:59,092 - INFO - Extracted Tester IP Address: 192.168.5.74
+2025-03-31 09:56:59,116 - INFO - Extracted Port: 5002
+2025-03-31 09:56:59,118 - INFO - Test execution completed.
+2025-03-31 09:56:59,127 - INFO - Page title: GRL-C3-TPT Software
+2025-03-31 09:56:59,131 - INFO - Page URL: http://localhost:2004/v3220126.html
+2025-03-31 09:56:59,132 - INFO - Clicking on Test Configuration
+2025-03-31 09:56:59,234 - INFO - Clicking on body of the UI to enable interactions
+2025-03-31 09:56:59,323 - INFO - Clicking on Edit SDF Button
+2025-03-31 09:56:59,481 - INFO - Entering Applicant Name
+2025-03-31 09:56:59,676 - INFO - Entering Product Name
+2025-03-31 09:56:59,779 - INFO - Clicking WPID Support Checkbox
+2025-03-31 09:57:01,850 - INFO - Clicking Update Button
+2025-03-31 09:57:06,907 - INFO - Clicking Export Button
+2025-03-31 09:57:12,058 - INFO - Waiting for JSON file to download
+2025-03-31 09:57:12,061 - INFO - Downloaded file renamed to: SDF_Export_20250331_095712.json
+2025-03-31 09:57:19,213 - INFO - Uploading downloaded JSON file
+2025-03-31 09:57:19,214 - INFO - C:\Users\GRL\Downloads\SDF_Export_20250331_095712.json
+2025-03-31 09:57:19,255 - INFO - File uploaded: C:\Users\GRL\Downloads\SDF_Export_20250331_095712.json
+2025-03-31 09:57:24,256 - INFO - Waiting for 'Create Project' button to be clickable
+2025-03-31 09:57:24,443 - INFO - Clicked on 'Create Project' successfully
+2025-03-31 09:57:29,444 - INFO - Validating Product Name after upload
+2025-03-31 09:57:29,504 - INFO - Page title: GRL-C3-TPT Software
+2025-03-31 09:57:29,512 - INFO - Page URL: http://localhost:2004/v3220126.html
+2025-03-31 09:57:29,512 - INFO - Locating PRx Compliance Tests MPP V2.0.1 checkbox
+2025-03-31 09:57:29,545 - INFO - Checkbox is not selected. Selecting it now...
+2025-03-31 09:57:31,651 - INFO - Selected Tests: 141/141
+2025-03-31 09:57:31,653 - INFO - Test case selection count matches the expected value.
+2025-03-31 09:57:31,654 - INFO - Closing the WebDriver
+2025-03-31 09:57:52,785 - INFO - Using TEST_IP: 192.168.255.1
+2025-03-31 09:57:52,819 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-03-31 09:57:54,081 - INFO - Opening browser using way1
+2025-03-31 09:58:04,618 - INFO - Tester status: Connected
+2025-03-31 09:58:04,619 - INFO - Opening Qi Exerciser Panel
+2025-03-31 09:58:11,701 - INFO - Verifying the input box functionality for A0
+2025-03-31 09:58:12,042 - ERROR - A0 input box failed to accept 100 random characters
+2025-03-31 09:58:12,252 - ERROR - A0 input box failed to accept 100 numbers
+2025-03-31 09:58:12,488 - ERROR - A0 input box failed to accept 100 letters
+2025-03-31 09:58:12,743 - ERROR - A0 input box failed to accept a combination of letters, numbers, and special characters
+2025-03-31 09:58:12,746 - INFO - Verifying the input box functionality for A1
+2025-03-31 09:58:12,988 - ERROR - A1 input box failed to accept 100 random characters
+2025-03-31 09:58:13,202 - ERROR - A1 input box failed to accept 100 numbers
+2025-03-31 09:58:13,430 - ERROR - A1 input box failed to accept 100 letters
+2025-03-31 09:58:13,681 - ERROR - A1 input box failed to accept a combination of letters, numbers, and special characters
+2025-03-31 09:58:13,705 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-03-31 09:58:13,716 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-03-31 09:58:13,720 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-03-31 09:58:13,737 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-03-31 09:58:13,807 - INFO - Q Factor Measurement Checkbox checkbox is now checked
+2025-03-31 09:58:13,858 - INFO - Q Factor Measurement Checkbox checkbox is now unchecked
+2025-03-31 09:58:13,860 - INFO - Verifying the dropdown functionality for Coil Type
+2025-03-31 09:58:13,963 - INFO - Available options in Coil Type:
+2025-03-31 09:58:14,077 - INFO - Verifying the dropdown functionality for Demodulator
+2025-03-31 09:58:14,172 - INFO - Available options in Demodulator:
+2025-03-31 09:58:14,270 - INFO - Tearing down the browser
+2025-03-31 09:58:16,486 - INFO - Setting up the WebDriver
+2025-03-31 09:58:17,758 - INFO - Opening browser using way1
+2025-03-31 09:58:28,246 - INFO - Tester status: Connected
+2025-03-31 09:58:28,248 - INFO - Verifying tester connection status
+2025-03-31 09:58:28,263 - INFO - Tester connection status: Connected
+2025-03-31 09:58:28,264 - INFO - Tester connected successfully.
+2025-03-31 09:58:28,293 - INFO - Extracted Tester Status: Connected
+2025-03-31 09:58:28,315 - INFO - Extracted Serial Number: GRL-C3-MP-2023006
+2025-03-31 09:58:28,343 - INFO - Extracted Firmware Version: 5.0.1.29 / 1.9
+2025-03-31 09:58:28,365 - INFO - Extracted Next Calibration Date: 22 May 2025
+2025-03-31 09:58:28,392 - INFO - Extracted Tester IP Address: 192.168.5.74
+2025-03-31 09:58:28,412 - INFO - Extracted Port: 5002
+2025-03-31 09:58:28,413 - INFO - Test execution completed.
+2025-03-31 09:58:28,421 - INFO - Page title: GRL-C3-TPT Software
+2025-03-31 09:58:28,426 - INFO - Page URL: http://localhost:2004/v3220126.html
+2025-03-31 09:58:28,426 - INFO - Clicking on Test Configuration
+2025-03-31 09:58:28,511 - INFO - Clicking on body of the UI to enable interactions
+2025-03-31 09:58:28,588 - INFO - Clicking on Edit SDF Button
+2025-03-31 09:58:28,726 - INFO - Entering Applicant Name
+2025-03-31 09:58:28,906 - INFO - Entering Product Name
+2025-03-31 09:58:29,028 - INFO - Clicking WPID Support Checkbox
+2025-03-31 09:58:31,118 - INFO - Clicking Update Button
+2025-03-31 09:58:36,240 - INFO - Clicking Export Button
+2025-03-31 09:58:41,353 - INFO - Waiting for JSON file to download
+2025-03-31 09:58:41,355 - INFO - Downloaded file renamed to: SDF_Export_20250331_095841.json
+2025-03-31 09:58:48,537 - INFO - Uploading downloaded JSON file
+2025-03-31 09:58:48,538 - INFO - C:\Users\GRL\Downloads\SDF_Export_20250331_095841.json
+2025-03-31 09:58:48,578 - INFO - File uploaded: C:\Users\GRL\Downloads\SDF_Export_20250331_095841.json
+2025-03-31 09:58:53,580 - INFO - Waiting for 'Create Project' button to be clickable
+2025-03-31 09:58:53,757 - INFO - Clicked on 'Create Project' successfully
+2025-03-31 09:58:58,758 - INFO - Validating Product Name after upload
+2025-03-31 09:58:58,808 - INFO - Page title: GRL-C3-TPT Software
+2025-03-31 09:58:58,813 - INFO - Page URL: http://localhost:2004/v3220126.html
+2025-03-31 09:58:58,813 - INFO - Locating PRx Compliance Tests MPP V2.0.1 checkbox
+2025-03-31 09:59:19,318 - ERROR - Error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF67D224C25+3179557]
+	(No symbol) [0x00007FF67CE888A0]
+	(No symbol) [0x00007FF67CD191CA]
+	(No symbol) [0x00007FF67CD6FA67]
+	(No symbol) [0x00007FF67CD6FC9C]
+	(No symbol) [0x00007FF67CDC3627]
+	(No symbol) [0x00007FF67CD97C6F]
+	(No symbol) [0x00007FF67CDC02F3]
+	(No symbol) [0x00007FF67CD97A03]
+	(No symbol) [0x00007FF67CD606D0]
+	(No symbol) [0x00007FF67CD61983]
+	GetHandleVerifier [0x00007FF67D2867CD+3579853]
+	GetHandleVerifier [0x00007FF67D29D1D2+3672530]
+	GetHandleVerifier [0x00007FF67D292153+3627347]
+	GetHandleVerifier [0x00007FF67CFF092A+868650]
+	(No symbol) [0x00007FF67CE92FFF]
+	(No symbol) [0x00007FF67CE8F4A4]
+	(No symbol) [0x00007FF67CE8F646]
+	(No symbol) [0x00007FF67CE7EAA9]
+	BaseThreadInitThunk [0x00007FF9358D54E0+16]
+	RtlUserThreadStart [0x00007FF936AA485B+43]
+
+2025-03-31 09:59:19,323 - INFO - Closing the WebDriver
+2025-03-31 09:59:21,568 - INFO - Setting up the browser
+2025-03-31 09:59:22,823 - INFO - Opening browser using way1
+2025-03-31 09:59:34,756 - INFO - Tester status: Connected
+2025-03-31 09:59:34,756 - INFO - Opening Test Configuration Panel
+2025-03-31 09:59:36,858 - INFO - clicking on body of the UI to enble the UI
+2025-03-31 09:59:41,946 - INFO - Clicking on Edit SDF Button
+2025-03-31 09:59:42,091 - INFO - Verifying the input box functionality for Product Name
+2025-03-31 09:59:42,523 - INFO - Product Name input box accepted 100 random characters: p7ha6tcoIo{--Nat~g"h`pNULEI#PU;WMZgXp=IfDxzjtQg[vsJ#g=/,$xp_&<74U3LLV!`$if.5FLXyY'etIKdqA&h}OiXCh2Ke
+2025-03-31 09:59:42,792 - INFO - Product Name input box accepted 100 numbers: 4812244299597484331014709410497923905466568827624938837037484248097359229868608127237694468840186441
+2025-03-31 09:59:43,078 - INFO - Product Name input box accepted 100 letters: ZQeWcTeTXoMwyCcWDIBxXfgpbdcvYhpXESmItQKZrDXZdNpZrtauIPMwZSVBIHAXlHBDZhmLFxtXhWXQAjKpPRGEpFZvyjbBeUxT
+2025-03-31 09:59:43,369 - INFO - Product Name input box accepted a combination of letters, numbers, and special characters: I<KHc8x5(;A%K4=O[/p{iDTXr^VQeXFJe4i*[K1{SunI9S:c'*Pt0J!H_M2ALiNo]QLS>G#mem)=\F[!jizniN[Y:1;Ty.E9z<PV
+2025-03-31 09:59:43,371 - INFO - Verifying the input box functionality for Applicant Name
+2025-03-31 09:59:43,696 - INFO - Applicant Name input box accepted 100 random characters: \6*@OKXw`Mu{G)Bi#b7,8\A9O^ZMtzsx|s7;#?~)qR|n_c>5Ms_JDZ@>knz=>&gWV;xO\YXi>TZu?j:{1lX*W[3`B]EIW@jb7B=|
+2025-03-31 09:59:43,960 - INFO - Applicant Name input box accepted 100 numbers: 1151523249998361568248181889229591028151412989939527379573356078927898029569666439525629750124181606
+2025-03-31 09:59:44,299 - INFO - Applicant Name input box accepted 100 letters: QiPzdNTMnAjsLFgIEcgBOUirMdQJtPqsACpUhFJlkaaocHDYshYvxpUMuADFxtrqMXbSZpcGgYMzeFDKLSeMgNgVicJSMFEoqGMj
+2025-03-31 09:59:44,588 - INFO - Applicant Name input box accepted a combination of letters, numbers, and special characters: 5''Bz*us$W69]!PE\*{G0GT(aHhhh(A(*))m[X")E'0s>Vwf+-a7xu4"cxa1NGV$SaS0x{C\vEy+8Yp`_'~.6SECf"kNK~Id@"bW
+2025-03-31 09:59:44,590 - INFO - Verifying the input box functionality for Part Number
+2025-03-31 09:59:44,876 - INFO - Part Number input box accepted 100 random characters: )s#oS~xj2Vnp*1,Y[cT_Y_|Mw+Zu!=0!>q<0olIR<.1*d]Q#VIu|)VHeg:M,<Y&s=1$86zSAS67X>$*-w8AU9~7f#a-.}P~iq`b(
+2025-03-31 09:59:45,126 - INFO - Part Number input box accepted 100 numbers: 1421501150945328785748641694074915173829703729778019802027243479182206017224946838871170207555981760
+2025-03-31 09:59:45,411 - INFO - Part Number input box accepted 100 letters: atqlZGMiNvvyQnzmzHSzJIMkFoJePIjBDNVgIVJieLYWenhMzTsMnHOZmpIcKtNarvvCRLBiHUXdBowRUlprXTLfOdEKjETOlpaW
+2025-03-31 09:59:45,703 - INFO - Part Number input box accepted a combination of letters, numbers, and special characters: RBY[96@L;2d|*Rtly+Z_<,peXG;`^:.9O^nx.?_Iei?Z=lP.j,BZ(x$||R-*-\E1qv,-?Of]up4mQNTwMYlN>Pyu_`ymvBkx6k*R
+2025-03-31 09:59:45,705 - INFO - Verifying the input box functionality for QIID
+2025-03-31 09:59:46,048 - ERROR - QIID input box failed to accept 100 random characters
+2025-03-31 09:59:46,324 - INFO - QIID input box accepted 100 numbers: 3257006277859187898618615063251069923937615985470109259138433582180969236256921391422281436441827288
+2025-03-31 09:59:46,671 - ERROR - QIID input box failed to accept 100 letters
+2025-03-31 09:59:47,012 - ERROR - QIID input box failed to accept a combination of letters, numbers, and special characters
+2025-03-31 09:59:47,016 - INFO - Verifying the input box functionality for Manufacturer Code
+2025-03-31 09:59:47,297 - INFO - Manufacturer Code input box accepted 100 random characters: 0f`@4f0kc{4JmNq!*1m^rg/n(bM*AdF7Y;tv+S94O'Tyszw[4T]j}?]}.-~,WD4dEH:}pzGJZGd;GARR*jhI6z5vL1D9)nqLbr"}
+2025-03-31 09:59:47,573 - INFO - Manufacturer Code input box accepted 100 numbers: 1932403879846103014697010938191775194959861818220481712500103324671086149325337102938020222859559695
+2025-03-31 09:59:47,855 - INFO - Manufacturer Code input box accepted 100 letters: ofVuWvGlwtDeFEanmvMCPrwCirRhsXVcOOSKQTDYbljpiHtbhRZbMTUHbdsMtyPfhFSdkndlMoZetEylbKxwWzlDSQqNgzokqLNb
+2025-03-31 09:59:48,175 - INFO - Manufacturer Code input box accepted a combination of letters, numbers, and special characters: ElqF$y2A/~WvjZY4E9IRmp:_r'nXNKF7ygyZE1{Le9{TS5=2Z(az[TPhEz/]zk4HV^zl:OqD8Mz~X1Q+\}J"1LQMm%X|VX\"pB5e
+2025-03-31 09:59:48,178 - INFO - Verifying the input box functionality for Cloak Retry Count
+2025-03-31 09:59:48,489 - ERROR - Cloak Retry Count input box failed to accept 100 random characters
+2025-03-31 09:59:48,758 - INFO - Cloak Retry Count input box accepted 100 numbers: 0703712038600497227507937285575828707559825233697922721865312085351585173338450124807050529485294113
+2025-03-31 09:59:49,076 - ERROR - Cloak Retry Count input box failed to accept 100 letters
+2025-03-31 09:59:49,393 - ERROR - Cloak Retry Count input box failed to accept a combination of letters, numbers, and special characters
+2025-03-31 09:59:49,395 - INFO - Verifying the input box functionality for Maximum Power
+2025-03-31 09:59:49,711 - ERROR - Maximum Power input box failed to accept 100 random characters
+2025-03-31 09:59:50,004 - ERROR - Maximum Power input box failed to accept 100 numbers
+2025-03-31 09:59:50,296 - ERROR - Maximum Power input box failed to accept 100 letters
+2025-03-31 09:59:50,601 - ERROR - Maximum Power input box failed to accept a combination of letters, numbers, and special characters
+2025-03-31 09:59:50,603 - INFO - Verifying the checkbox functionality for OB Support
+2025-03-31 09:59:50,621 - INFO - OB Support checkbox is unchecked by default
+2025-03-31 09:59:50,686 - INFO - OB Support checkbox is now checked
+2025-03-31 09:59:50,731 - INFO - OB Support checkbox is now unchecked
+2025-03-31 09:59:50,735 - INFO - Verifying the checkbox functionality for Negotiation Support
+2025-03-31 09:59:50,757 - INFO - Negotiation Support checkbox is unchecked by default
+2025-03-31 09:59:50,829 - INFO - Negotiation Support checkbox is now checked
+2025-03-31 09:59:50,876 - INFO - Negotiation Support checkbox is now unchecked
+2025-03-31 09:59:50,878 - INFO - Verifying the checkbox functionality for XID Data Packet Support
+2025-03-31 09:59:50,898 - INFO - XID Data Packet Support checkbox is unchecked by default
+2025-03-31 09:59:50,978 - INFO - XID Data Packet Support checkbox is now checked
+2025-03-31 09:59:51,054 - INFO - XID Data Packet Support checkbox is now unchecked
+2025-03-31 09:59:51,058 - INFO - Verifying the checkbox functionality for Restricted Mode Support
+2025-03-31 09:59:51,085 - INFO - Restricted Mode Support checkbox is unchecked by default
+2025-03-31 09:59:51,164 - INFO - Restricted Mode Support checkbox is now checked
+2025-03-31 09:59:51,256 - INFO - Restricted Mode Support checkbox is now unchecked
+2025-03-31 09:59:51,261 - INFO - Verifying the checkbox functionality for Cloak Support
+2025-03-31 09:59:51,293 - INFO - Cloak Support checkbox is unchecked by default
+2025-03-31 09:59:51,380 - INFO - Cloak Support checkbox is now checked
+2025-03-31 09:59:51,437 - INFO - Cloak Support checkbox is now unchecked
+2025-03-31 09:59:51,439 - INFO - Verifying the checkbox functionality for Gain Linearization Support
+2025-03-31 09:59:51,459 - INFO - Gain Linearization Support checkbox is unchecked by default
+2025-03-31 09:59:51,519 - INFO - Gain Linearization Support checkbox is now checked
+2025-03-31 09:59:51,569 - INFO - Gain Linearization Support checkbox is now unchecked
+2025-03-31 09:59:51,571 - INFO - Verifying the checkbox functionality for Dup Support
+2025-03-31 09:59:51,590 - INFO - Dup Support checkbox is unchecked by default
+2025-03-31 09:59:51,653 - INFO - Dup Support checkbox is now checked
+2025-03-31 09:59:51,703 - INFO - Dup Support checkbox is now unchecked
+2025-03-31 09:59:51,706 - INFO - Verifying the checkbox functionality for WPID Support
+2025-03-31 09:59:51,726 - INFO - WPID Support checkbox is unchecked by default
+2025-03-31 09:59:51,812 - INFO - WPID Support checkbox is now checked
+2025-03-31 09:59:51,860 - INFO - WPID Support checkbox is now unchecked
+2025-03-31 09:59:51,863 - INFO - Verifying the checkbox functionality for PCH Data Packet Support
+2025-03-31 09:59:51,885 - INFO - PCH Data Packet Support checkbox is unchecked by default
+2025-03-31 09:59:51,981 - INFO - PCH Data Packet Support checkbox is now checked
+2025-03-31 09:59:52,045 - INFO - PCH Data Packet Support checkbox is now unchecked
+2025-03-31 09:59:52,049 - INFO - Verifying the checkbox functionality for Restricted To Full Mode
+2025-03-31 09:59:52,072 - INFO - Restricted To Full Mode checkbox is unchecked by default
+2025-03-31 09:59:52,159 - INFO - Restricted To Full Mode checkbox is now checked
+2025-03-31 09:59:52,238 - INFO - Restricted To Full Mode checkbox is now unchecked
+2025-03-31 09:59:52,243 - INFO - Verifying the checkbox functionality for Detect Ping Support
+2025-03-31 09:59:52,271 - INFO - Detect Ping Support checkbox is unchecked by default
+2025-03-31 09:59:52,368 - INFO - Detect Ping Support checkbox is now checked
+2025-03-31 09:59:52,446 - INFO - Detect Ping Support checkbox is now unchecked
+2025-03-31 09:59:52,449 - INFO - Verifying the checkbox functionality for HPM Ping Support
+2025-03-31 09:59:52,463 - INFO - HPM Ping Support checkbox is unchecked by default
+2025-03-31 09:59:52,512 - INFO - HPM Ping Support checkbox is now checked
+2025-03-31 09:59:52,573 - INFO - HPM Ping Support checkbox is now unchecked
+2025-03-31 09:59:52,577 - INFO - Verifying the checkbox functionality for Authentication Support
+2025-03-31 09:59:52,598 - INFO - Authentication Support checkbox is unchecked by default
+2025-03-31 09:59:52,658 - INFO - Authentication Support checkbox is now checked
+2025-03-31 09:59:52,710 - INFO - Authentication Support checkbox is now unchecked
+2025-03-31 09:59:52,714 - INFO - Verifying the dropdown functionality for Supported Specification
+2025-03-31 09:59:52,732 - ERROR - Supported Specification dropdown is not enabled
+2025-03-31 09:59:52,737 - INFO - Verifying the dropdown functionality for Power Profile
+2025-03-31 09:59:52,759 - ERROR - Power Profile dropdown is not enabled
+2025-03-31 09:59:52,762 - INFO - Verifying the dropdown functionality for Supported PROP Data Packets
+2025-03-31 09:59:52,858 - INFO - Available options in Supported PROP Data Packets:
+2025-03-31 09:59:52,970 - INFO - Verifying the dropdown functionality for Supported Protocols
+2025-03-31 09:59:53,058 - INFO - Available options in Supported Protocols:
+2025-03-31 09:59:53,185 - INFO - Verifying the dropdown functionality for Supported Cloak Reasons
+2025-03-31 09:59:53,304 - INFO - Available options in Supported Cloak Reasons:
+2025-03-31 09:59:53,429 - INFO - Verifying the dropdown functionality for Supported GetRequests
+2025-03-31 09:59:53,541 - INFO - Available options in Supported GetRequests:
+2025-03-31 09:59:53,685 - INFO - Tearing down the browser
+2025-03-31 09:59:57,132 - INFO - Opening browser using way1
+2025-03-31 10:00:07,586 - INFO - Tester status: Connected
+2025-03-31 10:00:07,587 - INFO - Checking if the browser is landing on the Connection Panel
+2025-03-31 10:00:07,604 - INFO - Connection button is available, so the browser is on the Connection Page
+2025-03-31 10:00:11,824 - INFO - Opening browser using way1
+2025-03-31 10:00:23,856 - INFO - Tester status: Connected
+2025-03-31 10:00:23,857 - INFO - Verify The browser title in the UI tab should contain the text GRL-C3-TPT.
+2025-03-31 10:00:23,872 - INFO - The browser title is GRL-C3-TPT
+2025-03-31 10:00:44,334 - INFO - Opening browser using way1
+2025-03-31 10:00:57,218 - INFO - Tester status: Connected
+2025-03-31 10:00:57,219 - INFO - Verifying the 'Scan Network' button is visible on the UI
+2025-03-31 10:00:57,260 - INFO - The 'Scan Network' button is visible on the UI.
+2025-03-31 10:00:57,260 - INFO - Verifying the 'Scan Network' button is clickable
+2025-03-31 10:00:57,275 - INFO - The 'Scan Network' button is clickable.
+2025-03-31 10:00:57,276 - INFO - Clicking the 'Scan Network' button
+2025-03-31 10:01:07,656 - WARNING - Could not confirm that the scan has started via button state: Message: 
+
+2025-03-31 10:01:07,657 - INFO - Scan button click registered. Proceeding without disabled state confirmation as the UI may not change the button's state.
+2025-03-31 10:01:07,668 - INFO - Scan completed in 10.39 seconds
+2025-03-31 10:01:08,070 - INFO - Screenshot of available networks taken.
+2025-03-31 10:01:11,520 - INFO - Opening browser using way1
+2025-03-31 10:01:22,056 - INFO - Tester status: Connected
+2025-03-31 10:01:22,077 - INFO - The 'Scan Network' button is visible on the UI.
+2025-03-31 10:01:22,077 - INFO - Clicking the 'Scan Network' button.
+2025-03-31 10:01:22,205 - INFO - The 'Connect' button is disabled during scanning as expected.
+2025-03-31 10:02:22,226 - INFO - Scanning process completed. The 'connection' button is visible again.
+2025-03-31 10:02:25,655 - INFO - Opening browser using way1
+2025-03-31 10:02:36,009 - INFO - Tester status: Connected
+2025-03-31 10:02:36,010 - INFO - Waiting for the Setup Diagram element to be visible
+2025-03-31 10:02:36,028 - INFO - Setup Diagram element is visible. Clicking it now.
+2025-03-31 10:02:36,107 - INFO - Waiting for the modal to display the expected text
+2025-03-31 10:02:36,134 - INFO - Modal displays the expected text: 'GRL-C3-TPT Setup Diagram'
+2025-03-31 10:02:36,329 - INFO - Screenshot of the Setup Diagram view taken after clicking OK.
+2025-03-31 10:02:36,330 - INFO - Waiting for the OK button to be clickable
+2025-03-31 10:02:36,362 - INFO - Clicking the OK button in the modal
+2025-03-31 10:02:36,463 - INFO - Modal dismissed; back to the Connection Panel.
+2025-03-31 10:02:40,021 - INFO - Opening browser using way1
+2025-03-31 10:02:50,358 - INFO - Tester status: Connected
+2025-03-31 10:02:50,359 - INFO - Opening application URL
+2025-03-31 10:02:51,582 - INFO - Initial tester status: Connected
+2025-03-31 10:02:51,736 - INFO - Entered wrong IP: 192.168.255.22
+2025-03-31 10:03:01,895 - INFO - Clicked on the Connect button.
+2025-03-31 10:03:06,917 - INFO - Tester status after clicking Connect: Invalid IP address format : 192.168.5.74192.168.255.22
+2025-03-31 10:03:06,917 - INFO - Expected error message is present: Invalid IP address format : 192.168.5.74192.168.255.22
+2025-03-31 10:03:09,146 - INFO - Starting test: Check for the Readme file
+2025-03-31 10:03:09,148 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-03-31 10:03:09,150 - INFO - File content verified: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-03-31 10:03:09,150 - INFO - Readme file verification passed.
+2025-03-31 10:03:09,154 - INFO - Starting test: Check for the Release Notes file
+2025-03-31 10:03:09,156 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\GRL-C3-TPT Release Notes.pdf
+2025-03-31 10:03:09,156 - INFO - Release Notes file verification passed.
+2025-03-31 10:03:09,158 - INFO - Starting test: Check for the Eload files
+2025-03-31 10:03:09,160 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\PPS_ELOAD.bin
+2025-03-31 10:03:09,160 - INFO - Eload file verification passed.
+2025-03-31 10:03:09,164 - INFO - Starting test: Check for the Firmware files
+2025-03-31 10:03:09,165 - INFO - Directory found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP
+2025-03-31 10:03:09,166 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\BOOT.BIN
+2025-03-31 10:03:09,167 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\image.ub
+2025-03-31 10:03:09,167 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\start.sh
+2025-03-31 10:03:09,168 - INFO - All firmware files are present.
+2025-03-31 10:03:09,168 - INFO - Firmware files verification passed.
+2025-03-31 10:03:10,385 - INFO - Opening browser using way1
+2025-03-31 10:03:20,646 - INFO - Tester status: Disconnected
+2025-03-31 10:03:33,245 - INFO - Tester status: IP address "192.168.255.1" unreachable
+2025-03-31 10:03:45,872 - INFO - Tester status: IP address "192.168.255.1" unreachable
+2025-03-31 10:03:58,489 - INFO - Tester status: IP address "192.168.255.1" unreachable
+2025-03-31 10:04:11,117 - INFO - Tester status: IP address "192.168.255.1" unreachable
+2025-03-31 10:04:23,728 - INFO - Tester status: IP address "192.168.255.1" unreachable
+2025-03-31 10:04:36,328 - INFO - Tester status: IP address "192.168.255.1" unreachable
+2025-03-31 10:04:48,960 - INFO - Tester status: IP address "192.168.255.1" unreachable
+2025-03-31 10:05:01,627 - INFO - Tester status: IP address "192.168.255.1" unreachable
+2025-03-31 10:05:14,212 - INFO - Tester status: IP address "192.168.255.1" unreachable
+2025-03-31 10:05:26,832 - ERROR - Failed to establish connection after maximum retries

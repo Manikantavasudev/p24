@@ -12,7 +12,7 @@ import os
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Get IP from environment variable (set by Jenkins parameter)
-TEST_IP = os.getenv("TEST_IP", "192.168.255.1")  # Default if not provided
+TEST_IP = os.getenv("TEST_IP", "192.168.5.74")  # Default if not provided
 logging.info(f"Using TEST_IP: {TEST_IP}")
 
 # Constants
