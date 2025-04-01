@@ -1,30 +1,9 @@
-# from utilities.browser_setup import BrowserSetup
-# from pages.report_panel import ReportPanel
-# import logging
-# import pytest
-# import time
-# URL = "http://localhost:2004"
-# # IP_ADDRESS = "192.168.5.77"
-# # tpt_folder_path = r"C:\GRL\GRL-C3-MP-TPT\LogFiles\DebugLogger.log"
-# def test_TC100():
-#     browser = BrowserSetup()
-#     driver = browser.way1(URL)
-#     report = ReportPanel(driver)
-#     report.is_report_page_available()
-#     driver.quit()
-
-
 from utilities.browser_setup import BrowserSetup
 from pages.report_panel import ReportPanel
 import pytest
+import logging
 
 URL = "http://localhost:2004"
-Report_BUTTON_XPATH = "//label[@class='leftbarButtonGroup btn btn-primary' and @for='navbar-toggle-5']"
-View_report = "//button[@id='report_toolbar_refresh_button']"
-Download_current_HTML = "//button[@id='report_toolbar_download_html_button']"
-Download_BSUT_report = "//button[@id='report_toolbar_dwonload_dut_button']"
-report_data_management = "//button[text()='Report Data Management']"
-Synthetic_File = "//button[text()='Synthetic File']"
 
 @pytest.fixture(scope="module")
 def setup():
@@ -34,43 +13,63 @@ def setup():
     driver.quit()
 
 def test_report_button_available(setup):
-    """
-    Test Case 1: Verify if the Report button is available and clickable.
-    """
     report = ReportPanel(setup)
     assert report.is_report_page_available(), "Report button is not available."
 
 def test_view_report_button_available(setup):
-    """
-    Test Case 2: Verify if the View Report button is available.
-    """
     report = ReportPanel(setup)
-    assert report.verify_button_available("View Report", View_report), "View Report button is not available."
+    assert report.verify_button_available("View Report", "//button[@id='report_toolbar_refresh_button']"), "View Report button is not available."
 
-def test_download_current_html_button_available(setup):
-    """
-    Test Case 3: Verify if the Download Current HTML button is available.
-    """
+def test_download_current_html_flow(setup):
     report = ReportPanel(setup)
-    assert report.verify_button_available("Download Current HTML", Download_current_HTML), "Download Current HTML button is not available."
+    assert report.handle_download_current_html_flow(), "Download Current HTML flow failed."
 
-def test_download_bsut_report_button_available(setup):
-    """
-    Test Case 4: Verify if the Download BSUT Report button is available.
-    """
+def test_download_current_bsut_flow(setup):
     report = ReportPanel(setup)
-    assert report.verify_button_available("Download BSUT Report", Download_BSUT_report), "Download BSUT Report button is not available."
+    assert report.handle_download_bsut_flow(), "Download Current BSUT Report Data flow failed."
 
-def test_report_data_management_button_available(setup):
-    """
-    Test Case 5: Verify if the Report Data Management button is available.
-    """
-    report = ReportPanel(setup)
-    assert report.verify_button_available("Report Data Management", report_data_management), "Report Data Management button is not available."
+# def test_report_data_management_flow(setup):
+#     report = ReportPanel(setup)
+#     assert report.handle_report_data_management_flow(), "Report Data Management flow failed."
 
-def test_synthetic_file_button_available(setup):
+def test_report_data_management_flow(setup):
     """
-    Test Case 6: Verify if the Synthetic File button is available.
+    Test Case: Validate the Report Data Management Panel Behavior
+    Steps:
+        1. Click on Report Data Management
+        2. Check Delete Test Report button availability
+        3. Check Test Results Folder Size text
+        4. Check Delete Report buttons
+        5. Perform Cancel flow on Delete Report popup
+        6. Perform Download Report action
+        7. Click Delete Test Report button
+        8. Verify Confirmation popup
+        9. Click Cancel on confirmation
     """
     report = ReportPanel(setup)
-    assert report.verify_button_available("Synthetic File", Synthetic_File), "Synthetic File button is not available."
+    assert report.handle_report_data_management_flow(), "Report Data Management flow failed."
+def test_Synthetic_File(setup):
+    
+    report = ReportPanel(setup)
+    assert report.handle_synthetic_file_popup(), " Synthetic File btn function failed."
+
+
+def test_write_close_btn_verification(setup):
+        
+        """
+        Test Case: Validate Write Button, Error Popup, and Navigation Back to Report Page.
+        Steps:
+            1. Check Write button availability.
+            2. Check if it is clickable.
+            3. Click Write button.
+            4. Verify error popup appears.
+            5. Click Close/Cancel button on popup.
+            6. Verify navigation back to Report page.
+        """
+        logging.info("====== Test: Write Button + Error Popup + Return to Report Page ======")
+
+        report_panel = ReportPanel(setup)
+        result = report_panel.write_close_btn_verification()
+
+        assert result, "Write button flow validation failed."
+

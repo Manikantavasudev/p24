@@ -90,14 +90,14 @@ def ba_connection(driver):
     connect_status(driver)
     return driver
 
-@pytest.hookimpl(tryfirst=True, hookwrapper=True)
-def pytest_runtest_makereport(item, call):
-    outcome = yield
-    rep = outcome.get_result()
-    if rep.when == "call" and rep.failed:
-        allure.attach(
-            driver.get_screenshot_as_png(),
-            name="screenshot_on_failure",
-            attachment_type=allure.attachment_type.PNG,
-        )
-        logger.error(f"Test failed: {item.name}. Screenshot captured.")
+# @pytest.hookimpl(tryfirst=True, hookwrapper=True)
+# def pytest_runtest_makereport(item, call):
+#     outcome = yield
+#     rep = outcome.get_result()
+#     if rep.when == "call" and rep.failed:
+#         allure.attach(
+#             driver.get_screenshot_as_png(),
+#             name="screenshot_on_failure",
+#             attachment_type=allure.attachment_type.PNG,
+#         )
+#         logger.error(f"Test failed: {item.name}. Screenshot captured.")
