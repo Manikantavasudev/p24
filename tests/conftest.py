@@ -23,12 +23,25 @@ import pytest
 import os
 import pytest
 
-def pytest_addoption(parser):
-    parser.addoption("--test-ip", action="store", help="IP address for testing")
+# def pytest_addoption(parser):
+#     parser.addoption("--test-ip", action="store", help="IP address for testing")
 
-@pytest.fixture
-def test_ip(request):
-    return request.config.getoption("--test-ip")
+# @pytest.fixture
+# def test_ip(request):
+#     return request.config.getoption("--test-ip")
+
+def pytest_addoption(parser):
+    parser.addoption("--tester_ip", action="store", help="Tester IP passed from Jenkins")
+    
+@pytest.fixture(scope="session")
+def tester_ip(request):
+    return request.config.getoption("--tester_ip")
+@pytest.fixture(scope="session", autouse=True)
+
+def inject_tester_ip(request):
+    tester_ip = request.config.getoption("--tester_ip")
+    if tester_ip:
+        os.environ["TESTER_IP"] = tester_ip
 
 
 # Constants for BA connection

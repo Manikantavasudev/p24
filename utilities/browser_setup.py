@@ -12,8 +12,8 @@ import os
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Get IP from environment variable (set by Jenkins parameter)
-TEST_IP = os.getenv("TEST_IP", "192.168.5.74")  # Default if not provided
-logging.info(f"Using TEST_IP: {TEST_IP}")
+TEST_IP = os.getenv("TESTER_IP", "192.168.5.74")  # fallback if not passed
+logging.info(f"Using TESTER_IP: {TEST_IP}")
 
 # Constants
 URL = "http://localhost:2004"
