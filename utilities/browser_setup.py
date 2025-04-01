@@ -84,9 +84,9 @@ class BrowserSetup:
             logging.info("Popup handled")
         except TimeoutException:
             logging.info("No popup appeared")
-class BrowserSetup:
-    def __init__(self):
-        self.driver = webdriver.Chrome()
+# class BrowserSetup:
+#     def __init__(self):
+#         self.driver = webdriver.Chrome()
 
 #     def way1(self, url):
 #         """ Initialize browser using Way1 """
