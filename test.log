@@ -4282,3 +4282,150 @@ Stacktrace:
 2025-04-01 10:49:59,428 - INFO - Step 6: Verifying navigation back to Report page
 2025-04-01 10:49:59,448 - INFO - Successfully navigated back to Report page after closing the popup
 2025-04-01 10:49:59,448 - INFO - ====== Completed Write Button Verification Flow Successfully ======
+2025-04-01 17:47:06,934 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-01 17:47:06,946 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-01 17:47:09,736 - INFO - Opening browser using way1
+2025-04-01 17:47:22,170 - INFO - Tester status: Disconnected
+2025-04-01 17:47:34,856 - INFO - Tester status: Connected
+2025-04-01 17:47:34,856 - INFO - Opening Qi Exerciser Panel
+2025-04-01 17:47:41,970 - INFO - Verifying the input box functionality for A0
+2025-04-01 17:47:42,365 - ERROR - A0 input box failed to accept 100 random characters
+2025-04-01 17:47:42,667 - ERROR - A0 input box failed to accept 100 numbers
+2025-04-01 17:47:42,941 - ERROR - A0 input box failed to accept 100 letters
+2025-04-01 17:47:43,193 - ERROR - A0 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-01 17:47:43,198 - INFO - Verifying the input box functionality for A1
+2025-04-01 17:47:43,457 - ERROR - A1 input box failed to accept 100 random characters
+2025-04-01 17:47:43,740 - ERROR - A1 input box failed to accept 100 numbers
+2025-04-01 17:47:44,055 - ERROR - A1 input box failed to accept 100 letters
+2025-04-01 17:47:44,437 - ERROR - A1 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-01 17:47:44,487 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-04-01 17:47:44,503 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-04-01 17:47:44,507 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-04-01 17:47:44,533 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-04-01 17:47:44,617 - INFO - Q Factor Measurement Checkbox checkbox is now checked
+2025-04-01 17:47:44,685 - INFO - Q Factor Measurement Checkbox checkbox is now unchecked
+2025-04-01 17:47:44,689 - INFO - Verifying the dropdown functionality for Coil Type
+2025-04-01 17:47:44,822 - INFO - Available options in Coil Type:
+2025-04-01 17:47:44,941 - INFO - Verifying the dropdown functionality for Demodulator
+2025-04-01 17:47:45,047 - INFO - Available options in Demodulator:
+2025-04-01 17:47:45,178 - INFO - Tearing down the browser
+2025-04-02 15:57:59,733 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-02 15:57:59,746 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-02 15:58:03,636 - INFO - Opening browser using way1
+2025-04-02 15:58:14,141 - INFO - Popup detected. Clicking OK.
+2025-04-02 15:58:14,435 - INFO - Tester status: Disconnected
+2025-04-02 15:58:27,349 - INFO - Tester status: Connected
+2025-04-02 15:58:27,350 - INFO - Opening Qi Exerciser Panel
+2025-04-02 15:58:34,667 - INFO - Verifying the input box functionality for A0
+2025-04-02 15:58:35,249 - ERROR - A0 input box failed to accept 100 random characters
+2025-04-02 15:58:35,662 - ERROR - A0 input box failed to accept 100 numbers
+2025-04-02 15:58:36,210 - ERROR - A0 input box failed to accept 100 letters
+2025-04-02 15:58:36,533 - ERROR - A0 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-02 15:58:36,538 - INFO - Verifying the input box functionality for A1
+2025-04-02 15:58:36,894 - ERROR - A1 input box failed to accept 100 random characters
+2025-04-02 15:58:37,231 - ERROR - A1 input box failed to accept 100 numbers
+2025-04-02 15:58:37,599 - ERROR - A1 input box failed to accept 100 letters
+2025-04-02 15:58:37,951 - ERROR - A1 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-02 15:58:38,002 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-04-02 15:58:38,023 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-04-02 15:58:38,029 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-04-02 15:58:38,065 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-04-02 15:58:38,173 - INFO - Q Factor Measurement Checkbox checkbox is now checked
+2025-04-02 15:58:38,265 - INFO - Q Factor Measurement Checkbox checkbox is now unchecked
+2025-04-02 15:58:38,268 - INFO - Verifying the dropdown functionality for Coil Type
+2025-04-02 15:58:38,439 - INFO - Available options in Coil Type:
+2025-04-02 15:58:38,604 - INFO - Verifying the dropdown functionality for Demodulator
+2025-04-02 15:58:38,738 - INFO - Available options in Demodulator:
+2025-04-02 15:58:38,897 - INFO - Tearing down the browser
+2025-04-02 15:58:53,600 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-02 15:58:55,018 - INFO - Opening browser using way1
+2025-04-02 15:59:08,263 - INFO - Tester status: Connected
+2025-04-02 15:59:08,265 - INFO - Step: Checking Report Button availability
+2025-04-02 15:59:08,300 - INFO - Report button is available.
+2025-04-02 15:59:08,444 - INFO - Clicked Report button.
+2025-04-02 15:59:10,453 - INFO - Step: Checking 'View Report' button availability
+2025-04-02 15:59:10,495 - INFO - View Report button is available.
+2025-04-02 15:59:10,505 - INFO - ====== Starting Download Current HTML Button Flow ======
+2025-04-02 15:59:10,507 - INFO - Step 1: Clicking Download Current HTML button
+2025-04-02 15:59:10,738 - INFO - Step 2: Waiting for popup OK and Cancel buttons
+2025-04-02 15:59:10,777 - INFO - Step 2 Result: Popup OK and Cancel buttons are available
+2025-04-02 15:59:10,778 - INFO - Step 3: Clicking Cancel
+2025-04-02 15:59:10,914 - INFO - Step 4: Verifying Download Current HTML button availability after Cancel
+2025-04-02 15:59:10,944 - INFO - Step 4 Result: Download Current HTML button is available after Cancel
+2025-04-02 15:59:10,945 - INFO - Step 5: Clicking Download Current HTML button again
+2025-04-02 15:59:11,092 - INFO - Step 6: Clicking OK in popup
+2025-04-02 15:59:11,216 - INFO - Step 7: Waiting for error popup to appear
+2025-04-02 15:59:12,336 - INFO - Step 8: Waiting for error popup to disappear (max 15 seconds)
+2025-04-02 15:59:16,993 - INFO - Step 9: Verifying Download Current HTML button availability after error popup
+2025-04-02 15:59:17,026 - INFO - ====== Completed Download Current HTML Button Flow Successfully ======
+2025-04-02 15:59:17,032 - INFO - ====== Starting Download Current BSUT Report Data Button Flow ======
+2025-04-02 15:59:17,036 - INFO - Step 1: Clicking Download Current BSUT Report Data button
+2025-04-02 15:59:17,302 - INFO - Step 2: Waiting for popup OK and Cancel buttons
+2025-04-02 15:59:17,328 - INFO - Step 2 Result: Popup OK and Cancel buttons are available
+2025-04-02 15:59:17,330 - INFO - Step 3: Clicking Cancel
+2025-04-02 15:59:17,431 - INFO - Step 4: Verifying Download Current BSUT Report Data button availability after Cancel
+2025-04-02 15:59:17,473 - INFO - Step 4 Result: Download Current BSUT Report Data button is available after Cancel
+2025-04-02 15:59:17,474 - INFO - Step 5: Clicking Download Current BSUT Report Data button again
+2025-04-02 15:59:17,599 - INFO - Step 6: Clicking OK in popup
+2025-04-02 15:59:17,731 - INFO - Step 7: Waiting for error popup to appear
+2025-04-02 15:59:18,316 - INFO - Step 8: Waiting for error popup to disappear (max 15 seconds)
+2025-04-02 15:59:23,498 - INFO - Step 9: Verifying Download Current BSUT Report Data button availability after error popup
+2025-04-02 15:59:23,528 - INFO - ====== Completed Download Current BSUT Report Data Button Flow Successfully ======
+2025-04-02 15:59:23,535 - INFO - ====== Starting Report Data Management Flow ======
+2025-04-02 15:59:23,537 - INFO - Step 1: Clicking Report Data Management button
+2025-04-02 15:59:23,724 - INFO - Step 2: Checking Delete Test Report button availability
+2025-04-02 15:59:23,758 - INFO - Step 3: Checking Test results folder size label
+2025-04-02 15:59:23,825 - INFO - Test results folder info: Test results folder size :0.00 MBs
+2025-04-02 15:59:23,826 - INFO - Step 4: Checking Delete Report button availability
+2025-04-02 15:59:23,899 - INFO - Step 5: Clicking Delete Report button
+2025-04-02 15:59:24,027 - INFO - Step 5.1: Checking OK and Cancel buttons in popup
+2025-04-02 15:59:24,097 - INFO - Step 5.2: Clicking Cancel on popup
+2025-04-02 15:59:24,308 - INFO - Step 6: Clicking Download Report button
+2025-04-02 15:59:24,435 - INFO - Step 6.1: Waiting for 10 seconds for download to process
+2025-04-02 15:59:34,437 - INFO - Step 7: Clicking Delete Test Report button (Re-fetching due to possible stale)
+2025-04-02 15:59:34,628 - INFO - Step 8: Checking Confirmation Text
+2025-04-02 15:59:34,689 - INFO - Confirmation popup text: Are you sure you want to permanently delete all 2 folders?
+2025-04-02 15:59:34,690 - INFO - Step 9: Checking OK and Cancel buttons in confirmation popup
+2025-04-02 15:59:34,816 - INFO - Step 9.1: Clicking Cancel on confirmation popup
+2025-04-02 15:59:35,029 - INFO - ====== Completed Report Data Management Flow Successfully ======
+2025-04-02 15:59:35,036 - INFO - ====== Starting Synthetic File Popup Dropdown Value Print ======
+2025-04-02 15:59:35,038 - INFO - Step 1: Clicking Synthetic File button
+2025-04-02 15:59:35,230 - INFO - Waiting for popup to be fully loaded...
+2025-04-02 15:59:35,249 - INFO - Step 3: Validating input box
+2025-04-02 15:59:35,445 - INFO - Typed and verified: 12345
+2025-04-02 15:59:35,599 - INFO - Typed and verified: abcDEF
+2025-04-02 15:59:35,733 - INFO - Typed and verified: !@#$%
+2025-04-02 15:59:35,877 - INFO - Typed and verified: abc123!@#
+2025-04-02 15:59:35,878 - INFO - Step 4: Toggling VC-Tx checkbox
+2025-04-02 15:59:36,013 - INFO - Checkbox clicked
+2025-04-02 15:59:36,094 - INFO - Step 5: Handling dropdown: File Source
+2025-04-02 15:59:36,668 - INFO - File Source dropdown options:
+2025-04-02 15:59:36,686 - INFO -     File Source --> External File
+2025-04-02 15:59:36,707 - INFO -     File Source --> TPT File
+2025-04-02 15:59:37,225 - INFO - Step 5: Handling dropdown: Test Mode
+2025-04-02 15:59:37,798 - INFO - Test Mode dropdown options:
+2025-04-02 15:59:37,813 - INFO -     Test Mode --> 128kHz
+2025-04-02 15:59:37,830 - INFO -     Test Mode --> 360kHz
+2025-04-02 15:59:38,346 - INFO - Step 5: Handling dropdown: Test Type
+2025-04-02 15:59:38,914 - INFO - Test Type dropdown options:
+2025-04-02 15:59:38,933 - INFO -     Test Type --> 4.14.Eye test
+2025-04-02 15:59:38,954 - INFO -     Test Type --> 4.15.Real test
+2025-04-02 15:59:39,473 - INFO - Step 5: Handling dropdown: Channel Type
+2025-04-02 15:59:40,054 - INFO - Channel Type dropdown options:
+2025-04-02 15:59:40,071 - INFO -     Channel Type --> Magnitude
+2025-04-02 15:59:40,089 - INFO -     Channel Type --> Phase
+2025-04-02 15:59:40,105 - INFO -     Channel Type --> Both
+2025-04-02 15:59:40,627 - INFO - ====== Completed Synthetic File Popup Dropdown Value Print Successfully ======
+2025-04-02 15:59:40,633 - INFO - ====== Test: Write Button + Error Popup + Return to Report Page ======
+2025-04-02 15:59:40,635 - INFO - ====== Starting Write Button Verification Flow ======
+2025-04-02 15:59:40,636 - INFO - Step 1: Checking Write button availability
+2025-04-02 15:59:40,681 - INFO - Write button is available and visible.
+2025-04-02 15:59:40,683 - INFO - Step 2: Checking Write button clickability
+2025-04-02 15:59:40,733 - INFO - Step 3: Clicking Write button
+2025-04-02 15:59:40,830 - INFO - Waiting 1.5 seconds to allow popup to render
+2025-04-02 15:59:45,834 - INFO - Step 4: Verifying Error popup
+2025-04-02 15:59:45,878 - INFO - Error popup appeared as expected
+2025-04-02 15:59:45,879 - INFO - Step 5: Clicking Close button on error popup
+2025-04-02 15:59:46,035 - INFO - Step 6: Verifying navigation back to Report page
+2025-04-02 15:59:46,064 - INFO - Successfully navigated back to Report page after closing the popup
+2025-04-02 15:59:46,065 - INFO - ====== Completed Write Button Verification Flow Successfully ======
