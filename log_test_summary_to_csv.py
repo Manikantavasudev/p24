@@ -45,4 +45,4 @@ with open(csv_file, "a", newline="") as f:
         writer.writerow(header)
     writer.writerow(row)
 
-print(f"✅ Test results logged to: {csv_file}")
+print(f"Test results logged to: {csv_file}")
