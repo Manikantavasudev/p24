@@ -3,46 +3,44 @@ import csv
 import os
 from datetime import datetime
 
-# Jenkins environment variables
-job_num = os.getenv("BUILD_NUMBER", "NA")
-sw_version = "Unknown"
-build_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-# Extract Software Version from version.properties
-try:
-    with open("version.properties", "r") as f:
-        for line in f:
-            if line.startswith("BUILD_VERSION="):
-                sw_version = line.strip().split("=")[1]
-except:
-    pass
-
-# Load pytest results
-pytest_report = "pytest-report.json"
-total = passed = failed = skipped = 0
-status = "Unknown"
-
-if os.path.exists(pytest_report):
-    with open(pytest_report, "r") as f:
-        data = json.load(f)
-        summary = data.get("summary", {})
-        total = summary.get("total", 0)
-        passed = summary.get("passed", 0)
-        failed = summary.get("failed", 0)
-        skipped = summary.get("skipped", 0)
-        status = "Passed" if failed == 0 else "Failed"
-
-# Prepare CSV line
+json_file = "pytest-report.json"
 csv_file = "build_results_log.csv"
-header = ["Job #", "SW Version", "Result", "Expected", "Total", "Passed", "Failed", "Skipped", "Timestamp"]
-row = [f"#{job_num}", sw_version, status, "Pass", total, passed, failed, skipped, build_time]
+job_number = os.getenv("BUILD_NUMBER", "#Unknown")
+sw_version = os.getenv("BUILD_VERSION", "Unknown")
 
-# Write or append
+# Check if the JSON report exists
+if not os.path.exists(json_file):
+    print(f"Error: {json_file} not found.")
+    exit(1)
+
+# Load test result JSON
+with open(json_file, "r") as f:
+    data = json.load(f)
+
+summary = data.get("summary", {})
+tests = data.get("tests", [])
+
+# Extract test counts
+total = summary.get("collected", 0)
+passed = summary.get("passed", 0)
+failed = summary.get("failed", 0)
+skipped = summary.get("skipped", 0)
+
+# Determine result
+result = "Passed" if failed == 0 else "Failed"
+expected = "Pass"
+
+# Capture failed test names
+failed_tests = [t["nodeid"] for t in tests if t["outcome"] == "failed"]
+remarks = ", ".join(failed_tests) if failed_tests else "All Passed"
+
+# Timestamp
+timestamp = datetime.now().strftime("%-m/%-d/%Y %H:%M")
+
+# Write to CSV
 file_exists = os.path.exists(csv_file)
 with open(csv_file, "a", newline="") as f:
     writer = csv.writer(f)
     if not file_exists:
-        writer.writerow(header)
-    writer.writerow(row)
-
-print(f"Test results logged to: {csv_file}")
+        writer.writerow(["Job #", "SW Version", "Result", "Expected", "Total", "Passed", "Failed", "Skipped", "Timestamp", "Remarks"])
+    writer.writerow([f"#{job_number}", sw_version, result, expected, total, passed, failed, skipped, timestamp, remarks])
