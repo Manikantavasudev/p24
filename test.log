@@ -4429,3 +4429,2411 @@ Stacktrace:
 2025-04-02 15:59:46,035 - INFO - Step 6: Verifying navigation back to Report page
 2025-04-02 15:59:46,064 - INFO - Successfully navigated back to Report page after closing the popup
 2025-04-02 15:59:46,065 - INFO - ====== Completed Write Button Verification Flow Successfully ======
+2025-04-02 22:54:38,564 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-02 22:54:38,644 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-02 22:54:40,701 - INFO - Opening browser using way1
+2025-04-02 22:54:50,931 - INFO - Opening Qi Exerciser Panel
+2025-04-02 22:54:58,052 - INFO - Verifying the input box functionality for A0
+2025-04-02 22:54:58,370 - INFO - Verifying the input box functionality for A1
+2025-04-02 22:54:58,532 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-04-02 22:54:58,551 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-04-02 22:54:58,557 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-04-02 22:54:58,580 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-04-02 22:54:59,757 - INFO - Verifying the dropdown functionality for Coil Type
+2025-04-02 22:55:00,941 - INFO - Verifying the dropdown functionality for Demodulator
+2025-04-02 22:55:02,112 - INFO - Tearing down the browser
+2025-04-02 22:55:04,367 - INFO - Setting up the WebDriver
+2025-04-02 22:55:05,600 - INFO - Opening browser using way1
+2025-04-02 22:55:17,914 - INFO - Verifying tester connection status
+2025-04-02 22:55:17,933 - INFO - Tester connection status: Disconnected
+2025-04-02 22:55:17,934 - WARNING - Tester did not connect successfully!
+2025-04-02 22:55:17,961 - INFO - Extracted Tester Status: Disconnected
+2025-04-02 22:55:17,984 - INFO - Extracted Serial Number: NA
+2025-04-02 22:55:18,007 - INFO - Extracted Firmware Version: NA
+2025-04-02 22:55:18,030 - INFO - Extracted Next Calibration Date: NA
+2025-04-02 22:55:18,053 - INFO - Extracted Tester IP Address: 192.168.5.74
+2025-04-02 22:55:18,078 - INFO - Extracted Port: NA
+2025-04-02 22:55:18,079 - INFO - Test execution completed.
+2025-04-02 22:55:18,084 - INFO - Page title: GRL-C3-TPT Software
+2025-04-02 22:55:18,090 - INFO - Page URL: http://localhost:2004/v3220126.html
+2025-04-02 22:55:18,091 - INFO - Clicking on Test Configuration
+2025-04-02 22:55:18,191 - INFO - Clicking on body of the UI to enable interactions
+2025-04-02 22:55:18,273 - INFO - Clicking on Edit SDF Button
+2025-04-02 22:55:18,480 - INFO - Entering Applicant Name
+2025-04-02 22:55:18,648 - INFO - Entering Product Name
+2025-04-02 22:55:18,754 - INFO - Clicking WPID Support Checkbox
+2025-04-02 22:55:20,831 - INFO - Clicking Update Button
+2025-04-02 22:55:25,893 - INFO - Clicking Export Button
+2025-04-02 22:55:30,994 - INFO - Waiting for JSON file to download
+2025-04-02 22:55:31,000 - INFO - Downloaded file renamed to: SDF_Export_20250402_225530.json
+2025-04-02 22:55:38,143 - INFO - Uploading downloaded JSON file
+2025-04-02 22:55:38,144 - INFO - C:\Users\GRL\Downloads\SDF_Export_20250402_225530.json
+2025-04-02 22:55:38,192 - INFO - File uploaded: C:\Users\GRL\Downloads\SDF_Export_20250402_225530.json
+2025-04-02 22:55:43,193 - INFO - Waiting for 'Create Project' button to be clickable
+2025-04-02 22:55:43,377 - INFO - Clicked on 'Create Project' successfully
+2025-04-02 22:55:48,378 - INFO - Validating Product Name after upload
+2025-04-02 22:55:48,417 - INFO - Page title: GRL-C3-TPT Software
+2025-04-02 22:55:48,421 - INFO - Page URL: http://localhost:2004/v3220126.html
+2025-04-02 22:55:48,422 - INFO - Locating PRx Compliance Tests MPP V2.0.1 checkbox
+2025-04-02 22:55:48,447 - INFO - Checkbox is not selected. Selecting it now...
+2025-04-02 22:55:50,517 - INFO - Selected Tests: 141/141
+2025-04-02 22:55:50,518 - INFO - Test case selection count matches the expected value.
+2025-04-02 22:55:50,519 - INFO - Closing the WebDriver
+2025-04-02 22:55:52,874 - INFO - Setting up the browser
+2025-04-02 22:55:54,135 - INFO - Opening browser using way1
+2025-04-02 22:56:04,421 - INFO - Opening Test Configuration Panel
+2025-04-02 22:56:06,516 - INFO - clicking on body of the UI to enble the UI
+2025-04-02 22:56:11,581 - INFO - Clicking on Edit SDF Button
+2025-04-02 22:56:11,748 - INFO - Verifying the input box functionality for Product Name
+2025-04-02 22:56:12,281 - INFO - Product Name input box accepted 100 random characters: [)',iMmm\:_ASMXo0rF](j$ez6tV/X=>@li>,"'PbgVS7:hj&4gr(z@&LcCx"ZEWoN~4z:eu(cR1zqaA5&jv$-(/CWPy4O1B{#>Z
+2025-04-02 22:56:12,657 - INFO - Product Name input box accepted 100 numbers: 4281349297075946274536527591540878051372906746152105531312080327644929449810802066761039450580701354
+2025-04-02 22:56:13,101 - INFO - Product Name input box accepted 100 letters: eCMKDrgwxJgwqSaaqhQBwtMAlaSlqePHPKLlYdvlOkYtCkPVeMnlxdJxQMoMZywjfOgLHMKSTYWZekkbSqMqktjVugOilYNrMyYk
+2025-04-02 22:56:13,440 - INFO - Product Name input box accepted a combination of letters, numbers, and special characters: WzjanjK\IGHTzl;TCZ3oe<"83$Ke8]s8PO*/Z&0x>1+K<Mtq4jpd.FuDtr(X.:D;K;.k]<|Mv\iJ;<0}5_1p4E1\RxA!I.-xb:Dp
+2025-04-02 22:56:13,443 - INFO - Verifying the input box functionality for Applicant Name
+2025-04-02 22:56:13,829 - INFO - Applicant Name input box accepted 100 random characters: >."!%k|RaTcjC\ly@Ep{c<l=i3$NvK8^7C5cqus2=mQ|lS>P7X`9A;]u2*o%.UWy8A%YlOPM$V2OrIa}gDQ^@6~2Ge]:l-P`}!5l
+2025-04-02 22:56:14,184 - INFO - Applicant Name input box accepted 100 numbers: 4093340977315295629692776390272081898873744470674003864655585290419770848845303514572005583870405168
+2025-04-02 22:56:14,555 - INFO - Applicant Name input box accepted 100 letters: ehgvNHvkYUfvOUzJCsbRVHLcByxVpmuslbxKWIfAyEgmkWQBqEQtswTVIZqfgXxxecXeAgGGRohcVUdeZygqgiKQqIJJkpmeimvo
+2025-04-02 22:56:14,926 - INFO - Applicant Name input box accepted a combination of letters, numbers, and special characters: \s^TwY\E!(70ya[#)ty$*3B6}X?o~{VS!R,(0d\?Zl>Xp<*/CA`.X|p$i*+RzT1qw_1_hik$ahZYh4#)V5%BP\gv3%RV}BvLpFL\
+2025-04-02 22:56:14,932 - INFO - Verifying the input box functionality for Part Number
+2025-04-02 22:56:15,315 - INFO - Part Number input box accepted 100 random characters: Jo)"K%;~igY5;)L-yfr+e*rWs<q&7^qj!kNllDfN'gkZ-GeO~>#0rrWQ7j?jP&{<1LU[AhV\Jd8|C@trPLtMm3=*6y07@:+;}}+L
+2025-04-02 22:56:15,627 - INFO - Part Number input box accepted 100 numbers: 9211193114632731029249450063326313917133215828171628975938959570502251468469464992778594919788448594
+2025-04-02 22:56:15,971 - INFO - Part Number input box accepted 100 letters: XnFmMLSFqKepQoMqUolNwwcSTWQRieZTvTFniXKshKaeYZZkWCIZTOByowsxsCnqOviHlehNpIFXnqBdzzikKfIzdJKOnDxJSrkU
+2025-04-02 22:56:16,327 - INFO - Part Number input box accepted a combination of letters, numbers, and special characters: rD5},%op-9=|oRW-(v*+;cf<&liKfy@ZEf.8L|fGRwAiVOu,saWAAqjNhT>)S,o*$`SU>:NVF2B0ms'!fKIB1JC6]\~`o-L08oWo
+2025-04-02 22:56:16,331 - INFO - Verifying the input box functionality for QIID
+2025-04-02 22:56:16,747 - ERROR - QIID input box failed to accept 100 random characters
+2025-04-02 22:56:17,116 - INFO - QIID input box accepted 100 numbers: 8637242845242819869335367664107428470633404826634414404704318194197589834521340181181250652025744517
+2025-04-02 22:56:17,539 - ERROR - QIID input box failed to accept 100 letters
+2025-04-02 22:56:17,978 - ERROR - QIID input box failed to accept a combination of letters, numbers, and special characters
+2025-04-02 22:56:17,982 - INFO - Verifying the input box functionality for Manufacturer Code
+2025-04-02 22:56:18,362 - INFO - Manufacturer Code input box accepted 100 random characters: _{YMHnyBH\IW#U&wcaYO-[8dM5:cm$r*sPh|C!u_|?kK$kB#!<HSYFW{H)}OOuiqOo?OdO`Svi.|35j1r#;S%$ya-f!cgc7?g@kd
+2025-04-02 22:56:18,667 - INFO - Manufacturer Code input box accepted 100 numbers: 3750554234373237320740042928518068648015068184779704166425489320116768352944518408603833985083539470
+2025-04-02 22:56:19,017 - INFO - Manufacturer Code input box accepted 100 letters: KPWCxZKRykfDGaLIwDWXvhovOARFjQNsxqORUTgxeIJooupycgfppmRUBfPApNLckTeOseSRUFRxBoFbKEzNhaXmEisraLeUiyBQ
+2025-04-02 22:56:19,382 - INFO - Manufacturer Code input box accepted a combination of letters, numbers, and special characters: .vA|dtthU~c@DC0;EHIJA'I+orR&v1dJD:<Z7AiPZG('{^T:T0IDziaj<&P-n-R<eQn]s(-aYKoq^|0a&NIE,,is{m#/FPoI"Yg2
+2025-04-02 22:56:19,387 - INFO - Verifying the input box functionality for Cloak Retry Count
+2025-04-02 22:56:19,790 - ERROR - Cloak Retry Count input box failed to accept 100 random characters
+2025-04-02 22:56:20,117 - INFO - Cloak Retry Count input box accepted 100 numbers: 5499787661053433454177093751111554313589378153176377479038115348190994876253531112680618554596535829
+2025-04-02 22:56:20,555 - ERROR - Cloak Retry Count input box failed to accept 100 letters
+2025-04-02 22:56:20,957 - ERROR - Cloak Retry Count input box failed to accept a combination of letters, numbers, and special characters
+2025-04-02 22:56:20,963 - INFO - Verifying the input box functionality for Maximum Power
+2025-04-02 22:56:21,349 - ERROR - Maximum Power input box failed to accept 100 random characters
+2025-04-02 22:56:21,716 - ERROR - Maximum Power input box failed to accept 100 numbers
+2025-04-02 22:56:22,104 - ERROR - Maximum Power input box failed to accept 100 letters
+2025-04-02 22:56:22,482 - ERROR - Maximum Power input box failed to accept a combination of letters, numbers, and special characters
+2025-04-02 22:56:22,488 - INFO - Verifying the checkbox functionality for OB Support
+2025-04-02 22:56:22,512 - INFO - OB Support checkbox is unchecked by default
+2025-04-02 22:56:22,599 - INFO - OB Support checkbox is now checked
+2025-04-02 22:56:22,674 - INFO - OB Support checkbox is now unchecked
+2025-04-02 22:56:22,678 - INFO - Verifying the checkbox functionality for Negotiation Support
+2025-04-02 22:56:22,699 - INFO - Negotiation Support checkbox is unchecked by default
+2025-04-02 22:56:22,774 - INFO - Negotiation Support checkbox is now checked
+2025-04-02 22:56:22,832 - INFO - Negotiation Support checkbox is now unchecked
+2025-04-02 22:56:22,837 - INFO - Verifying the checkbox functionality for XID Data Packet Support
+2025-04-02 22:56:22,860 - INFO - XID Data Packet Support checkbox is unchecked by default
+2025-04-02 22:56:22,940 - INFO - XID Data Packet Support checkbox is now checked
+2025-04-02 22:56:22,997 - INFO - XID Data Packet Support checkbox is now unchecked
+2025-04-02 22:56:23,001 - INFO - Verifying the checkbox functionality for Restricted Mode Support
+2025-04-02 22:56:23,025 - INFO - Restricted Mode Support checkbox is unchecked by default
+2025-04-02 22:56:23,096 - INFO - Restricted Mode Support checkbox is now checked
+2025-04-02 22:56:23,151 - INFO - Restricted Mode Support checkbox is now unchecked
+2025-04-02 22:56:23,155 - INFO - Verifying the checkbox functionality for Cloak Support
+2025-04-02 22:56:23,180 - INFO - Cloak Support checkbox is unchecked by default
+2025-04-02 22:56:23,246 - INFO - Cloak Support checkbox is now checked
+2025-04-02 22:56:23,296 - INFO - Cloak Support checkbox is now unchecked
+2025-04-02 22:56:23,302 - INFO - Verifying the checkbox functionality for Gain Linearization Support
+2025-04-02 22:56:23,319 - INFO - Gain Linearization Support checkbox is unchecked by default
+2025-04-02 22:56:23,391 - INFO - Gain Linearization Support checkbox is now checked
+2025-04-02 22:56:23,456 - INFO - Gain Linearization Support checkbox is now unchecked
+2025-04-02 22:56:23,460 - INFO - Verifying the checkbox functionality for Dup Support
+2025-04-02 22:56:23,485 - INFO - Dup Support checkbox is unchecked by default
+2025-04-02 22:56:23,558 - INFO - Dup Support checkbox is now checked
+2025-04-02 22:56:23,616 - INFO - Dup Support checkbox is now unchecked
+2025-04-02 22:56:23,620 - INFO - Verifying the checkbox functionality for WPID Support
+2025-04-02 22:56:23,642 - INFO - WPID Support checkbox is unchecked by default
+2025-04-02 22:56:23,708 - INFO - WPID Support checkbox is now checked
+2025-04-02 22:56:23,782 - INFO - WPID Support checkbox is now unchecked
+2025-04-02 22:56:23,787 - INFO - Verifying the checkbox functionality for PCH Data Packet Support
+2025-04-02 22:56:23,808 - INFO - PCH Data Packet Support checkbox is unchecked by default
+2025-04-02 22:56:23,874 - INFO - PCH Data Packet Support checkbox is now checked
+2025-04-02 22:56:23,932 - INFO - PCH Data Packet Support checkbox is now unchecked
+2025-04-02 22:56:23,937 - INFO - Verifying the checkbox functionality for Restricted To Full Mode
+2025-04-02 22:56:23,961 - INFO - Restricted To Full Mode checkbox is unchecked by default
+2025-04-02 22:56:24,023 - INFO - Restricted To Full Mode checkbox is now checked
+2025-04-02 22:56:24,081 - INFO - Restricted To Full Mode checkbox is now unchecked
+2025-04-02 22:56:24,085 - INFO - Verifying the checkbox functionality for Detect Ping Support
+2025-04-02 22:56:24,110 - INFO - Detect Ping Support checkbox is unchecked by default
+2025-04-02 22:56:24,174 - INFO - Detect Ping Support checkbox is now checked
+2025-04-02 22:56:24,233 - INFO - Detect Ping Support checkbox is now unchecked
+2025-04-02 22:56:24,237 - INFO - Verifying the checkbox functionality for HPM Ping Support
+2025-04-02 22:56:24,262 - INFO - HPM Ping Support checkbox is unchecked by default
+2025-04-02 22:56:24,338 - INFO - HPM Ping Support checkbox is now checked
+2025-04-02 22:56:24,396 - INFO - HPM Ping Support checkbox is now unchecked
+2025-04-02 22:56:24,400 - INFO - Verifying the checkbox functionality for Authentication Support
+2025-04-02 22:56:24,424 - INFO - Authentication Support checkbox is unchecked by default
+2025-04-02 22:56:24,494 - INFO - Authentication Support checkbox is now checked
+2025-04-02 22:56:24,548 - INFO - Authentication Support checkbox is now unchecked
+2025-04-02 22:56:24,553 - INFO - Verifying the dropdown functionality for Supported Specification
+2025-04-02 22:56:24,576 - ERROR - Supported Specification dropdown is not enabled
+2025-04-02 22:56:24,580 - INFO - Verifying the dropdown functionality for Power Profile
+2025-04-02 22:56:24,605 - ERROR - Power Profile dropdown is not enabled
+2025-04-02 22:56:24,609 - INFO - Verifying the dropdown functionality for Supported PROP Data Packets
+2025-04-02 22:56:24,706 - INFO - Available options in Supported PROP Data Packets:
+2025-04-02 22:56:24,820 - INFO - Verifying the dropdown functionality for Supported Protocols
+2025-04-02 22:56:24,892 - INFO - Available options in Supported Protocols:
+2025-04-02 22:56:24,994 - INFO - Verifying the dropdown functionality for Supported Cloak Reasons
+2025-04-02 22:56:25,076 - INFO - Available options in Supported Cloak Reasons:
+2025-04-02 22:56:25,180 - INFO - Verifying the dropdown functionality for Supported GetRequests
+2025-04-02 22:56:25,259 - INFO - Available options in Supported GetRequests:
+2025-04-02 22:56:25,345 - INFO - Tearing down the browser
+2025-04-02 22:56:29,014 - INFO - Opening browser using way1
+2025-04-02 22:56:40,829 - INFO - Checking if the browser is landing on the Connection Panel
+2025-04-02 22:56:40,849 - INFO - Connection button is available, so the browser is on the Connection Page
+2025-04-02 22:56:45,016 - INFO - Opening browser using way1
+2025-04-02 22:56:56,917 - INFO - Verify The browser title in the UI tab should contain the text GRL-C3-TPT.
+2025-04-02 22:56:56,945 - INFO - The browser title is GRL-C3-TPT
+2025-04-02 22:57:00,932 - INFO - Opening browser using way1
+2025-04-02 22:57:12,838 - INFO - Verifying the 'Scan Network' button is visible on the UI
+2025-04-02 22:57:12,865 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-02 22:57:12,866 - INFO - Verifying the 'Scan Network' button is clickable
+2025-04-02 22:57:12,877 - INFO - The 'Scan Network' button is clickable.
+2025-04-02 22:57:12,878 - INFO - Clicking the 'Scan Network' button
+2025-04-02 22:57:23,121 - WARNING - Could not confirm that the scan has started via button state: Message: 
+
+2025-04-02 22:57:23,122 - INFO - Scan button click registered. Proceeding without disabled state confirmation as the UI may not change the button's state.
+2025-04-02 22:57:23,127 - INFO - Scan completed in 10.25 seconds
+2025-04-02 22:57:23,285 - INFO - Screenshot of available networks taken.
+2025-04-02 22:57:26,805 - INFO - Opening browser using way1
+2025-04-02 22:57:37,273 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-02 22:57:37,274 - INFO - Clicking the 'Scan Network' button.
+2025-04-02 22:57:37,404 - INFO - The 'Connect' button is disabled during scanning as expected.
+2025-04-02 22:58:37,419 - INFO - Scanning process completed. The 'connection' button is visible again.
+2025-04-02 22:58:40,970 - INFO - Opening browser using way1
+2025-04-02 22:58:52,939 - INFO - Waiting for the Setup Diagram element to be visible
+2025-04-02 22:58:52,957 - INFO - Setup Diagram element is visible. Clicking it now.
+2025-04-02 22:58:53,032 - INFO - Waiting for the modal to display the expected text
+2025-04-02 22:58:53,067 - INFO - Modal displays the expected text: 'GRL-C3-TPT Setup Diagram'
+2025-04-02 22:58:53,261 - INFO - Screenshot of the Setup Diagram view taken after clicking OK.
+2025-04-02 22:58:53,262 - INFO - Waiting for the OK button to be clickable
+2025-04-02 22:58:53,289 - INFO - Clicking the OK button in the modal
+2025-04-02 22:58:53,348 - INFO - Modal dismissed; back to the Connection Panel.
+2025-04-02 22:58:56,885 - INFO - Opening browser using way1
+2025-04-02 22:59:08,883 - INFO - Opening application URL
+2025-04-02 22:59:10,294 - INFO - Initial tester status: Disconnected
+2025-04-02 22:59:10,423 - INFO - Entered wrong IP: 192.168.255.22
+2025-04-02 22:59:20,533 - INFO - Clicked on the Connect button.
+2025-04-02 22:59:25,546 - INFO - Tester status after clicking Connect: Invalid IP address format : 192.168.5.74192.168.255.22
+2025-04-02 22:59:25,546 - INFO - Expected error message is present: Invalid IP address format : 192.168.5.74192.168.255.22
+2025-04-02 22:59:27,848 - INFO - Starting test: Check for the Readme file
+2025-04-02 22:59:27,849 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-02 22:59:27,851 - INFO - File content verified: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-02 22:59:27,852 - INFO - Readme file verification passed.
+2025-04-02 22:59:27,853 - INFO - Starting test: Check for the Release Notes file
+2025-04-02 22:59:27,854 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\GRL-C3-TPT Release Notes.pdf
+2025-04-02 22:59:27,854 - INFO - Release Notes file verification passed.
+2025-04-02 22:59:27,856 - INFO - Starting test: Check for the Eload files
+2025-04-02 22:59:27,857 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\PPS_ELOAD.bin
+2025-04-02 22:59:27,857 - INFO - Eload file verification passed.
+2025-04-02 22:59:27,858 - INFO - Starting test: Check for the Firmware files
+2025-04-02 22:59:27,859 - INFO - Directory found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP
+2025-04-02 22:59:27,859 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\BOOT.BIN
+2025-04-02 22:59:27,860 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\image.ub
+2025-04-02 22:59:27,860 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\start.sh
+2025-04-02 22:59:27,861 - INFO - All firmware files are present.
+2025-04-02 22:59:27,861 - INFO - Firmware files verification passed.
+2025-04-02 22:59:29,090 - INFO - Opening browser using way1
+2025-04-02 22:59:39,549 - INFO - Checking if Help button is present
+2025-04-02 22:59:39,567 - INFO - Help button is present
+2025-04-02 22:59:42,258 - INFO - Starting test_TC2
+2025-04-02 22:59:43,490 - INFO - Opening browser using way1
+2025-04-02 22:59:53,800 - INFO - Clicking on Help button
+2025-04-02 22:59:53,955 - INFO - APP version matches expected version.
+2025-04-02 22:59:56,846 - INFO - Starting test_TC3
+2025-04-02 23:00:39,036 - INFO - Opening browser using way1
+2025-04-02 23:00:54,288 - INFO - Clicking on Help button
+2025-04-02 23:01:02,524 - INFO - Switched to new window: Knowledge Base | Create Support Ticket
+2025-04-02 23:01:02,527 - INFO - New page title: Knowledge Base | Create Support Ticket
+2025-04-02 23:01:04,886 - INFO - Starting test_TC4
+2025-04-02 23:01:06,126 - INFO - Opening browser using way1
+2025-04-02 23:01:23,163 - INFO - Checking if Email Support button is clickable
+2025-04-02 23:01:23,265 - INFO - Help tab clicked successfully.
+2025-04-02 23:01:23,310 - INFO - Email Support button located.
+2025-04-02 23:01:27,080 - INFO - Starting test_TC5
+2025-04-02 23:01:28,313 - INFO - Opening browser using way1
+2025-04-02 23:01:43,734 - INFO - Checking Downloads debug logs button working properly in Help Panel or not
+2025-04-02 23:01:43,847 - INFO - Help tab clicked successfully.
+2025-04-02 23:01:45,956 - INFO - Debug Logs button clicked successfully.
+2025-04-02 23:01:45,970 - INFO - Most recent file in download directory: C:\Users\GRL/Downloads\Debug_Log (2).txt
+2025-04-02 23:01:45,973 - INFO - Debug logs file renamed to Debug_Log_20250402_230145.txt.
+2025-04-02 23:01:45,974 - INFO - Debug logs match the reference log file.
+2025-04-02 23:01:50,555 - INFO - Opening browser using way1
+2025-04-02 23:02:00,912 - INFO - Step: Checking Report Button availability
+2025-04-02 23:02:00,934 - INFO - Report button is available.
+2025-04-02 23:02:01,033 - INFO - Clicked Report button.
+2025-04-02 23:02:03,038 - INFO - Step: Checking 'View Report' button availability
+2025-04-02 23:02:03,064 - INFO - View Report button is available.
+2025-04-02 23:02:03,068 - INFO - ====== Starting Download Current HTML Button Flow ======
+2025-04-02 23:02:03,070 - INFO - Step 1: Clicking Download Current HTML button
+2025-04-02 23:02:03,218 - INFO - Step 2: Waiting for popup OK and Cancel buttons
+2025-04-02 23:02:03,240 - INFO - Step 2 Result: Popup OK and Cancel buttons are available
+2025-04-02 23:02:03,241 - INFO - Step 3: Clicking Cancel
+2025-04-02 23:02:03,323 - INFO - Step 4: Verifying Download Current HTML button availability after Cancel
+2025-04-02 23:02:03,370 - INFO - Step 4 Result: Download Current HTML button is available after Cancel
+2025-04-02 23:02:03,370 - INFO - Step 5: Clicking Download Current HTML button again
+2025-04-02 23:02:03,464 - INFO - Step 6: Clicking OK in popup
+2025-04-02 23:02:03,524 - INFO - Step 7: Waiting for error popup to appear
+2025-04-02 23:02:04,602 - INFO - Step 8: Waiting for error popup to disappear (max 15 seconds)
+2025-04-02 23:02:09,173 - INFO - Step 9: Verifying Download Current HTML button availability after error popup
+2025-04-02 23:02:09,184 - INFO - ====== Completed Download Current HTML Button Flow Successfully ======
+2025-04-02 23:02:09,187 - INFO - ====== Starting Download Current BSUT Report Data Button Flow ======
+2025-04-02 23:02:09,188 - INFO - Step 1: Clicking Download Current BSUT Report Data button
+2025-04-02 23:02:09,318 - INFO - Step 2: Waiting for popup OK and Cancel buttons
+2025-04-02 23:02:09,342 - INFO - Step 2 Result: Popup OK and Cancel buttons are available
+2025-04-02 23:02:09,343 - INFO - Step 3: Clicking Cancel
+2025-04-02 23:02:09,400 - INFO - Step 4: Verifying Download Current BSUT Report Data button availability after Cancel
+2025-04-02 23:02:09,412 - INFO - Step 4 Result: Download Current BSUT Report Data button is available after Cancel
+2025-04-02 23:02:09,413 - INFO - Step 5: Clicking Download Current BSUT Report Data button again
+2025-04-02 23:02:09,513 - INFO - Step 6: Clicking OK in popup
+2025-04-02 23:02:09,605 - INFO - Step 7: Waiting for error popup to appear
+2025-04-02 23:02:09,663 - INFO - Step 8: Waiting for error popup to disappear (max 15 seconds)
+2025-04-02 23:02:15,293 - INFO - Step 9: Verifying Download Current BSUT Report Data button availability after error popup
+2025-04-02 23:02:15,302 - INFO - ====== Completed Download Current BSUT Report Data Button Flow Successfully ======
+2025-04-02 23:02:15,305 - INFO - ====== Starting Report Data Management Flow ======
+2025-04-02 23:02:15,306 - INFO - Step 1: Clicking Report Data Management button
+2025-04-02 23:02:15,417 - INFO - Step 2: Checking Delete Test Report button availability
+2025-04-02 23:02:15,470 - INFO - Step 3: Checking Test results folder size label
+2025-04-02 23:02:15,502 - INFO - Test results folder info: Test results folder size :0.00 MBs
+2025-04-02 23:02:15,503 - INFO - Step 4: Checking Delete Report button availability
+2025-04-02 23:02:15,522 - INFO - Step 5: Clicking Delete Report button
+2025-04-02 23:02:15,620 - INFO - Step 5.1: Checking OK and Cancel buttons in popup
+2025-04-02 23:02:15,654 - INFO - Step 5.2: Clicking Cancel on popup
+2025-04-02 23:02:15,735 - INFO - Step 6: Clicking Download Report button
+2025-04-02 23:02:15,821 - INFO - Step 6.1: Waiting for 10 seconds for download to process
+2025-04-02 23:02:25,823 - INFO - Step 7: Clicking Delete Test Report button (Re-fetching due to possible stale)
+2025-04-02 23:02:25,910 - INFO - Step 8: Checking Confirmation Text
+2025-04-02 23:02:26,871 - INFO - Confirmation popup text: Are you sure you want to permanently delete all 2 folders?
+2025-04-02 23:02:26,872 - INFO - Step 9: Checking OK and Cancel buttons in confirmation popup
+2025-04-02 23:02:27,180 - INFO - Step 9.1: Clicking Cancel on confirmation popup
+2025-04-02 23:02:27,688 - INFO - ====== Completed Report Data Management Flow Successfully ======
+2025-04-02 23:02:27,691 - INFO - ====== Starting Synthetic File Popup Dropdown Value Print ======
+2025-04-02 23:02:27,692 - INFO - Step 1: Clicking Synthetic File button
+2025-04-02 23:02:27,988 - INFO - Waiting for popup to be fully loaded...
+2025-04-02 23:02:28,004 - INFO - Step 3: Validating input box
+2025-04-02 23:02:28,160 - INFO - Typed and verified: 12345
+2025-04-02 23:02:28,271 - INFO - Typed and verified: abcDEF
+2025-04-02 23:02:28,366 - INFO - Typed and verified: !@#$%
+2025-04-02 23:02:28,456 - INFO - Typed and verified: abc123!@#
+2025-04-02 23:02:28,458 - INFO - Step 4: Toggling VC-Tx checkbox
+2025-04-02 23:02:28,563 - INFO - Checkbox clicked
+2025-04-02 23:02:28,622 - INFO - Step 5: Handling dropdown: File Source
+2025-04-02 23:02:29,164 - INFO - File Source dropdown options:
+2025-04-02 23:02:29,171 - INFO -     File Source --> External File
+2025-04-02 23:02:29,180 - INFO -     File Source --> TPT File
+2025-04-02 23:02:29,687 - INFO - Step 5: Handling dropdown: Test Mode
+2025-04-02 23:02:30,239 - INFO - Test Mode dropdown options:
+2025-04-02 23:02:30,253 - INFO -     Test Mode --> 128kHz
+2025-04-02 23:02:30,261 - INFO -     Test Mode --> 360kHz
+2025-04-02 23:02:30,772 - INFO - Step 5: Handling dropdown: Test Type
+2025-04-02 23:02:31,319 - INFO - Test Type dropdown options:
+2025-04-02 23:02:31,328 - INFO -     Test Type --> 4.14.Eye test
+2025-04-02 23:02:31,338 - INFO -     Test Type --> 4.15.Real test
+2025-04-02 23:02:31,855 - INFO - Step 5: Handling dropdown: Channel Type
+2025-04-02 23:02:32,409 - INFO - Channel Type dropdown options:
+2025-04-02 23:02:32,424 - INFO -     Channel Type --> Magnitude
+2025-04-02 23:02:32,441 - INFO -     Channel Type --> Phase
+2025-04-02 23:02:32,459 - INFO -     Channel Type --> Both
+2025-04-02 23:02:32,973 - INFO - ====== Completed Synthetic File Popup Dropdown Value Print Successfully ======
+2025-04-02 23:02:32,979 - INFO - ====== Test: Write Button + Error Popup + Return to Report Page ======
+2025-04-02 23:02:32,982 - INFO - ====== Starting Write Button Verification Flow ======
+2025-04-02 23:02:32,983 - INFO - Step 1: Checking Write button availability
+2025-04-02 23:02:33,131 - INFO - Write button is available and visible.
+2025-04-02 23:02:33,132 - INFO - Step 2: Checking Write button clickability
+2025-04-02 23:02:33,185 - INFO - Step 3: Clicking Write button
+2025-04-02 23:02:33,257 - INFO - Waiting 1.5 seconds to allow popup to render
+2025-04-02 23:02:38,259 - INFO - Step 4: Verifying Error popup
+2025-04-02 23:02:38,297 - INFO - Error popup appeared as expected
+2025-04-02 23:02:38,298 - INFO - Step 5: Clicking Close button on error popup
+2025-04-02 23:02:38,417 - INFO - Step 6: Verifying navigation back to Report page
+2025-04-02 23:02:38,448 - INFO - Successfully navigated back to Report page after closing the popup
+2025-04-02 23:02:38,449 - INFO - ====== Completed Write Button Verification Flow Successfully ======
+2025-04-04 13:16:23,925 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-04 13:16:23,989 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-04 13:16:26,089 - INFO - Opening browser using way1
+2025-04-04 13:16:28,817 - INFO - Popup detected. Clicking OK.
+2025-04-04 13:16:28,937 - INFO - Opening Qi Exerciser Panel
+2025-04-04 13:16:36,085 - INFO - Verifying the input box functionality for A0
+2025-04-04 13:16:36,472 - INFO - Verifying the input box functionality for A1
+2025-04-04 13:16:36,688 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-04-04 13:16:36,713 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-04-04 13:16:36,719 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-04-04 13:16:36,757 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-04-04 13:16:36,886 - INFO - Verifying the dropdown functionality for Coil Type
+2025-04-04 13:16:37,047 - INFO - Verifying the dropdown functionality for Demodulator
+2025-04-04 13:16:37,185 - INFO - Tearing down the browser
+2025-04-04 13:16:39,633 - INFO - Setting up the WebDriver
+2025-04-04 13:16:40,965 - INFO - Opening browser using way1
+2025-04-04 13:16:43,121 - INFO - Popup detected. Clicking OK.
+2025-04-04 13:16:43,262 - INFO - Verifying tester connection status
+2025-04-04 13:16:43,300 - INFO - Tester connection status: Disconnected
+2025-04-04 13:16:43,301 - WARNING - Tester did not connect successfully!
+2025-04-04 13:16:43,341 - INFO - Extracted Tester Status: Disconnected
+2025-04-04 13:16:43,374 - INFO - Extracted Serial Number: NA
+2025-04-04 13:16:43,407 - INFO - Extracted Firmware Version: NA
+2025-04-04 13:16:43,440 - INFO - Extracted Next Calibration Date: NA
+2025-04-04 13:16:43,472 - INFO - Extracted Tester IP Address: 192.168.255.1
+2025-04-04 13:16:43,505 - INFO - Extracted Port: NA
+2025-04-04 13:16:43,506 - INFO - Test execution completed.
+2025-04-04 13:16:43,518 - INFO - Page title: GRL-C3-TPT Software
+2025-04-04 13:16:43,527 - INFO - Page URL: http://localhost:2004/v3220126.html
+2025-04-04 13:16:43,528 - INFO - Clicking on Test Configuration
+2025-04-04 13:16:43,634 - INFO - Clicking on body of the UI to enable interactions
+2025-04-04 13:16:43,736 - INFO - Clicking on Edit SDF Button
+2025-04-04 13:16:43,981 - INFO - Entering Applicant Name
+2025-04-04 13:16:44,150 - INFO - Entering Product Name
+2025-04-04 13:16:44,280 - INFO - Clicking WPID Support Checkbox
+2025-04-04 13:16:46,390 - INFO - Clicking Update Button
+2025-04-04 13:16:51,514 - INFO - Clicking Export Button
+2025-04-04 13:16:53,239 - INFO - Page title: GRL-C3-TPT Software
+2025-04-04 13:16:53,250 - INFO - Page URL: http://localhost:2004/v3220126.html
+2025-04-04 13:16:53,251 - INFO - Locating PRx Compliance Tests MPP V2.0.1 checkbox
+2025-04-04 13:17:13,528 - ERROR - Tester is not having 2.2 license.
+2025-04-04 13:17:13,531 - INFO - Closing the WebDriver
+2025-04-04 13:17:15,771 - INFO - Setting up the browser
+2025-04-04 13:17:17,110 - INFO - Opening browser using way1
+2025-04-04 13:17:19,411 - INFO - Popup detected. Clicking OK.
+2025-04-04 13:17:19,511 - INFO - Opening Test Configuration Panel
+2025-04-04 13:17:21,648 - INFO - clicking on body of the UI to enble the UI
+2025-04-04 13:17:26,772 - INFO - Clicking on Edit SDF Button
+2025-04-04 13:17:39,422 - INFO - Opening browser using way1
+2025-04-04 13:17:48,441 - INFO - Popup detected. Clicking OK.
+2025-04-04 13:17:48,577 - INFO - Checking if the browser is landing on the Connection Panel
+2025-04-04 13:17:48,619 - INFO - Connection button is available, so the browser is on the Connection Page
+2025-04-04 13:17:52,195 - INFO - Opening browser using way1
+2025-04-04 13:18:01,284 - INFO - Popup detected. Clicking OK.
+2025-04-04 13:18:01,424 - INFO - Verify The browser title in the UI tab should contain the text GRL-C3-TPT.
+2025-04-04 13:18:01,469 - INFO - The browser title is GRL-C3-TPT
+2025-04-04 13:18:05,070 - INFO - Opening browser using way1
+2025-04-04 13:18:14,018 - INFO - Popup detected. Clicking OK.
+2025-04-04 13:18:14,216 - INFO - Verifying the 'Scan Network' button is visible on the UI
+2025-04-04 13:18:14,267 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-04 13:18:14,269 - INFO - Verifying the 'Scan Network' button is clickable
+2025-04-04 13:18:14,285 - INFO - The 'Scan Network' button is clickable.
+2025-04-04 13:18:14,286 - INFO - Clicking the 'Scan Network' button
+2025-04-04 13:18:25,195 - WARNING - Could not confirm that the scan has started via button state: Message: 
+
+2025-04-04 13:18:25,197 - INFO - Scan button click registered. Proceeding without disabled state confirmation as the UI may not change the button's state.
+2025-04-04 13:18:25,215 - INFO - Scan completed in 10.93 seconds
+2025-04-04 13:18:25,435 - INFO - Screenshot of available networks taken.
+2025-04-04 13:18:29,128 - INFO - Opening browser using way1
+2025-04-04 13:18:38,266 - INFO - Popup detected. Clicking OK.
+2025-04-04 13:18:38,446 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-04 13:18:38,447 - INFO - Clicking the 'Scan Network' button.
+2025-04-04 13:18:39,186 - ERROR - The 'Connect' button is not disabled during scanning.
+2025-04-04 13:18:43,791 - INFO - Opening browser using way1
+2025-04-04 13:18:53,325 - INFO - Popup detected. Clicking OK.
+2025-04-04 13:18:53,462 - INFO - Waiting for the Setup Diagram element to be visible
+2025-04-04 13:18:53,507 - INFO - Setup Diagram element is visible. Clicking it now.
+2025-04-04 13:18:54,117 - INFO - Waiting for the modal to display the expected text
+2025-04-04 13:18:54,212 - INFO - Modal displays the expected text: 'GRL-C3-TPT Setup Diagram'
+2025-04-04 13:18:54,578 - INFO - Screenshot of the Setup Diagram view taken after clicking OK.
+2025-04-04 13:18:54,579 - INFO - Waiting for the OK button to be clickable
+2025-04-04 13:18:54,625 - INFO - Clicking the OK button in the modal
+2025-04-04 13:18:54,749 - INFO - Modal dismissed; back to the Connection Panel.
+2025-04-04 13:18:58,540 - INFO - Opening browser using way1
+2025-04-04 13:19:07,699 - INFO - Popup detected. Clicking OK.
+2025-04-04 13:19:07,840 - INFO - Opening application URL
+2025-04-04 13:19:09,763 - INFO - Initial tester status: Disconnected
+2025-04-04 13:19:10,083 - INFO - Entered wrong IP: 192.168.255.22
+2025-04-04 13:19:41,815 - INFO - Starting test: Check for the Readme file
+2025-04-04 13:19:41,817 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-04 13:19:41,824 - INFO - File content verified: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-04 13:19:41,825 - INFO - Readme file verification passed.
+2025-04-04 13:19:41,831 - INFO - Starting test: Check for the Release Notes file
+2025-04-04 13:19:41,834 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\GRL-C3-TPT Release Notes.pdf
+2025-04-04 13:19:41,836 - INFO - Release Notes file verification passed.
+2025-04-04 13:19:41,846 - INFO - Starting test: Check for the Eload files
+2025-04-04 13:19:41,848 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\PPS_ELOAD.bin
+2025-04-04 13:19:41,849 - INFO - Eload file verification passed.
+2025-04-04 13:19:41,860 - INFO - Starting test: Check for the Firmware files
+2025-04-04 13:19:41,863 - INFO - Directory found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP
+2025-04-04 13:19:41,864 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\BOOT.BIN
+2025-04-04 13:19:41,864 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\image.ub
+2025-04-04 13:19:41,865 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\start.sh
+2025-04-04 13:19:41,866 - INFO - All firmware files are present.
+2025-04-04 13:19:41,867 - INFO - Firmware files verification passed.
+2025-04-04 13:19:43,342 - INFO - Opening browser using way1
+2025-04-04 13:19:46,048 - INFO - Popup detected. Clicking OK.
+2025-04-04 13:19:46,180 - INFO - Checking if Help button is present
+2025-04-04 13:19:46,224 - INFO - Help button is present
+2025-04-04 13:19:48,401 - INFO - Starting test_TC2
+2025-04-04 13:19:49,844 - INFO - Opening browser using way1
+2025-04-04 13:19:52,993 - INFO - Popup detected. Clicking OK.
+2025-04-04 13:19:53,124 - INFO - Clicking on Help button
+2025-04-04 13:19:53,313 - INFO - APP version matches expected version.
+2025-04-04 13:19:55,480 - INFO - Starting test_TC3
+2025-04-04 13:19:56,867 - INFO - Opening browser using way1
+2025-04-04 13:19:59,502 - INFO - Popup detected. Clicking OK.
+2025-04-04 13:20:04,625 - INFO - Clicking on Help button
+2025-04-04 13:20:19,289 - INFO - Starting test_TC4
+2025-04-04 13:20:20,814 - INFO - Opening browser using way1
+2025-04-04 13:20:23,927 - INFO - Popup detected. Clicking OK.
+2025-04-04 13:20:29,082 - INFO - Checking if Email Support button is clickable
+2025-04-04 13:20:29,278 - INFO - Help tab clicked successfully.
+2025-04-04 13:20:29,345 - INFO - Email Support button located.
+2025-04-04 13:20:31,606 - INFO - Starting test_TC5
+2025-04-04 13:20:33,059 - INFO - Opening browser using way1
+2025-04-04 13:20:36,277 - INFO - Popup detected. Clicking OK.
+2025-04-04 13:20:41,430 - INFO - Checking Downloads debug logs button working properly in Help Panel or not
+2025-04-04 13:20:41,659 - INFO - Help tab clicked successfully.
+2025-04-04 13:20:43,892 - INFO - Debug Logs button clicked successfully.
+2025-04-04 13:20:43,930 - INFO - Most recent file in download directory: C:\Users\GRL/Downloads\Debug_Log (2).txt
+2025-04-04 13:20:43,932 - INFO - Debug logs file renamed to Debug_Log_20250404_132043.txt.
+2025-04-04 13:20:43,936 - ERROR - Debug logs do not match the reference log file.
+2025-04-04 13:20:47,998 - INFO - Opening browser using way1
+2025-04-04 13:20:51,036 - INFO - Popup detected. Clicking OK.
+2025-04-04 13:20:51,186 - INFO - Step: Checking Report Button availability
+2025-04-04 13:20:51,232 - INFO - Report button is available.
+2025-04-04 13:20:51,377 - INFO - Clicked Report button.
+2025-04-04 13:20:53,391 - INFO - Step: Checking 'View Report' button availability
+2025-04-04 13:20:53,431 - INFO - View Report button is available.
+2025-04-04 13:20:53,442 - INFO - ====== Starting Download Current HTML Button Flow ======
+2025-04-04 13:20:53,446 - INFO - Step 1: Clicking Download Current HTML button
+2025-04-04 13:20:53,662 - INFO - Step 2: Waiting for popup OK and Cancel buttons
+2025-04-04 13:20:53,712 - INFO - Step 2 Result: Popup OK and Cancel buttons are available
+2025-04-04 13:20:53,714 - INFO - Step 3: Clicking Cancel
+2025-04-04 13:20:53,849 - INFO - Step 4: Verifying Download Current HTML button availability after Cancel
+2025-04-04 13:20:53,877 - INFO - Step 4 Result: Download Current HTML button is available after Cancel
+2025-04-04 13:20:53,878 - INFO - Step 5: Clicking Download Current HTML button again
+2025-04-04 13:20:54,040 - INFO - Step 6: Clicking OK in popup
+2025-04-04 13:20:54,191 - INFO - Step 7: Waiting for error popup to appear
+2025-04-04 13:20:55,330 - INFO - Step 8: Waiting for error popup to disappear (max 15 seconds)
+2025-04-04 13:21:00,027 - INFO - Step 9: Verifying Download Current HTML button availability after error popup
+2025-04-04 13:21:00,079 - INFO - ====== Completed Download Current HTML Button Flow Successfully ======
+2025-04-04 13:21:00,090 - INFO - ====== Starting Download Current BSUT Report Data Button Flow ======
+2025-04-04 13:21:00,092 - INFO - Step 1: Clicking Download Current BSUT Report Data button
+2025-04-04 13:21:01,327 - ERROR - Download Current BSUT Report Data flow failed: Message: element click intercepted: Element <button type="button" id="report_toolbar_dwonload_dut_button" class="grl-button btn-primary refresh-btn btn btn-primary">...</button> is not clickable at point (566, 86). Other element would receive the click: <strong>...</strong>
+  (Session info: chrome=134.0.6998.179)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A9094C25+3179557]
+	(No symbol) [0x00007FF6A8CF88A0]
+	(No symbol) [0x00007FF6A8B891CA]
+	(No symbol) [0x00007FF6A8BE7929]
+	(No symbol) [0x00007FF6A8BE52E2]
+	(No symbol) [0x00007FF6A8BE2381]
+	(No symbol) [0x00007FF6A8BE1281]
+	(No symbol) [0x00007FF6A8BD2A24]
+	(No symbol) [0x00007FF6A8C07C2A]
+	(No symbol) [0x00007FF6A8BD22D6]
+	(No symbol) [0x00007FF6A8C07E40]
+	(No symbol) [0x00007FF6A8C302F3]
+	(No symbol) [0x00007FF6A8C07A03]
+	(No symbol) [0x00007FF6A8BD06D0]
+	(No symbol) [0x00007FF6A8BD1983]
+	GetHandleVerifier [0x00007FF6A90F67CD+3579853]
+	GetHandleVerifier [0x00007FF6A910D1D2+3672530]
+	GetHandleVerifier [0x00007FF6A9102153+3627347]
+	GetHandleVerifier [0x00007FF6A8E6092A+868650]
+	(No symbol) [0x00007FF6A8D02FFF]
+	(No symbol) [0x00007FF6A8CFF4A4]
+	(No symbol) [0x00007FF6A8CFF646]
+	(No symbol) [0x00007FF6A8CEEAA9]
+	BaseThreadInitThunk [0x00007FF85A3353E0+16]
+	RtlUserThreadStart [0x00007FF85BD6485B+43]
+
+2025-04-04 13:21:01,701 - INFO - Screenshot saved for debugging.
+2025-04-04 13:21:14,214 - INFO - ====== Starting Report Data Management Flow ======
+2025-04-04 13:21:14,220 - INFO - Step 1: Clicking Report Data Management button
+2025-04-04 13:21:15,462 - ERROR - Report Data Management flow failed: Message: element click intercepted: Element <button type="button" id="report_toolbar_settings_button" class="grl-button btn-primary refresh-btn btn btn-primary">...</button> is not clickable at point (767, 86). Other element would receive the click: <div style="box-sizing: border-box; min-width: 0px; min-height: 0px; display: flex; flex-flow: row; flex: 0 1 auto;">...</div>
+  (Session info: chrome=134.0.6998.179)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A9094C25+3179557]
+	(No symbol) [0x00007FF6A8CF88A0]
+	(No symbol) [0x00007FF6A8B891CA]
+	(No symbol) [0x00007FF6A8BE7929]
+	(No symbol) [0x00007FF6A8BE52E2]
+	(No symbol) [0x00007FF6A8BE2381]
+	(No symbol) [0x00007FF6A8BE1281]
+	(No symbol) [0x00007FF6A8BD2A24]
+	(No symbol) [0x00007FF6A8C07C2A]
+	(No symbol) [0x00007FF6A8BD22D6]
+	(No symbol) [0x00007FF6A8C07E40]
+	(No symbol) [0x00007FF6A8C302F3]
+	(No symbol) [0x00007FF6A8C07A03]
+	(No symbol) [0x00007FF6A8BD06D0]
+	(No symbol) [0x00007FF6A8BD1983]
+	GetHandleVerifier [0x00007FF6A90F67CD+3579853]
+	GetHandleVerifier [0x00007FF6A910D1D2+3672530]
+	GetHandleVerifier [0x00007FF6A9102153+3627347]
+	GetHandleVerifier [0x00007FF6A8E6092A+868650]
+	(No symbol) [0x00007FF6A8D02FFF]
+	(No symbol) [0x00007FF6A8CFF4A4]
+	(No symbol) [0x00007FF6A8CFF646]
+	(No symbol) [0x00007FF6A8CEEAA9]
+	BaseThreadInitThunk [0x00007FF85A3353E0+16]
+	RtlUserThreadStart [0x00007FF85BD6485B+43]
+
+2025-04-04 13:21:15,962 - INFO - ====== Starting Synthetic File Popup Dropdown Value Print ======
+2025-04-04 13:21:15,965 - INFO - Step 1: Clicking Synthetic File button
+2025-04-04 13:21:17,139 - ERROR - Synthetic File Popup Dropdown Print Failed: Message: element click intercepted: Element <button type="button" id="report_toolbar_settings_button" class="grl-button btn-primary refresh-btn btn btn-primary">...</button> is not clickable at point (898, 86). Other element would receive the click: <div style="box-sizing: border-box; min-width: 0px; min-height: 0px; display: flex; flex-flow: row; flex: 0 1 auto;">...</div>
+  (Session info: chrome=134.0.6998.179)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A9094C25+3179557]
+	(No symbol) [0x00007FF6A8CF88A0]
+	(No symbol) [0x00007FF6A8B891CA]
+	(No symbol) [0x00007FF6A8BE7929]
+	(No symbol) [0x00007FF6A8BE52E2]
+	(No symbol) [0x00007FF6A8BE2381]
+	(No symbol) [0x00007FF6A8BE1281]
+	(No symbol) [0x00007FF6A8BD2A24]
+	(No symbol) [0x00007FF6A8C07C2A]
+	(No symbol) [0x00007FF6A8BD22D6]
+	(No symbol) [0x00007FF6A8C07E40]
+	(No symbol) [0x00007FF6A8C302F3]
+	(No symbol) [0x00007FF6A8C07A03]
+	(No symbol) [0x00007FF6A8BD06D0]
+	(No symbol) [0x00007FF6A8BD1983]
+	GetHandleVerifier [0x00007FF6A90F67CD+3579853]
+	GetHandleVerifier [0x00007FF6A910D1D2+3672530]
+	GetHandleVerifier [0x00007FF6A9102153+3627347]
+	GetHandleVerifier [0x00007FF6A8E6092A+868650]
+	(No symbol) [0x00007FF6A8D02FFF]
+	(No symbol) [0x00007FF6A8CFF4A4]
+	(No symbol) [0x00007FF6A8CFF646]
+	(No symbol) [0x00007FF6A8CEEAA9]
+	BaseThreadInitThunk [0x00007FF85A3353E0+16]
+	RtlUserThreadStart [0x00007FF85BD6485B+43]
+
+2025-04-04 13:21:17,715 - INFO - ====== Test: Write Button + Error Popup + Return to Report Page ======
+2025-04-04 13:21:17,722 - INFO - ====== Starting Write Button Verification Flow ======
+2025-04-04 13:21:17,723 - INFO - Step 1: Checking Write button availability
+2025-04-04 13:21:38,107 - ERROR - Write button flow failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A9094C25+3179557]
+	(No symbol) [0x00007FF6A8CF88A0]
+	(No symbol) [0x00007FF6A8B891CA]
+	(No symbol) [0x00007FF6A8BDFA67]
+	(No symbol) [0x00007FF6A8BDFC9C]
+	(No symbol) [0x00007FF6A8C33627]
+	(No symbol) [0x00007FF6A8C07C6F]
+	(No symbol) [0x00007FF6A8C302F3]
+	(No symbol) [0x00007FF6A8C07A03]
+	(No symbol) [0x00007FF6A8BD06D0]
+	(No symbol) [0x00007FF6A8BD1983]
+	GetHandleVerifier [0x00007FF6A90F67CD+3579853]
+	GetHandleVerifier [0x00007FF6A910D1D2+3672530]
+	GetHandleVerifier [0x00007FF6A9102153+3627347]
+	GetHandleVerifier [0x00007FF6A8E6092A+868650]
+	(No symbol) [0x00007FF6A8D02FFF]
+	(No symbol) [0x00007FF6A8CFF4A4]
+	(No symbol) [0x00007FF6A8CFF646]
+	(No symbol) [0x00007FF6A8CEEAA9]
+	BaseThreadInitThunk [0x00007FF85A3353E0+16]
+	RtlUserThreadStart [0x00007FF85BD6485B+43]
+
+2025-04-04 13:26:25,381 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-04 13:26:25,434 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-04 13:26:26,787 - INFO - Opening browser using way1
+2025-04-04 13:26:37,152 - INFO - Opening Qi Exerciser Panel
+2025-04-04 13:26:44,301 - INFO - Verifying the input box functionality for A0
+2025-04-04 13:26:44,864 - ERROR - A0 input box failed to accept 100 random characters
+2025-04-04 13:26:45,231 - ERROR - A0 input box failed to accept 100 numbers
+2025-04-04 13:26:45,653 - ERROR - A0 input box failed to accept 100 letters
+2025-04-04 13:26:46,049 - ERROR - A0 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-04 13:26:46,057 - INFO - Verifying the input box functionality for A1
+2025-04-04 13:26:46,420 - ERROR - A1 input box failed to accept 100 random characters
+2025-04-04 13:26:46,749 - ERROR - A1 input box failed to accept 100 numbers
+2025-04-04 13:26:47,090 - ERROR - A1 input box failed to accept 100 letters
+2025-04-04 13:26:47,434 - ERROR - A1 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-04 13:26:47,492 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-04-04 13:26:47,514 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-04-04 13:26:47,521 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-04-04 13:26:47,555 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-04-04 13:26:47,664 - INFO - Q Factor Measurement Checkbox checkbox is now checked
+2025-04-04 13:26:47,751 - INFO - Q Factor Measurement Checkbox checkbox is now unchecked
+2025-04-04 13:26:47,757 - INFO - Verifying the dropdown functionality for Coil Type
+2025-04-04 13:26:47,929 - INFO - Available options in Coil Type:
+2025-04-04 13:26:48,120 - INFO - Verifying the dropdown functionality for Demodulator
+2025-04-04 13:26:48,267 - INFO - Available options in Demodulator:
+2025-04-04 13:26:48,463 - INFO - Tearing down the browser
+2025-04-04 13:26:50,743 - INFO - Setting up the WebDriver
+2025-04-04 13:26:52,079 - INFO - Opening browser using way1
+2025-04-04 13:27:02,284 - INFO - Verifying tester connection status
+2025-04-04 13:27:02,328 - INFO - Tester connection status: Connected
+2025-04-04 13:27:02,329 - INFO - Tester connected successfully.
+2025-04-04 13:27:02,382 - INFO - Extracted Tester Status: Connected
+2025-04-04 13:27:02,439 - INFO - Extracted Serial Number: GRL-C3-MP-2023006
+2025-04-04 13:27:02,488 - INFO - Extracted Firmware Version: 5.0.1.33 / 1.9
+2025-04-04 13:27:02,534 - INFO - Extracted Next Calibration Date: Thursday, May 22, 2025
+2025-04-04 13:27:02,579 - INFO - Extracted Tester IP Address: 192.168.5.74
+2025-04-04 13:27:02,621 - INFO - Extracted Port: 5002
+2025-04-04 13:27:02,622 - INFO - Test execution completed.
+2025-04-04 13:27:02,635 - INFO - Page title: GRL-C3-TPT Software
+2025-04-04 13:27:02,650 - INFO - Page URL: http://localhost:2004/v3220126.html
+2025-04-04 13:27:02,651 - INFO - Clicking on Test Configuration
+2025-04-04 13:27:02,812 - INFO - Clicking on body of the UI to enable interactions
+2025-04-04 13:27:02,950 - INFO - Clicking on Edit SDF Button
+2025-04-04 13:27:03,292 - INFO - Entering Applicant Name
+2025-04-04 13:27:03,515 - INFO - Entering Product Name
+2025-04-04 13:27:03,700 - INFO - Clicking WPID Support Checkbox
+2025-04-04 13:27:05,858 - INFO - Clicking Update Button
+2025-04-04 13:27:10,982 - INFO - Clicking Export Button
+2025-04-04 13:27:16,169 - INFO - Waiting for JSON file to download
+2025-04-04 13:27:16,173 - INFO - Downloaded file renamed to: SDF_Export_20250404_132716.json
+2025-04-04 13:27:23,444 - INFO - Uploading downloaded JSON file
+2025-04-04 13:27:23,446 - INFO - C:\Users\GRL\Downloads\SDF_Export_20250404_132716.json
+2025-04-04 13:27:23,515 - INFO - File uploaded: C:\Users\GRL\Downloads\SDF_Export_20250404_132716.json
+2025-04-04 13:27:28,517 - INFO - Waiting for 'Create Project' button to be clickable
+2025-04-04 13:27:28,767 - INFO - Clicked on 'Create Project' successfully
+2025-04-04 13:27:33,769 - INFO - Validating Product Name after upload
+2025-04-04 13:27:33,860 - INFO - Page title: GRL-C3-TPT Software
+2025-04-04 13:27:33,874 - INFO - Page URL: http://localhost:2004/v3220126.html
+2025-04-04 13:27:33,875 - INFO - Locating PRx Compliance Tests MPP V2.0.1 checkbox
+2025-04-04 13:27:33,931 - INFO - Checkbox is not selected. Selecting it now...
+2025-04-04 13:27:36,090 - INFO - Selected Tests: 141/141
+2025-04-04 13:27:36,091 - INFO - Test case selection count matches the expected value.
+2025-04-04 13:27:36,094 - INFO - Closing the WebDriver
+2025-04-04 13:27:38,403 - INFO - Setting up the browser
+2025-04-04 13:27:39,708 - INFO - Opening browser using way1
+2025-04-04 13:27:50,199 - INFO - Opening Test Configuration Panel
+2025-04-04 13:27:52,355 - INFO - clicking on body of the UI to enble the UI
+2025-04-04 13:27:57,516 - INFO - Clicking on Edit SDF Button
+2025-04-04 13:27:57,748 - INFO - Verifying the input box functionality for Product Name
+2025-04-04 13:27:58,335 - INFO - Product Name input box accepted 100 random characters: X@~wpB|C3rWxs3_(x#$!R.%PBmBwHd<Dc`a?M{v<&L(BE8*p%Ra.)~9Rbc590T\"`G0W~?MF[D*!]=lN?o[|<p)IFgd4U2+(*#0_
+2025-04-04 13:27:58,705 - INFO - Product Name input box accepted 100 numbers: 0948380759739428091524237120668919160815893209723308358893710311267767543926132744882772547849763611
+2025-04-04 13:27:59,091 - INFO - Product Name input box accepted 100 letters: iHWlYbkmhKJKtqzxGxcIRVVevaIZykXFVEaTvGhRGcUbkvzbWMAswELatoEdRlXQbhpOYocQOsQmzzpqYIfFxiowwHAltEjUEaiG
+2025-04-04 13:27:59,506 - INFO - Product Name input box accepted a combination of letters, numbers, and special characters: vh\fuxD4>7\J:*JUS"7*SO#/"PR3'G=YW)L72tV1\CS+\@Ja!wM=P=5^*%ofBH<tX!_]{qyC6^#s@$]5q`}b!9z$M=D.;dU)e!VB
+2025-04-04 13:27:59,513 - INFO - Verifying the input box functionality for Applicant Name
+2025-04-04 13:27:59,905 - INFO - Applicant Name input box accepted 100 random characters: (-j&\,aC91.#u++$_c;ePfhkP={{1hspF2WxGz1M$-_NTw.NWYWctR*HwH`"#$JhEj/4j}A*R39Xwk;pZ_*KDn'3c0v]l=8H8@@7
+2025-04-04 13:28:00,348 - INFO - Applicant Name input box accepted 100 numbers: 3679895218038804701606131415945288035974829166387403678359515701135210975219463206294132494081156618
+2025-04-04 13:28:01,203 - INFO - Applicant Name input box accepted 100 letters: WEoaTWkfFfaFXEhzfFsFWvnIjCYKxsJwqjCspXuGobEcUysDvmpVPRSUFCHFwFWEdwYxpXrFPxcWNBMHhumDoGnmKwfDGidxtfRS
+2025-04-04 13:28:02,036 - INFO - Applicant Name input box accepted a combination of letters, numbers, and special characters: xL0;RJ;IH[8;f%sYM}7"X;`@N5(1_C^;_6pl5./+6=0UL;_!i!Xu\9}eG}c)^95[zA0L8~P&ZLm3[BKKX1:&x-L(v0^9)DK)yLqX
+2025-04-04 13:28:02,044 - INFO - Verifying the input box functionality for Part Number
+2025-04-04 13:28:02,883 - INFO - Part Number input box accepted 100 random characters: `mPyeIZ9[L$+QROfe#R:3;D1D|yP9xvo-Yn~!4_0PE0J]S1t7\IqY82;o*FZ{&1|\mcq;1Fo[+]2iC@wwBgXRSfj6L)CX~Mz/Ss#
+2025-04-04 13:28:03,727 - INFO - Part Number input box accepted 100 numbers: 1836140384956654698348636040336430756353447996967972585196500244297031670828600384175892792351767975
+2025-04-04 13:28:04,539 - INFO - Part Number input box accepted 100 letters: xQeyYxKQVYHioeVNUxqZdRjTTyywSTnugzIrXkYrFOyxVkftwRKcguMtszPDlsVsVTdFUxXavsIWMHbiMtPSIWLqsajDfhxyMazt
+2025-04-04 13:28:05,357 - INFO - Part Number input box accepted a combination of letters, numbers, and special characters: F'InT+]"l/8M(tYzxqKwO~{+jm}l*fXhL>y'kXt?p>;16f:j(}[569tz|I4hCBXO]+KzSg[y%+PB.k%gsrQ1p\GR{|{XM_a+z9RG
+2025-04-04 13:28:05,363 - INFO - Verifying the input box functionality for QIID
+2025-04-04 13:28:06,231 - ERROR - QIID input box failed to accept 100 random characters
+2025-04-04 13:28:07,038 - INFO - QIID input box accepted 100 numbers: 5986408916473750665758217286852105657964045071029106051803524099991300953357694212357471612097395520
+2025-04-04 13:28:08,035 - ERROR - QIID input box failed to accept 100 letters
+2025-04-04 13:28:08,953 - ERROR - QIID input box failed to accept a combination of letters, numbers, and special characters
+2025-04-04 13:28:08,961 - INFO - Verifying the input box functionality for Manufacturer Code
+2025-04-04 13:28:09,752 - INFO - Manufacturer Code input box accepted 100 random characters: +Os"FPBZE(FE)p`VuoyrPoLFU.j(Kak>0C|0(kWa,^b}2fDg4_0\k"bxTW_){Jo]8W,%/~a2KB6cET7e@d\CEQ2`z'B!h%|ZpuF~
+2025-04-04 13:28:10,505 - INFO - Manufacturer Code input box accepted 100 numbers: 3422830589965005306135613367211766515403772196449433263123916957629571505865013932241431045313776821
+2025-04-04 13:28:11,304 - INFO - Manufacturer Code input box accepted 100 letters: vnXMhaXQpehmxbQlSNVZbZFUHesHNjxgGKxkINsErDVGmgHbxRiegxRXAcAHupKHGwwFTSPyRLMVgHzIgIJcaNumpFhXrmmoxvgy
+2025-04-04 13:28:12,137 - INFO - Manufacturer Code input box accepted a combination of letters, numbers, and special characters: v[=T[\8+9dS#m?,Hl'qZY+r~mS!5BCbayS+q_(Ecg1:"FFz3&==TW:I7CZ;=q@i{>H|%zSLoXgdYzSh8^RdSdUqdlF3X-W8Sd,b8
+2025-04-04 13:28:12,143 - INFO - Verifying the input box functionality for Cloak Retry Count
+2025-04-04 13:28:13,005 - ERROR - Cloak Retry Count input box failed to accept 100 random characters
+2025-04-04 13:28:13,823 - INFO - Cloak Retry Count input box accepted 100 numbers: 8746133070178373842409647102381999330116170806615570538040511245586015660173908486235103232537096755
+2025-04-04 13:28:14,735 - ERROR - Cloak Retry Count input box failed to accept 100 letters
+2025-04-04 13:28:15,628 - ERROR - Cloak Retry Count input box failed to accept a combination of letters, numbers, and special characters
+2025-04-04 13:28:15,634 - INFO - Verifying the input box functionality for Maximum Power
+2025-04-04 13:28:16,536 - ERROR - Maximum Power input box failed to accept 100 random characters
+2025-04-04 13:28:17,370 - ERROR - Maximum Power input box failed to accept 100 numbers
+2025-04-04 13:28:18,237 - ERROR - Maximum Power input box failed to accept 100 letters
+2025-04-04 13:28:19,162 - ERROR - Maximum Power input box failed to accept a combination of letters, numbers, and special characters
+2025-04-04 13:28:19,168 - INFO - Verifying the checkbox functionality for OB Support
+2025-04-04 13:28:19,261 - INFO - OB Support checkbox is unchecked by default
+2025-04-04 13:28:19,451 - INFO - OB Support checkbox is now checked
+2025-04-04 13:28:19,620 - INFO - OB Support checkbox is now unchecked
+2025-04-04 13:28:19,629 - INFO - Verifying the checkbox functionality for Negotiation Support
+2025-04-04 13:28:19,679 - INFO - Negotiation Support checkbox is unchecked by default
+2025-04-04 13:28:19,840 - INFO - Negotiation Support checkbox is now checked
+2025-04-04 13:28:19,974 - INFO - Negotiation Support checkbox is now unchecked
+2025-04-04 13:28:19,982 - INFO - Verifying the checkbox functionality for XID Data Packet Support
+2025-04-04 13:28:20,035 - INFO - XID Data Packet Support checkbox is unchecked by default
+2025-04-04 13:28:20,193 - INFO - XID Data Packet Support checkbox is now checked
+2025-04-04 13:28:20,344 - INFO - XID Data Packet Support checkbox is now unchecked
+2025-04-04 13:28:20,350 - INFO - Verifying the checkbox functionality for Restricted Mode Support
+2025-04-04 13:28:20,395 - INFO - Restricted Mode Support checkbox is unchecked by default
+2025-04-04 13:28:20,562 - INFO - Restricted Mode Support checkbox is now checked
+2025-04-04 13:28:20,706 - INFO - Restricted Mode Support checkbox is now unchecked
+2025-04-04 13:28:20,713 - INFO - Verifying the checkbox functionality for Cloak Support
+2025-04-04 13:28:20,758 - INFO - Cloak Support checkbox is unchecked by default
+2025-04-04 13:28:20,909 - INFO - Cloak Support checkbox is now checked
+2025-04-04 13:28:21,041 - INFO - Cloak Support checkbox is now unchecked
+2025-04-04 13:28:21,048 - INFO - Verifying the checkbox functionality for Gain Linearization Support
+2025-04-04 13:28:21,091 - INFO - Gain Linearization Support checkbox is unchecked by default
+2025-04-04 13:28:21,243 - INFO - Gain Linearization Support checkbox is now checked
+2025-04-04 13:28:21,380 - INFO - Gain Linearization Support checkbox is now unchecked
+2025-04-04 13:28:21,387 - INFO - Verifying the checkbox functionality for Dup Support
+2025-04-04 13:28:21,435 - INFO - Dup Support checkbox is unchecked by default
+2025-04-04 13:28:21,582 - INFO - Dup Support checkbox is now checked
+2025-04-04 13:28:21,717 - INFO - Dup Support checkbox is now unchecked
+2025-04-04 13:28:21,723 - INFO - Verifying the checkbox functionality for WPID Support
+2025-04-04 13:28:21,771 - INFO - WPID Support checkbox is unchecked by default
+2025-04-04 13:28:21,917 - INFO - WPID Support checkbox is now checked
+2025-04-04 13:28:22,066 - INFO - WPID Support checkbox is now unchecked
+2025-04-04 13:28:22,071 - INFO - Verifying the checkbox functionality for PCH Data Packet Support
+2025-04-04 13:28:22,119 - INFO - PCH Data Packet Support checkbox is unchecked by default
+2025-04-04 13:28:22,278 - INFO - PCH Data Packet Support checkbox is now checked
+2025-04-04 13:28:22,415 - INFO - PCH Data Packet Support checkbox is now unchecked
+2025-04-04 13:28:22,421 - INFO - Verifying the checkbox functionality for Restricted To Full Mode
+2025-04-04 13:28:22,472 - INFO - Restricted To Full Mode checkbox is unchecked by default
+2025-04-04 13:28:22,627 - INFO - Restricted To Full Mode checkbox is now checked
+2025-04-04 13:28:22,762 - INFO - Restricted To Full Mode checkbox is now unchecked
+2025-04-04 13:28:22,768 - INFO - Verifying the checkbox functionality for Detect Ping Support
+2025-04-04 13:28:22,819 - INFO - Detect Ping Support checkbox is unchecked by default
+2025-04-04 13:28:22,979 - INFO - Detect Ping Support checkbox is now checked
+2025-04-04 13:28:23,136 - INFO - Detect Ping Support checkbox is now unchecked
+2025-04-04 13:28:23,143 - INFO - Verifying the checkbox functionality for HPM Ping Support
+2025-04-04 13:28:23,189 - INFO - HPM Ping Support checkbox is unchecked by default
+2025-04-04 13:28:23,343 - INFO - HPM Ping Support checkbox is now checked
+2025-04-04 13:28:23,492 - INFO - HPM Ping Support checkbox is now unchecked
+2025-04-04 13:28:23,499 - INFO - Verifying the checkbox functionality for Authentication Support
+2025-04-04 13:28:23,543 - INFO - Authentication Support checkbox is unchecked by default
+2025-04-04 13:28:23,709 - INFO - Authentication Support checkbox is now checked
+2025-04-04 13:28:23,850 - INFO - Authentication Support checkbox is now unchecked
+2025-04-04 13:28:23,856 - INFO - Verifying the dropdown functionality for Supported Specification
+2025-04-04 13:28:23,899 - ERROR - Supported Specification dropdown is not enabled
+2025-04-04 13:28:23,905 - INFO - Verifying the dropdown functionality for Power Profile
+2025-04-04 13:28:23,948 - ERROR - Power Profile dropdown is not enabled
+2025-04-04 13:28:23,955 - INFO - Verifying the dropdown functionality for Supported PROP Data Packets
+2025-04-04 13:28:24,183 - INFO - Available options in Supported PROP Data Packets:
+2025-04-04 13:28:24,415 - INFO - Verifying the dropdown functionality for Supported Protocols
+2025-04-04 13:28:24,607 - INFO - Available options in Supported Protocols:
+2025-04-04 13:28:24,838 - INFO - Verifying the dropdown functionality for Supported Cloak Reasons
+2025-04-04 13:28:25,041 - INFO - Available options in Supported Cloak Reasons:
+2025-04-04 13:28:25,269 - INFO - Verifying the dropdown functionality for Supported GetRequests
+2025-04-04 13:28:33,665 - INFO - Available options in Supported GetRequests:
+2025-04-04 13:28:33,900 - INFO - Tearing down the browser
+2025-04-04 13:28:37,553 - INFO - Opening browser using way1
+2025-04-04 13:28:47,997 - INFO - Checking if the browser is landing on the Connection Panel
+2025-04-04 13:28:48,032 - INFO - Connection button is available, so the browser is on the Connection Page
+2025-04-04 13:28:52,082 - INFO - Opening browser using way1
+2025-04-04 13:29:04,644 - INFO - Verify The browser title in the UI tab should contain the text GRL-C3-TPT.
+2025-04-04 13:29:04,684 - INFO - The browser title is GRL-C3-TPT
+2025-04-04 13:29:08,661 - INFO - Opening browser using way1
+2025-04-04 13:29:19,132 - INFO - Verifying the 'Scan Network' button is visible on the UI
+2025-04-04 13:29:19,179 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-04 13:29:19,180 - INFO - Verifying the 'Scan Network' button is clickable
+2025-04-04 13:29:19,193 - INFO - The 'Scan Network' button is clickable.
+2025-04-04 13:29:19,194 - INFO - Clicking the 'Scan Network' button
+2025-04-04 13:29:29,636 - WARNING - Could not confirm that the scan has started via button state: Message: 
+
+2025-04-04 13:29:29,638 - INFO - Scan button click registered. Proceeding without disabled state confirmation as the UI may not change the button's state.
+2025-04-04 13:29:29,656 - INFO - Scan completed in 10.46 seconds
+2025-04-04 13:29:29,861 - INFO - Screenshot of available networks taken.
+2025-04-04 13:29:33,510 - INFO - Opening browser using way1
+2025-04-04 13:29:44,227 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-04 13:29:44,228 - INFO - Clicking the 'Scan Network' button.
+2025-04-04 13:29:44,409 - INFO - The 'Connect' button is disabled during scanning as expected.
+2025-04-04 13:30:44,443 - INFO - Scanning process completed. The 'connection' button is visible again.
+2025-04-04 13:30:48,107 - INFO - Opening browser using way1
+2025-04-04 13:30:58,508 - INFO - Waiting for the Setup Diagram element to be visible
+2025-04-04 13:30:58,544 - INFO - Setup Diagram element is visible. Clicking it now.
+2025-04-04 13:30:58,675 - INFO - Waiting for the modal to display the expected text
+2025-04-04 13:30:58,730 - INFO - Modal displays the expected text: 'GRL-C3-TPT Setup Diagram'
+2025-04-04 13:30:58,940 - INFO - Screenshot of the Setup Diagram view taken after clicking OK.
+2025-04-04 13:30:58,941 - INFO - Waiting for the OK button to be clickable
+2025-04-04 13:30:58,993 - INFO - Clicking the OK button in the modal
+2025-04-04 13:30:59,133 - INFO - Modal dismissed; back to the Connection Panel.
+2025-04-04 13:31:02,772 - INFO - Opening browser using way1
+2025-04-04 13:31:13,336 - INFO - Opening application URL
+2025-04-04 13:31:15,228 - INFO - Initial tester status: Connected
+2025-04-04 13:31:15,499 - INFO - Entered wrong IP: 192.168.255.22
+2025-04-04 13:31:25,735 - INFO - Clicked on the Connect button.
+2025-04-04 13:31:30,765 - INFO - Tester status after clicking Connect: Invalid IP address format : 192.168.5.74192.168.255.22
+2025-04-04 13:31:30,766 - INFO - Expected error message is present: Invalid IP address format : 192.168.5.74192.168.255.22
+2025-04-04 13:31:33,141 - INFO - Starting test: Check for the Readme file
+2025-04-04 13:31:33,144 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-04 13:31:33,146 - INFO - File content verified: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-04 13:31:33,147 - INFO - Readme file verification passed.
+2025-04-04 13:31:33,153 - INFO - Starting test: Check for the Release Notes file
+2025-04-04 13:31:33,156 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\GRL-C3-TPT Release Notes.pdf
+2025-04-04 13:31:33,156 - INFO - Release Notes file verification passed.
+2025-04-04 13:31:33,162 - INFO - Starting test: Check for the Eload files
+2025-04-04 13:31:33,164 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\PPS_ELOAD.bin
+2025-04-04 13:31:33,165 - INFO - Eload file verification passed.
+2025-04-04 13:31:33,171 - INFO - Starting test: Check for the Firmware files
+2025-04-04 13:31:33,174 - INFO - Directory found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP
+2025-04-04 13:31:33,175 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\BOOT.BIN
+2025-04-04 13:31:33,176 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\image.ub
+2025-04-04 13:31:33,177 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\start.sh
+2025-04-04 13:31:33,178 - INFO - All firmware files are present.
+2025-04-04 13:31:33,179 - INFO - Firmware files verification passed.
+2025-04-04 13:31:34,502 - INFO - Opening browser using way1
+2025-04-04 13:31:44,857 - INFO - Checking if Help button is present
+2025-04-04 13:31:44,892 - INFO - Help button is present
+2025-04-04 13:31:47,766 - INFO - Starting test_TC2
+2025-04-04 13:31:49,099 - INFO - Opening browser using way1
+2025-04-04 13:31:59,377 - INFO - Clicking on Help button
+2025-04-04 13:31:59,589 - INFO - APP version matches expected version.
+2025-04-04 13:32:02,601 - INFO - Starting test_TC3
+2025-04-04 13:32:03,952 - INFO - Opening browser using way1
+2025-04-04 13:32:19,226 - INFO - Clicking on Help button
+2025-04-04 13:32:27,658 - INFO - Switched to new window: Knowledge Base | Create Support Ticket
+2025-04-04 13:32:27,668 - INFO - New page title: Knowledge Base | Create Support Ticket
+2025-04-04 13:32:30,029 - INFO - Starting test_TC4
+2025-04-04 13:32:31,360 - INFO - Opening browser using way1
+2025-04-04 13:32:46,676 - INFO - Checking if Email Support button is clickable
+2025-04-04 13:32:46,930 - INFO - Help tab clicked successfully.
+2025-04-04 13:32:47,024 - INFO - Email Support button located.
+2025-04-04 13:32:49,680 - INFO - Starting test_TC5
+2025-04-04 13:32:51,036 - INFO - Opening browser using way1
+2025-04-04 13:33:08,488 - INFO - Checking Downloads debug logs button working properly in Help Panel or not
+2025-04-04 13:33:08,705 - INFO - Help tab clicked successfully.
+2025-04-04 13:33:10,852 - INFO - Debug Logs button clicked successfully.
+2025-04-04 13:33:10,860 - INFO - Most recent file in download directory: C:\Users\GRL/Downloads\Debug_Log (2).txt
+2025-04-04 13:33:10,863 - INFO - Debug logs file renamed to Debug_Log_20250404_133310.txt.
+2025-04-04 13:33:10,866 - INFO - Debug logs match the reference log file.
+2025-04-04 13:33:14,418 - INFO - Opening browser using way1
+2025-04-04 13:33:26,897 - INFO - Step: Checking Report Button availability
+2025-04-04 13:33:26,945 - INFO - Report button is available.
+2025-04-04 13:33:27,154 - INFO - Clicked Report button.
+2025-04-04 13:33:29,162 - INFO - Step: Checking 'View Report' button availability
+2025-04-04 13:33:29,216 - INFO - View Report button is available.
+2025-04-04 13:33:29,223 - INFO - ====== Starting Download Current HTML Button Flow ======
+2025-04-04 13:33:29,225 - INFO - Step 1: Clicking Download Current HTML button
+2025-04-04 13:33:29,553 - INFO - Step 2: Waiting for popup OK and Cancel buttons
+2025-04-04 13:33:29,645 - INFO - Step 2 Result: Popup OK and Cancel buttons are available
+2025-04-04 13:33:29,646 - INFO - Step 3: Clicking Cancel
+2025-04-04 13:33:29,838 - INFO - Step 4: Verifying Download Current HTML button availability after Cancel
+2025-04-04 13:33:29,868 - INFO - Step 4 Result: Download Current HTML button is available after Cancel
+2025-04-04 13:33:29,869 - INFO - Step 5: Clicking Download Current HTML button again
+2025-04-04 13:33:30,074 - INFO - Step 6: Clicking OK in popup
+2025-04-04 13:33:30,291 - INFO - Step 7: Waiting for error popup to appear
+2025-04-04 13:33:31,439 - INFO - Step 8: Waiting for error popup to disappear (max 15 seconds)
+2025-04-04 13:33:36,102 - INFO - Step 9: Verifying Download Current HTML button availability after error popup
+2025-04-04 13:33:36,153 - INFO - ====== Completed Download Current HTML Button Flow Successfully ======
+2025-04-04 13:33:36,160 - INFO - ====== Starting Download Current BSUT Report Data Button Flow ======
+2025-04-04 13:33:36,163 - INFO - Step 1: Clicking Download Current BSUT Report Data button
+2025-04-04 13:33:36,536 - INFO - Step 2: Waiting for popup OK and Cancel buttons
+2025-04-04 13:33:36,660 - INFO - Step 2 Result: Popup OK and Cancel buttons are available
+2025-04-04 13:33:36,661 - INFO - Step 3: Clicking Cancel
+2025-04-04 13:33:36,803 - INFO - Step 4: Verifying Download Current BSUT Report Data button availability after Cancel
+2025-04-04 13:33:36,839 - INFO - Step 4 Result: Download Current BSUT Report Data button is available after Cancel
+2025-04-04 13:33:36,840 - INFO - Step 5: Clicking Download Current BSUT Report Data button again
+2025-04-04 13:33:37,048 - INFO - Step 6: Clicking OK in popup
+2025-04-04 13:33:37,292 - INFO - Step 7: Waiting for error popup to appear
+2025-04-04 13:33:37,882 - INFO - Step 8: Waiting for error popup to disappear (max 15 seconds)
+2025-04-04 13:33:43,066 - INFO - Step 9: Verifying Download Current BSUT Report Data button availability after error popup
+2025-04-04 13:33:43,104 - INFO - ====== Completed Download Current BSUT Report Data Button Flow Successfully ======
+2025-04-04 13:33:43,110 - INFO - ====== Starting Report Data Management Flow ======
+2025-04-04 13:33:43,112 - INFO - Step 1: Clicking Report Data Management button
+2025-04-04 13:33:43,490 - INFO - Step 2: Checking Delete Test Report button availability
+2025-04-04 13:33:43,600 - INFO - Step 3: Checking Test results folder size label
+2025-04-04 13:33:43,671 - INFO - Test results folder info: Test results folder size :0.00 MBs
+2025-04-04 13:33:43,672 - INFO - Step 4: Checking Delete Report button availability
+2025-04-04 13:33:43,711 - INFO - Step 5: Clicking Delete Report button
+2025-04-04 13:33:43,887 - INFO - Step 5.1: Checking OK and Cancel buttons in popup
+2025-04-04 13:33:43,967 - INFO - Step 5.2: Clicking Cancel on popup
+2025-04-04 13:33:44,365 - INFO - Step 6: Clicking Download Report button
+2025-04-04 13:33:44,595 - INFO - Step 6.1: Waiting for 10 seconds for download to process
+2025-04-04 13:33:54,596 - INFO - Step 7: Clicking Delete Test Report button (Re-fetching due to possible stale)
+2025-04-04 13:33:54,758 - INFO - Step 8: Checking Confirmation Text
+2025-04-04 13:33:54,836 - INFO - Confirmation popup text: Are you sure you want to permanently delete all 2 folders?
+2025-04-04 13:33:54,837 - INFO - Step 9: Checking OK and Cancel buttons in confirmation popup
+2025-04-04 13:33:55,032 - INFO - Step 9.1: Clicking Cancel on confirmation popup
+2025-04-04 13:33:55,395 - INFO - ====== Completed Report Data Management Flow Successfully ======
+2025-04-04 13:33:55,402 - INFO - ====== Starting Synthetic File Popup Dropdown Value Print ======
+2025-04-04 13:33:55,405 - INFO - Step 1: Clicking Synthetic File button
+2025-04-04 13:33:55,783 - INFO - Waiting for popup to be fully loaded...
+2025-04-04 13:33:55,811 - INFO - Step 3: Validating input box
+2025-04-04 13:33:56,092 - INFO - Typed and verified: 12345
+2025-04-04 13:33:56,287 - INFO - Typed and verified: abcDEF
+2025-04-04 13:33:56,488 - INFO - Typed and verified: !@#$%
+2025-04-04 13:33:56,708 - INFO - Typed and verified: abc123!@#
+2025-04-04 13:33:56,710 - INFO - Step 4: Toggling VC-Tx checkbox
+2025-04-04 13:33:56,897 - INFO - Checkbox clicked
+2025-04-04 13:33:57,008 - INFO - Step 5: Handling dropdown: File Source
+2025-04-04 13:33:57,653 - INFO - File Source dropdown options:
+2025-04-04 13:33:57,673 - INFO -     File Source --> External File
+2025-04-04 13:33:57,689 - INFO -     File Source --> TPT File
+2025-04-04 13:33:58,207 - INFO - Step 5: Handling dropdown: Test Mode
+2025-04-04 13:33:58,826 - INFO - Test Mode dropdown options:
+2025-04-04 13:33:58,846 - INFO -     Test Mode --> 128kHz
+2025-04-04 13:33:58,865 - INFO -     Test Mode --> 360kHz
+2025-04-04 13:33:59,390 - INFO - Step 5: Handling dropdown: Test Type
+2025-04-04 13:33:59,991 - INFO - Test Type dropdown options:
+2025-04-04 13:34:00,013 - INFO -     Test Type --> 4.14.Eye test
+2025-04-04 13:34:00,033 - INFO -     Test Type --> 4.15.Real test
+2025-04-04 13:34:00,558 - INFO - Step 5: Handling dropdown: Channel Type
+2025-04-04 13:34:01,155 - INFO - Channel Type dropdown options:
+2025-04-04 13:34:01,176 - INFO -     Channel Type --> Magnitude
+2025-04-04 13:34:01,198 - INFO -     Channel Type --> Phase
+2025-04-04 13:34:01,219 - INFO -     Channel Type --> Both
+2025-04-04 13:34:01,738 - INFO - ====== Completed Synthetic File Popup Dropdown Value Print Successfully ======
+2025-04-04 13:34:01,744 - INFO - ====== Test: Write Button + Error Popup + Return to Report Page ======
+2025-04-04 13:34:01,747 - INFO - ====== Starting Write Button Verification Flow ======
+2025-04-04 13:34:01,748 - INFO - Step 1: Checking Write button availability
+2025-04-04 13:34:01,805 - INFO - Write button is available and visible.
+2025-04-04 13:34:01,806 - INFO - Step 2: Checking Write button clickability
+2025-04-04 13:34:01,853 - INFO - Step 3: Clicking Write button
+2025-04-04 13:34:01,974 - INFO - Waiting 1.5 seconds to allow popup to render
+2025-04-04 13:34:06,976 - INFO - Step 4: Verifying Error popup
+2025-04-04 13:34:07,016 - INFO - Error popup appeared as expected
+2025-04-04 13:34:07,017 - INFO - Step 5: Clicking Close button on error popup
+2025-04-04 13:34:07,160 - INFO - Step 6: Verifying navigation back to Report page
+2025-04-04 13:34:07,190 - INFO - Successfully navigated back to Report page after closing the popup
+2025-04-04 13:34:07,191 - INFO - ====== Completed Write Button Verification Flow Successfully ======
+2025-04-07 13:00:46,820 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-07 13:00:46,889 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-07 13:00:49,255 - INFO - Opening browser using way1
+2025-04-07 13:00:59,427 - INFO - Opening Qi Exerciser Panel
+2025-04-07 13:01:06,579 - INFO - Verifying the input box functionality for A0
+2025-04-07 13:01:07,023 - ERROR - A0 input box failed to accept 100 random characters
+2025-04-07 13:01:07,357 - ERROR - A0 input box failed to accept 100 numbers
+2025-04-07 13:01:07,717 - ERROR - A0 input box failed to accept 100 letters
+2025-04-07 13:01:08,065 - ERROR - A0 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-07 13:01:08,076 - INFO - Verifying the input box functionality for A1
+2025-04-07 13:01:08,455 - ERROR - A1 input box failed to accept 100 random characters
+2025-04-07 13:01:08,774 - ERROR - A1 input box failed to accept 100 numbers
+2025-04-07 13:01:09,103 - ERROR - A1 input box failed to accept 100 letters
+2025-04-07 13:01:09,436 - ERROR - A1 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-07 13:01:09,502 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-04-07 13:01:09,523 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-04-07 13:01:09,530 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-04-07 13:01:09,568 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-04-07 13:01:09,678 - INFO - Q Factor Measurement Checkbox checkbox is now checked
+2025-04-07 13:01:09,777 - INFO - Q Factor Measurement Checkbox checkbox is now unchecked
+2025-04-07 13:01:09,784 - INFO - Verifying the dropdown functionality for Coil Type
+2025-04-07 13:01:09,970 - INFO - Available options in Coil Type:
+2025-04-07 13:01:10,181 - INFO - Verifying the dropdown functionality for Demodulator
+2025-04-07 13:01:10,377 - INFO - Available options in Demodulator:
+2025-04-07 13:01:10,548 - INFO - Tearing down the browser
+2025-04-07 13:01:12,863 - INFO - Setting up the WebDriver
+2025-04-07 13:01:14,356 - INFO - Opening browser using way1
+2025-04-07 13:01:24,790 - INFO - Verifying tester connection status
+2025-04-07 13:01:24,829 - INFO - Tester connection status: Connected
+2025-04-07 13:01:24,830 - INFO - Tester connected successfully.
+2025-04-07 13:01:24,881 - INFO - Extracted Tester Status: Connected
+2025-04-07 13:01:24,930 - INFO - Extracted Serial Number: GRL-C3-MP-2023006
+2025-04-07 13:01:24,970 - INFO - Extracted Firmware Version: 5.0.1.33 / 1.9
+2025-04-07 13:01:25,010 - INFO - Extracted Next Calibration Date: Thursday, May 22, 2025
+2025-04-07 13:01:25,053 - INFO - Extracted Tester IP Address: 192.168.5.74
+2025-04-07 13:01:25,095 - INFO - Extracted Port: 5002
+2025-04-07 13:01:25,096 - INFO - Test execution completed.
+2025-04-07 13:01:25,107 - INFO - Page title: GRL-C3-TPT Software
+2025-04-07 13:01:25,115 - INFO - Page URL: http://localhost:2004/v3220126.html
+2025-04-07 13:01:25,116 - INFO - Clicking on Test Configuration
+2025-04-07 13:01:25,281 - INFO - Clicking on body of the UI to enable interactions
+2025-04-07 13:01:25,403 - INFO - Clicking on Edit SDF Button
+2025-04-07 13:01:25,646 - INFO - Entering Applicant Name
+2025-04-07 13:01:25,880 - INFO - Entering Product Name
+2025-04-07 13:01:26,068 - INFO - Clicking WPID Support Checkbox
+2025-04-07 13:01:28,193 - INFO - Clicking Update Button
+2025-04-07 13:01:33,307 - INFO - Clicking Export Button
+2025-04-07 13:01:38,494 - INFO - Waiting for JSON file to download
+2025-04-07 13:01:38,501 - INFO - Downloaded file renamed to: SDF_Export_20250407_130138.json
+2025-04-07 13:01:45,762 - INFO - Uploading downloaded JSON file
+2025-04-07 13:01:45,764 - INFO - C:\Users\GRL\Downloads\SDF_Export_20250407_130138.json
+2025-04-07 13:01:45,829 - INFO - File uploaded: C:\Users\GRL\Downloads\SDF_Export_20250407_130138.json
+2025-04-07 13:01:50,832 - INFO - Waiting for 'Create Project' button to be clickable
+2025-04-07 13:01:51,043 - INFO - Clicked on 'Create Project' successfully
+2025-04-07 13:01:56,044 - INFO - Validating Product Name after upload
+2025-04-07 13:01:56,137 - INFO - Page title: GRL-C3-TPT Software
+2025-04-07 13:01:56,150 - INFO - Page URL: http://localhost:2004/v3220126.html
+2025-04-07 13:01:56,152 - INFO - Locating PRx Compliance Tests MPP V2.0.1 checkbox
+2025-04-07 13:02:16,324 - ERROR - Tester is not having 2.2 license.
+2025-04-07 13:02:16,327 - INFO - Closing the WebDriver
+2025-04-07 13:02:18,696 - INFO - Setting up the browser
+2025-04-07 13:02:20,185 - INFO - Opening browser using way1
+2025-04-07 13:02:30,575 - INFO - Opening Test Configuration Panel
+2025-04-07 13:02:32,704 - INFO - clicking on body of the UI to enble the UI
+2025-04-07 13:02:37,912 - INFO - Clicking on Edit SDF Button
+2025-04-07 13:02:38,111 - INFO - Verifying the input box functionality for Product Name
+2025-04-07 13:02:38,734 - INFO - Product Name input box accepted 100 random characters: Rk8']xJ/en,Y1zo@(d|A?90]~?aY+I.=O5P[v%4QbjBc.+j)[uO;IfWw0EiCpHWA,V.4{SSml1"EDzBm9U&hqeMH1UflbR'|NONq
+2025-04-07 13:02:39,169 - INFO - Product Name input box accepted 100 numbers: 4076738618508045974754981016987153137220613085884799159161616020644937365632381687459833763603661293
+2025-04-07 13:02:39,613 - INFO - Product Name input box accepted 100 letters: FklNRUeOmPWqAtCsRyDLdaLPSfRvDmLrrCVLMZsEJBGyndbGkESLPzuVealBmdMmmvVTvMUDqvurstQYxocLxtIMfVyWyzErBQmZ
+2025-04-07 13:02:40,051 - INFO - Product Name input box accepted a combination of letters, numbers, and special characters: FPL4J_hk[?Wu{)x=n1l,3!C01RM@Cq?b,T}l!<2sQw$P!%|/y:Rj"S[zdR)ok%f^}p82X{-@V5k:g^R/Mp??*qsz***D<$v9^>BH
+2025-04-07 13:02:40,056 - INFO - Verifying the input box functionality for Applicant Name
+2025-04-07 13:02:40,547 - INFO - Applicant Name input box accepted 100 random characters: 4bEmdI#431\;fvoI.GUJ#bn71r&i:'"2mP3p*@dTG>ma>.mi;-/{(4/9j?h@CC$5+xw\{?$"NJ'z4HK;="(G9^dOb,VeH,0_l2Nl
+2025-04-07 13:02:40,943 - INFO - Applicant Name input box accepted 100 numbers: 1473624690044380570009117037006614984839651738468819189833533314124537937106494610481208815269623463
+2025-04-07 13:02:41,354 - INFO - Applicant Name input box accepted 100 letters: tzGtMDllWzsNWtebRiMwGJKcVlQJfykoCpypSpjqnzYWzEgGiNHcNyoRErAKBVaUVdSpbejHfwserCjRTnXxLcAYoOaUUsUzmEyP
+2025-04-07 13:02:41,739 - INFO - Applicant Name input box accepted a combination of letters, numbers, and special characters: W3fD[TI%ae$B]qj808CZ/c\nuAaF7L?&"s>vmW#T`;%yaf_K9M=O='6Oa+l@o)CIMeq8RC$.I`~%2ra;A;j{^:,HR'C1'K.:Zsw@
+2025-04-07 13:02:41,745 - INFO - Verifying the input box functionality for Part Number
+2025-04-07 13:02:42,160 - INFO - Part Number input box accepted 100 random characters: ce_RA|3)G,7'}.dhl_HH;FeOUm1{yC"cq^2ZtK1Wxo$?I;VoRyn4!\TV.4MiF8bh4x6)t,PF>?`A,J2?+`B3Vt%XT>BKzHv#30Wy
+2025-04-07 13:02:42,540 - INFO - Part Number input box accepted 100 numbers: 2032971354452677263778761276541637117138650362602738586434440567057253534385353463153634286915130393
+2025-04-07 13:02:42,922 - INFO - Part Number input box accepted 100 letters: pKMfWSTwJtvpMhiIMIQDruSPafrLWrmwuPoJlCoKmlgjIWBcgmfgtnkdRXtYckprdXmaTTBVzHZVyGPALrvNLnpyMskUliqGNCkh
+2025-04-07 13:02:43,331 - INFO - Part Number input box accepted a combination of letters, numbers, and special characters: F5H46OS2WqdVY%z*XuD9JikuqweA~70U55Y'Whau({^;17'NvOv4N.jBl.zqfH9]G_[!X,>JWq,;z]4Y.^MucRt-l8l+MyXlfAQ~
+2025-04-07 13:02:43,337 - INFO - Verifying the input box functionality for QIID
+2025-04-07 13:02:43,791 - ERROR - QIID input box failed to accept 100 random characters
+2025-04-07 13:02:44,173 - INFO - QIID input box accepted 100 numbers: 8510658714418870452135060551584657292802987130549406449240014531179478846660078202880302509537879660
+2025-04-07 13:02:44,639 - ERROR - QIID input box failed to accept 100 letters
+2025-04-07 13:02:45,103 - ERROR - QIID input box failed to accept a combination of letters, numbers, and special characters
+2025-04-07 13:02:45,109 - INFO - Verifying the input box functionality for Manufacturer Code
+2025-04-07 13:02:45,518 - INFO - Manufacturer Code input box accepted 100 random characters: w\[Xf::*ae[4"9}pP/rObs4Z3-nk<xI|@,eBC0qM7kHf-BTcLbjD26Wc#D*\P^s6e%>Q!G)w:4]be%2ak%)<n;5u^2%[S\$,V7+q
+2025-04-07 13:02:45,867 - INFO - Manufacturer Code input box accepted 100 numbers: 3332926562078261383240035522428435767222955521550440965414349467996493633589379384612978324537048621
+2025-04-07 13:02:46,304 - INFO - Manufacturer Code input box accepted 100 letters: HittnxAttZoYyhXoyfFxjtqBhWJcraVOBEgTcSwEFNztbUGRRKuOttnaZBfltKPUewMCpyLkneGECyKQyJKBrETgvduTuZEBExtg
+2025-04-07 13:02:46,718 - INFO - Manufacturer Code input box accepted a combination of letters, numbers, and special characters: {tV9_BS?LDo:H(.(t"Rd}p26&i`dQ?o4^\f.:GX3(w8Ry1@D9]Voi|>&Uv-5('Q#!!FI\s!c,,&4.H[}y4"+4X-(f/UJR.%4Oc$w
+2025-04-07 13:02:46,724 - INFO - Verifying the input box functionality for Cloak Retry Count
+2025-04-07 13:02:47,153 - ERROR - Cloak Retry Count input box failed to accept 100 random characters
+2025-04-07 13:02:47,511 - INFO - Cloak Retry Count input box accepted 100 numbers: 3471487341923823382448425427183199307523990878812510694931369678234773811752013229818615019622624733
+2025-04-07 13:02:47,942 - ERROR - Cloak Retry Count input box failed to accept 100 letters
+2025-04-07 13:02:48,375 - ERROR - Cloak Retry Count input box failed to accept a combination of letters, numbers, and special characters
+2025-04-07 13:02:48,381 - INFO - Verifying the input box functionality for Maximum Power
+2025-04-07 13:02:48,821 - ERROR - Maximum Power input box failed to accept 100 random characters
+2025-04-07 13:02:49,177 - ERROR - Maximum Power input box failed to accept 100 numbers
+2025-04-07 13:02:49,576 - ERROR - Maximum Power input box failed to accept 100 letters
+2025-04-07 13:02:50,019 - ERROR - Maximum Power input box failed to accept a combination of letters, numbers, and special characters
+2025-04-07 13:02:50,025 - INFO - Verifying the checkbox functionality for OB Support
+2025-04-07 13:02:50,059 - INFO - OB Support checkbox is unchecked by default
+2025-04-07 13:02:50,161 - INFO - OB Support checkbox is now checked
+2025-04-07 13:02:50,269 - INFO - OB Support checkbox is now unchecked
+2025-04-07 13:02:50,276 - INFO - Verifying the checkbox functionality for Negotiation Support
+2025-04-07 13:02:50,311 - INFO - Negotiation Support checkbox is unchecked by default
+2025-04-07 13:02:50,416 - INFO - Negotiation Support checkbox is now checked
+2025-04-07 13:02:50,505 - INFO - Negotiation Support checkbox is now unchecked
+2025-04-07 13:02:50,511 - INFO - Verifying the checkbox functionality for XID Data Packet Support
+2025-04-07 13:02:50,545 - INFO - XID Data Packet Support checkbox is unchecked by default
+2025-04-07 13:02:50,641 - INFO - XID Data Packet Support checkbox is now checked
+2025-04-07 13:02:50,736 - INFO - XID Data Packet Support checkbox is now unchecked
+2025-04-07 13:02:50,742 - INFO - Verifying the checkbox functionality for Restricted Mode Support
+2025-04-07 13:02:50,780 - INFO - Restricted Mode Support checkbox is unchecked by default
+2025-04-07 13:02:50,899 - INFO - Restricted Mode Support checkbox is now checked
+2025-04-07 13:02:50,991 - INFO - Restricted Mode Support checkbox is now unchecked
+2025-04-07 13:02:50,999 - INFO - Verifying the checkbox functionality for Cloak Support
+2025-04-07 13:02:51,036 - INFO - Cloak Support checkbox is unchecked by default
+2025-04-07 13:02:51,149 - INFO - Cloak Support checkbox is now checked
+2025-04-07 13:02:51,260 - INFO - Cloak Support checkbox is now unchecked
+2025-04-07 13:02:51,268 - INFO - Verifying the checkbox functionality for Gain Linearization Support
+2025-04-07 13:02:51,305 - INFO - Gain Linearization Support checkbox is unchecked by default
+2025-04-07 13:02:51,433 - INFO - Gain Linearization Support checkbox is now checked
+2025-04-07 13:02:51,544 - INFO - Gain Linearization Support checkbox is now unchecked
+2025-04-07 13:02:51,551 - INFO - Verifying the checkbox functionality for Dup Support
+2025-04-07 13:02:51,586 - INFO - Dup Support checkbox is unchecked by default
+2025-04-07 13:02:51,686 - INFO - Dup Support checkbox is now checked
+2025-04-07 13:02:51,787 - INFO - Dup Support checkbox is now unchecked
+2025-04-07 13:02:51,792 - INFO - Verifying the checkbox functionality for WPID Support
+2025-04-07 13:02:51,825 - INFO - WPID Support checkbox is unchecked by default
+2025-04-07 13:02:51,924 - INFO - WPID Support checkbox is now checked
+2025-04-07 13:02:52,037 - INFO - WPID Support checkbox is now unchecked
+2025-04-07 13:02:52,043 - INFO - Verifying the checkbox functionality for PCH Data Packet Support
+2025-04-07 13:02:52,082 - INFO - PCH Data Packet Support checkbox is unchecked by default
+2025-04-07 13:02:52,208 - INFO - PCH Data Packet Support checkbox is now checked
+2025-04-07 13:02:52,331 - INFO - PCH Data Packet Support checkbox is now unchecked
+2025-04-07 13:02:52,338 - INFO - Verifying the checkbox functionality for Restricted To Full Mode
+2025-04-07 13:02:52,374 - INFO - Restricted To Full Mode checkbox is unchecked by default
+2025-04-07 13:02:52,496 - INFO - Restricted To Full Mode checkbox is now checked
+2025-04-07 13:02:52,604 - INFO - Restricted To Full Mode checkbox is now unchecked
+2025-04-07 13:02:52,610 - INFO - Verifying the checkbox functionality for Detect Ping Support
+2025-04-07 13:02:52,642 - INFO - Detect Ping Support checkbox is unchecked by default
+2025-04-07 13:02:52,763 - INFO - Detect Ping Support checkbox is now checked
+2025-04-07 13:02:52,875 - INFO - Detect Ping Support checkbox is now unchecked
+2025-04-07 13:02:52,881 - INFO - Verifying the checkbox functionality for HPM Ping Support
+2025-04-07 13:02:52,952 - INFO - HPM Ping Support checkbox is unchecked by default
+2025-04-07 13:02:53,055 - INFO - HPM Ping Support checkbox is now checked
+2025-04-07 13:02:53,151 - INFO - HPM Ping Support checkbox is now unchecked
+2025-04-07 13:02:53,156 - INFO - Verifying the checkbox functionality for Authentication Support
+2025-04-07 13:02:53,189 - INFO - Authentication Support checkbox is unchecked by default
+2025-04-07 13:02:53,302 - INFO - Authentication Support checkbox is now checked
+2025-04-07 13:02:53,401 - INFO - Authentication Support checkbox is now unchecked
+2025-04-07 13:02:53,406 - INFO - Verifying the dropdown functionality for Supported Specification
+2025-04-07 13:02:53,443 - ERROR - Supported Specification dropdown is not enabled
+2025-04-07 13:02:53,451 - INFO - Verifying the dropdown functionality for Power Profile
+2025-04-07 13:02:53,485 - ERROR - Power Profile dropdown is not enabled
+2025-04-07 13:02:53,490 - INFO - Verifying the dropdown functionality for Supported PROP Data Packets
+2025-04-07 13:02:53,627 - INFO - Available options in Supported PROP Data Packets:
+2025-04-07 13:02:53,792 - INFO - Verifying the dropdown functionality for Supported Protocols
+2025-04-07 13:02:53,924 - INFO - Available options in Supported Protocols:
+2025-04-07 13:02:54,084 - INFO - Verifying the dropdown functionality for Supported Cloak Reasons
+2025-04-07 13:02:54,217 - INFO - Available options in Supported Cloak Reasons:
+2025-04-07 13:02:54,404 - INFO - Verifying the dropdown functionality for Supported GetRequests
+2025-04-07 13:03:02,677 - INFO - Available options in Supported GetRequests:
+2025-04-07 13:03:02,901 - INFO - Tearing down the browser
+2025-04-07 13:03:06,732 - INFO - Opening browser using way1
+2025-04-07 13:03:17,037 - INFO - Checking if the browser is landing on the Connection Panel
+2025-04-07 13:03:17,071 - INFO - Connection button is available, so the browser is on the Connection Page
+2025-04-07 13:03:21,567 - INFO - Opening browser using way1
+2025-04-07 13:03:31,800 - INFO - Verify The browser title in the UI tab should contain the text GRL-C3-TPT.
+2025-04-07 13:03:31,838 - INFO - The browser title is GRL-C3-TPT
+2025-04-07 13:03:36,378 - INFO - Opening browser using way1
+2025-04-07 13:03:48,668 - INFO - Verifying the 'Scan Network' button is visible on the UI
+2025-04-07 13:03:48,722 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-07 13:03:48,723 - INFO - Verifying the 'Scan Network' button is clickable
+2025-04-07 13:03:48,742 - INFO - The 'Scan Network' button is clickable.
+2025-04-07 13:03:48,744 - INFO - Clicking the 'Scan Network' button
+2025-04-07 13:03:59,188 - WARNING - Could not confirm that the scan has started via button state: Message: 
+
+2025-04-07 13:03:59,189 - INFO - Scan button click registered. Proceeding without disabled state confirmation as the UI may not change the button's state.
+2025-04-07 13:03:59,204 - INFO - Scan completed in 10.46 seconds
+2025-04-07 13:03:59,384 - INFO - Screenshot of available networks taken.
+2025-04-07 13:04:03,081 - INFO - Opening browser using way1
+2025-04-07 13:04:13,470 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-07 13:04:13,471 - INFO - Clicking the 'Scan Network' button.
+2025-04-07 13:04:13,646 - INFO - The 'Connect' button is disabled during scanning as expected.
+2025-04-07 13:05:13,684 - INFO - Scanning process completed. The 'connection' button is visible again.
+2025-04-07 13:05:17,407 - INFO - Opening browser using way1
+2025-04-07 13:05:29,275 - INFO - Waiting for the Setup Diagram element to be visible
+2025-04-07 13:05:29,315 - INFO - Setup Diagram element is visible. Clicking it now.
+2025-04-07 13:05:29,452 - INFO - Waiting for the modal to display the expected text
+2025-04-07 13:05:29,506 - INFO - Modal displays the expected text: 'GRL-C3-TPT Setup Diagram'
+2025-04-07 13:05:29,730 - INFO - Screenshot of the Setup Diagram view taken after clicking OK.
+2025-04-07 13:05:29,731 - INFO - Waiting for the OK button to be clickable
+2025-04-07 13:05:29,775 - INFO - Clicking the OK button in the modal
+2025-04-07 13:05:29,877 - INFO - Modal dismissed; back to the Connection Panel.
+2025-04-07 13:05:34,316 - INFO - Opening browser using way1
+2025-04-07 13:05:44,613 - INFO - Opening application URL
+2025-04-07 13:05:46,206 - INFO - Initial tester status: Connected
+2025-04-07 13:05:46,485 - INFO - Entered wrong IP: 192.168.255.22
+2025-04-07 13:05:56,748 - INFO - Clicked on the Connect button.
+2025-04-07 13:06:01,781 - INFO - Tester status after clicking Connect: Invalid IP address format : 192.168.5.74192.168.255.22
+2025-04-07 13:06:01,783 - INFO - Expected error message is present: Invalid IP address format : 192.168.5.74192.168.255.22
+2025-04-07 13:06:04,072 - INFO - Starting test: Check for the Readme file
+2025-04-07 13:06:04,076 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-07 13:06:04,078 - INFO - File content verified: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-07 13:06:04,079 - INFO - Readme file verification passed.
+2025-04-07 13:06:04,087 - INFO - Starting test: Check for the Release Notes file
+2025-04-07 13:06:04,090 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\GRL-C3-TPT Release Notes.pdf
+2025-04-07 13:06:04,091 - INFO - Release Notes file verification passed.
+2025-04-07 13:06:04,097 - INFO - Starting test: Check for the Eload files
+2025-04-07 13:06:04,100 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\PPS_ELOAD.bin
+2025-04-07 13:06:04,101 - INFO - Eload file verification passed.
+2025-04-07 13:06:04,111 - INFO - Starting test: Check for the Firmware files
+2025-04-07 13:06:04,113 - INFO - Directory found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP
+2025-04-07 13:06:04,115 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\BOOT.BIN
+2025-04-07 13:06:04,116 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\image.ub
+2025-04-07 13:06:04,118 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\start.sh
+2025-04-07 13:06:04,119 - INFO - All firmware files are present.
+2025-04-07 13:06:04,120 - INFO - Firmware files verification passed.
+2025-04-07 13:06:05,591 - INFO - Opening browser using way1
+2025-04-07 13:06:16,148 - INFO - Checking if Help button is present
+2025-04-07 13:06:16,183 - INFO - Help button is present
+2025-04-07 13:06:18,466 - INFO - Starting test_TC2
+2025-04-07 13:06:19,908 - INFO - Opening browser using way1
+2025-04-07 13:06:30,212 - INFO - Clicking on Help button
+2025-04-07 13:06:30,438 - INFO - APP version matches expected version.
+2025-04-07 13:06:33,363 - INFO - Starting test_TC3
+2025-04-07 13:06:34,813 - INFO - Opening browser using way1
+2025-04-07 13:06:49,978 - INFO - Clicking on Help button
+2025-04-07 13:06:58,488 - INFO - Switched to new window: Knowledge Base | Create Support Ticket
+2025-04-07 13:06:58,495 - INFO - New page title: Knowledge Base | Create Support Ticket
+2025-04-07 13:07:00,769 - INFO - Starting test_TC4
+2025-04-07 13:07:02,248 - INFO - Opening browser using way1
+2025-04-07 13:07:19,519 - INFO - Checking if Email Support button is clickable
+2025-04-07 13:07:19,733 - INFO - Help tab clicked successfully.
+2025-04-07 13:07:19,789 - INFO - Email Support button located.
+2025-04-07 13:07:23,631 - INFO - Starting test_TC5
+2025-04-07 13:07:25,144 - INFO - Opening browser using way1
+2025-04-07 13:07:40,385 - INFO - Checking Downloads debug logs button working properly in Help Panel or not
+2025-04-07 13:07:40,539 - INFO - Help tab clicked successfully.
+2025-04-07 13:07:42,655 - INFO - Debug Logs button clicked successfully.
+2025-04-07 13:07:42,665 - INFO - Most recent file in download directory: C:\Users\GRL/Downloads\Debug_Log (2).txt
+2025-04-07 13:07:42,667 - INFO - Debug logs file renamed to Debug_Log_20250407_130742.txt.
+2025-04-07 13:07:42,668 - INFO - Debug logs match the reference log file.
+2025-04-07 13:07:46,447 - INFO - Opening browser using way1
+2025-04-07 13:07:58,713 - INFO - Step: Checking Report Button availability
+2025-04-07 13:07:58,750 - INFO - Report button is available.
+2025-04-07 13:07:58,875 - INFO - Clicked Report button.
+2025-04-07 13:08:00,880 - INFO - Step: Checking 'View Report' button availability
+2025-04-07 13:08:00,924 - INFO - View Report button is available.
+2025-04-07 13:08:00,928 - INFO - ====== Starting Download Current HTML Button Flow ======
+2025-04-07 13:08:00,930 - INFO - Step 1: Clicking Download Current HTML button
+2025-04-07 13:08:01,242 - INFO - Step 2: Waiting for popup OK and Cancel buttons
+2025-04-07 13:08:01,282 - INFO - Step 2 Result: Popup OK and Cancel buttons are available
+2025-04-07 13:08:01,283 - INFO - Step 3: Clicking Cancel
+2025-04-07 13:08:01,483 - INFO - Step 4: Verifying Download Current HTML button availability after Cancel
+2025-04-07 13:08:01,518 - INFO - Step 4 Result: Download Current HTML button is available after Cancel
+2025-04-07 13:08:01,518 - INFO - Step 5: Clicking Download Current HTML button again
+2025-04-07 13:08:01,695 - INFO - Step 6: Clicking OK in popup
+2025-04-07 13:08:01,934 - INFO - Step 7: Waiting for error popup to appear
+2025-04-07 13:08:03,053 - INFO - Step 8: Waiting for error popup to disappear (max 15 seconds)
+2025-04-07 13:08:07,680 - INFO - Step 9: Verifying Download Current HTML button availability after error popup
+2025-04-07 13:08:07,714 - INFO - ====== Completed Download Current HTML Button Flow Successfully ======
+2025-04-07 13:08:07,718 - INFO - ====== Starting Download Current BSUT Report Data Button Flow ======
+2025-04-07 13:08:07,720 - INFO - Step 1: Clicking Download Current BSUT Report Data button
+2025-04-07 13:08:08,056 - INFO - Step 2: Waiting for popup OK and Cancel buttons
+2025-04-07 13:08:08,084 - INFO - Step 2 Result: Popup OK and Cancel buttons are available
+2025-04-07 13:08:08,085 - INFO - Step 3: Clicking Cancel
+2025-04-07 13:08:08,260 - INFO - Step 4: Verifying Download Current BSUT Report Data button availability after Cancel
+2025-04-07 13:08:08,323 - INFO - Step 4 Result: Download Current BSUT Report Data button is available after Cancel
+2025-04-07 13:08:08,324 - INFO - Step 5: Clicking Download Current BSUT Report Data button again
+2025-04-07 13:08:08,491 - INFO - Step 6: Clicking OK in popup
+2025-04-07 13:08:08,712 - INFO - Step 7: Waiting for error popup to appear
+2025-04-07 13:08:08,835 - INFO - Step 8: Waiting for error popup to disappear (max 15 seconds)
+2025-04-07 13:08:14,512 - INFO - Step 9: Verifying Download Current BSUT Report Data button availability after error popup
+2025-04-07 13:08:14,540 - INFO - ====== Completed Download Current BSUT Report Data Button Flow Successfully ======
+2025-04-07 13:08:14,544 - INFO - ====== Starting Report Data Management Flow ======
+2025-04-07 13:08:14,547 - INFO - Step 1: Clicking Report Data Management button
+2025-04-07 13:08:14,933 - INFO - Step 2: Checking Delete Test Report button availability
+2025-04-07 13:08:15,081 - INFO - Step 3: Checking Test results folder size label
+2025-04-07 13:08:15,138 - INFO - Test results folder info: Test results folder size :0.00 MBs
+2025-04-07 13:08:15,139 - INFO - Step 4: Checking Delete Report button availability
+2025-04-07 13:08:15,176 - INFO - Step 5: Clicking Delete Report button
+2025-04-07 13:08:15,345 - INFO - Step 5.1: Checking OK and Cancel buttons in popup
+2025-04-07 13:08:15,404 - INFO - Step 5.2: Clicking Cancel on popup
+2025-04-07 13:08:15,764 - INFO - Step 6: Clicking Download Report button
+2025-04-07 13:08:15,984 - INFO - Step 6.1: Waiting for 10 seconds for download to process
+2025-04-07 13:08:25,985 - INFO - Step 7: Clicking Delete Test Report button (Re-fetching due to possible stale)
+2025-04-07 13:08:26,141 - INFO - Step 8: Checking Confirmation Text
+2025-04-07 13:08:26,211 - INFO - Confirmation popup text: Are you sure you want to permanently delete all 2 folders?
+2025-04-07 13:08:26,212 - INFO - Step 9: Checking OK and Cancel buttons in confirmation popup
+2025-04-07 13:08:26,427 - INFO - Step 9.1: Clicking Cancel on confirmation popup
+2025-04-07 13:08:26,778 - INFO - ====== Completed Report Data Management Flow Successfully ======
+2025-04-07 13:08:26,782 - INFO - ====== Starting Synthetic File Popup Dropdown Value Print ======
+2025-04-07 13:08:26,784 - INFO - Step 1: Clicking Synthetic File button
+2025-04-07 13:08:27,157 - INFO - Waiting for popup to be fully loaded...
+2025-04-07 13:08:27,185 - INFO - Step 3: Validating input box
+2025-04-07 13:08:27,440 - INFO - Typed and verified: 12345
+2025-04-07 13:08:27,595 - INFO - Typed and verified: abcDEF
+2025-04-07 13:08:27,747 - INFO - Typed and verified: !@#$%
+2025-04-07 13:08:27,955 - INFO - Typed and verified: abc123!@#
+2025-04-07 13:08:27,956 - INFO - Step 4: Toggling VC-Tx checkbox
+2025-04-07 13:08:28,118 - INFO - Checkbox clicked
+2025-04-07 13:08:28,217 - INFO - Step 5: Handling dropdown: File Source
+2025-04-07 13:08:28,820 - INFO - File Source dropdown options:
+2025-04-07 13:08:28,839 - INFO -     File Source --> External File
+2025-04-07 13:08:28,856 - INFO -     File Source --> TPT File
+2025-04-07 13:08:29,383 - INFO - Step 5: Handling dropdown: Test Mode
+2025-04-07 13:08:29,956 - INFO - Test Mode dropdown options:
+2025-04-07 13:08:29,976 - INFO -     Test Mode --> 128kHz
+2025-04-07 13:08:29,996 - INFO -     Test Mode --> 360kHz
+2025-04-07 13:08:30,512 - INFO - Step 5: Handling dropdown: Test Type
+2025-04-07 13:08:31,091 - INFO - Test Type dropdown options:
+2025-04-07 13:08:31,109 - INFO -     Test Type --> 4.14.Eye test
+2025-04-07 13:08:31,124 - INFO -     Test Type --> 4.15.Real test
+2025-04-07 13:08:31,650 - INFO - Step 5: Handling dropdown: Channel Type
+2025-04-07 13:08:32,225 - INFO - Channel Type dropdown options:
+2025-04-07 13:08:32,245 - INFO -     Channel Type --> Magnitude
+2025-04-07 13:08:32,265 - INFO -     Channel Type --> Phase
+2025-04-07 13:08:32,283 - INFO -     Channel Type --> Both
+2025-04-07 13:08:32,798 - INFO - ====== Completed Synthetic File Popup Dropdown Value Print Successfully ======
+2025-04-07 13:08:32,802 - INFO - ====== Test: Write Button + Error Popup + Return to Report Page ======
+2025-04-07 13:08:32,804 - INFO - ====== Starting Write Button Verification Flow ======
+2025-04-07 13:08:32,805 - INFO - Step 1: Checking Write button availability
+2025-04-07 13:08:32,850 - INFO - Write button is available and visible.
+2025-04-07 13:08:32,851 - INFO - Step 2: Checking Write button clickability
+2025-04-07 13:08:32,898 - INFO - Step 3: Clicking Write button
+2025-04-07 13:08:33,018 - INFO - Waiting 1.5 seconds to allow popup to render
+2025-04-07 13:08:38,020 - INFO - Step 4: Verifying Error popup
+2025-04-07 13:08:38,047 - INFO - Error popup appeared as expected
+2025-04-07 13:08:38,048 - INFO - Step 5: Clicking Close button on error popup
+2025-04-07 13:08:38,194 - INFO - Step 6: Verifying navigation back to Report page
+2025-04-07 13:08:38,225 - INFO - Successfully navigated back to Report page after closing the popup
+2025-04-07 13:08:38,226 - INFO - ====== Completed Write Button Verification Flow Successfully ======
+2025-04-08 09:50:09,685 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 09:50:09,737 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-08 10:02:35,700 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 10:02:35,742 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-08 10:02:37,108 - INFO - Opening browser using way1
+2025-04-08 10:02:41,973 - ERROR - Connection attempt 1 failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.179)
+Stacktrace:
+	GetHandleVerifier [0x00007FF782634C25+3179557]
+	(No symbol) [0x00007FF7822988A0]
+	(No symbol) [0x00007FF7821291CA]
+	(No symbol) [0x00007FF782101753]
+	(No symbol) [0x00007FF7821AF83E]
+	(No symbol) [0x00007FF7821CFBE2]
+	(No symbol) [0x00007FF7821A7A03]
+	(No symbol) [0x00007FF7821706D0]
+	(No symbol) [0x00007FF782171983]
+	GetHandleVerifier [0x00007FF7826967CD+3579853]
+	GetHandleVerifier [0x00007FF7826AD1D2+3672530]
+	GetHandleVerifier [0x00007FF7826A2153+3627347]
+	GetHandleVerifier [0x00007FF78240092A+868650]
+	(No symbol) [0x00007FF7822A2FFF]
+	(No symbol) [0x00007FF78229F4A4]
+	(No symbol) [0x00007FF78229F646]
+	(No symbol) [0x00007FF78228EAA9]
+	BaseThreadInitThunk [0x00007FF85A3353E0+16]
+	RtlUserThreadStart [0x00007FF85BD6485B+43]
+
+2025-04-08 10:02:42,652 - INFO - Setting up the WebDriver
+2025-04-08 10:02:43,929 - INFO - Opening browser using way1
+2025-04-08 10:03:05,657 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 10:03:05,690 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-08 10:03:07,047 - INFO - Opening browser using way1
+2025-04-08 10:03:18,770 - INFO - Tester status: Disconnected
+2025-04-08 10:03:31,479 - INFO - Tester status: Connected
+2025-04-08 10:03:31,479 - INFO - Opening Qi Exerciser Panel
+2025-04-08 10:03:38,613 - INFO - Verifying the input box functionality for A0
+2025-04-08 10:03:38,900 - ERROR - A0 input box failed to accept 100 random characters
+2025-04-08 10:03:39,142 - ERROR - A0 input box failed to accept 100 numbers
+2025-04-08 10:03:39,429 - ERROR - A0 input box failed to accept 100 letters
+2025-04-08 10:03:39,707 - ERROR - A0 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 10:03:39,709 - INFO - Verifying the input box functionality for A1
+2025-04-08 10:03:39,971 - ERROR - A1 input box failed to accept 100 random characters
+2025-04-08 10:03:40,165 - ERROR - A1 input box failed to accept 100 numbers
+2025-04-08 10:03:40,373 - ERROR - A1 input box failed to accept 100 letters
+2025-04-08 10:03:40,588 - ERROR - A1 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 10:03:40,616 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-04-08 10:03:40,627 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-04-08 10:03:40,630 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-04-08 10:03:40,650 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-04-08 10:03:40,707 - INFO - Q Factor Measurement Checkbox checkbox is now checked
+2025-04-08 10:03:40,750 - INFO - Q Factor Measurement Checkbox checkbox is now unchecked
+2025-04-08 10:03:40,753 - INFO - Verifying the dropdown functionality for Coil Type
+2025-04-08 10:03:40,859 - INFO - Available options in Coil Type:
+2025-04-08 10:03:40,943 - INFO - Verifying the dropdown functionality for Demodulator
+2025-04-08 10:03:41,024 - INFO - Available options in Demodulator:
+2025-04-08 10:03:41,091 - INFO - Tearing down the browser
+2025-04-08 10:03:43,321 - INFO - Setting up the WebDriver
+2025-04-08 10:03:44,657 - INFO - Opening browser using way1
+2025-04-08 10:03:56,675 - INFO - Tester status: Connected
+2025-04-08 10:03:56,677 - INFO - Verifying tester connection status
+2025-04-08 10:03:56,700 - INFO - Tester connection status: Connected
+2025-04-08 10:03:56,701 - INFO - Tester connected successfully.
+2025-04-08 10:03:56,736 - INFO - Extracted Tester Status: Connected
+2025-04-08 10:03:56,769 - INFO - Extracted Serial Number: GRL-C3-MP-2023006
+2025-04-08 10:03:56,801 - INFO - Extracted Firmware Version: 5.0.1.33 / 1.9
+2025-04-08 10:03:56,833 - INFO - Extracted Next Calibration Date: Thursday, May 22, 2025
+2025-04-08 10:03:56,862 - INFO - Extracted Tester IP Address: 192.168.5.74
+2025-04-08 10:03:56,894 - INFO - Extracted Port: 5002
+2025-04-08 10:03:56,895 - INFO - Test execution completed.
+2025-04-08 10:03:56,906 - INFO - Page title: GRL-C3-TPT Software
+2025-04-08 10:03:56,912 - INFO - Page URL: http://localhost:2004/v3220126.html
+2025-04-08 10:03:56,913 - INFO - Clicking on Test Configuration
+2025-04-08 10:03:57,012 - INFO - Clicking on body of the UI to enable interactions
+2025-04-08 10:03:57,113 - INFO - Clicking on Edit SDF Button
+2025-04-08 10:03:57,304 - INFO - Entering Applicant Name
+2025-04-08 10:03:57,425 - INFO - Entering Product Name
+2025-04-08 10:03:57,539 - INFO - Clicking WPID Support Checkbox
+2025-04-08 10:03:59,612 - INFO - Clicking Update Button
+2025-04-08 10:04:04,699 - INFO - Clicking Export Button
+2025-04-08 10:04:09,814 - INFO - Waiting for JSON file to download
+2025-04-08 10:04:09,819 - INFO - Downloaded file renamed to: SDF_Export_20250408_100409.json
+2025-04-08 10:04:16,995 - INFO - Uploading downloaded JSON file
+2025-04-08 10:04:16,996 - INFO - C:\Users\GRL\Downloads\SDF_Export_20250408_100409.json
+2025-04-08 10:04:17,045 - INFO - File uploaded: C:\Users\GRL\Downloads\SDF_Export_20250408_100409.json
+2025-04-08 10:04:22,047 - INFO - Waiting for 'Create Project' button to be clickable
+2025-04-08 10:04:22,218 - INFO - Clicked on 'Create Project' successfully
+2025-04-08 10:04:27,219 - INFO - Validating Product Name after upload
+2025-04-08 10:04:27,272 - INFO - Page title: GRL-C3-TPT Software
+2025-04-08 10:04:27,279 - INFO - Page URL: http://localhost:2004/v3220126.html
+2025-04-08 10:04:27,280 - INFO - Locating PRx Compliance Tests MPP V2.0.1 checkbox
+2025-04-08 10:04:27,316 - INFO - Checkbox is not selected. Selecting it now...
+2025-04-08 10:04:29,395 - INFO - Selected Tests: 141/141
+2025-04-08 10:04:29,396 - INFO - Test case selection count matches the expected value.
+2025-04-08 10:04:29,397 - INFO - Closing the WebDriver
+2025-04-08 10:04:31,615 - INFO - Setting up the browser
+2025-04-08 10:04:32,894 - INFO - Opening browser using way1
+2025-04-08 10:04:43,196 - INFO - Tester status: Connected
+2025-04-08 10:04:43,197 - INFO - Opening Test Configuration Panel
+2025-04-08 10:04:45,289 - INFO - clicking on body of the UI to enble the UI
+2025-04-08 10:04:50,385 - INFO - Clicking on Edit SDF Button
+2025-04-08 10:04:50,541 - INFO - Verifying the input box functionality for Product Name
+2025-04-08 10:04:50,988 - INFO - Product Name input box accepted 100 random characters: ]Z1)b!_>)K3%ow9a9AH]3U/C24xeL[.zz9vH{1^O3{[2z}G(.e.PKK&&4X4_@^5IN_1ze{9R:PW'\@D=lG2A5&*9u1yJx\"ba'+t
+2025-04-08 10:04:51,330 - INFO - Product Name input box accepted 100 numbers: 2565204888955489821989861735555851980457591834992719985418702793616589923623630471853520944446197885
+2025-04-08 10:04:51,728 - INFO - Product Name input box accepted 100 letters: jaWOvqJbFbNZKQnLbrMnDypeIqEvWvuMPsyuVlAgkzcGjiGDGgLEzbgSDFgRMPDrDBeCpzkzrwIsXkEuhjBcGfsZKHfIYiDhpvKC
+2025-04-08 10:04:52,073 - INFO - Product Name input box accepted a combination of letters, numbers, and special characters: PM,N`lc;f@.!}%:0YzKrq,2as^W1"c&D)q'}LkzY!MGK#cjj@i;cxY#'Yppwp@<RtEt6b)mo)JIDG3ED'pey|*lr-yJA!_WHS,R'
+2025-04-08 10:04:52,077 - INFO - Verifying the input box functionality for Applicant Name
+2025-04-08 10:04:52,428 - INFO - Applicant Name input box accepted 100 random characters: .vOs:s&@;nazDYo671MH+#Kwg1{g/tG}b;X7NoP4S'E8}#`bj(RVr`<~4y}]CfTvW}lH)x7}6^T9blKQj?_1?*Aq,`Izb$*8xI,Z
+2025-04-08 10:04:52,750 - INFO - Applicant Name input box accepted 100 numbers: 6557495380203346577192051332920371975941356568921097454194666542695749107326704385802370020131207658
+2025-04-08 10:04:53,087 - INFO - Applicant Name input box accepted 100 letters: lSbZvNghSxiexJbSKMqhuOwrnftsIDKCfhwKGtyNCGOGAgKthyNhUiTAhyweDRqzQmOjbJcvJltULHfNRjtLJFARHlMzSIEgCQSY
+2025-04-08 10:04:53,415 - INFO - Applicant Name input box accepted a combination of letters, numbers, and special characters: ,rjz5vsFB|,9Ua}O&SN+AU=tPtu6oD$70@x]wsDf~1fv7Y?C;h:`?YgX=2Tlp9a,Y~{['++Ak%ZY2J5.FtUC\"ABXFx.o${BSdB]
+2025-04-08 10:04:53,418 - INFO - Verifying the input box functionality for Part Number
+2025-04-08 10:04:53,778 - INFO - Part Number input box accepted 100 random characters: _*EbQg(xp|@*px&?RofjI<.W4IA+'zRhc{J9&nDS1a7zF^@SEu/Y.bJ0cs:$,j&<]O7wjZ'8}5yDgij&&y?gV$?r_fI8+!m/<x4*
+2025-04-08 10:04:54,073 - INFO - Part Number input box accepted 100 numbers: 3722376755806925286658134032649293519344897831722750020253469974418097272901826208161366431798814070
+2025-04-08 10:04:54,402 - INFO - Part Number input box accepted 100 letters: pOdFtsVMUIVjwMQKqVwZNVyCgtkBSlpSOwcDjuyiCiFTGzYMcPpKXTOWoRqRPtyzswWbDFFqUJboUZaTWTRxpHqCselLahmbIWHO
+2025-04-08 10:04:54,725 - INFO - Part Number input box accepted a combination of letters, numbers, and special characters: Y~1S0_7kkTYGL]v24kX2[DBxt7f"_&tPSGP#Cs~pjA<;RClJiGW;W(H2lBC7aK1.De[4(+,DU&ENH:6D%@>*J={%1#4+Rry+wvP3
+2025-04-08 10:04:54,728 - INFO - Verifying the input box functionality for QIID
+2025-04-08 10:04:55,111 - ERROR - QIID input box failed to accept 100 random characters
+2025-04-08 10:04:55,429 - INFO - QIID input box accepted 100 numbers: 3030692425210990300195060336606205425006032367670877329804536638105834094047327331507399930026918094
+2025-04-08 10:04:55,825 - ERROR - QIID input box failed to accept 100 letters
+2025-04-08 10:04:56,221 - ERROR - QIID input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 10:04:56,224 - INFO - Verifying the input box functionality for Manufacturer Code
+2025-04-08 10:04:56,576 - INFO - Manufacturer Code input box accepted 100 random characters: )xH),STa#*Tp4:;/h1]4t;s7$Mj}Z(>hP|tu/bki]L2xW/TmJ77K?SJ|!]|#`U(e9FX2DV"7z64%^A~#wu6/7c".*o38,?0np3sz
+2025-04-08 10:04:56,862 - INFO - Manufacturer Code input box accepted 100 numbers: 2733474583489242155641282676398964752526934185179119369485922184294010786233065127063651633477811138
+2025-04-08 10:04:57,194 - INFO - Manufacturer Code input box accepted 100 letters: SQoXfOoZVWVOmWQLScmGPdnXMIPtdcjombdrsJLgfALAhvVffQMAsEldsmWptsRdqoedGnNocsxkTGpfCJEUnhWPNFzKpJqHAsNm
+2025-04-08 10:04:57,522 - INFO - Manufacturer Code input box accepted a combination of letters, numbers, and special characters: (e"5j^BxOIJpc$JEv=<][QeB%Yj08(Dx^KWw3"|c9__Q&Ric[BK;<qy?JM7zdUq8eHzd8AZzf=exN"X1o$@gt^7nk@X=D+rD}u({
+2025-04-08 10:04:57,525 - INFO - Verifying the input box functionality for Cloak Retry Count
+2025-04-08 10:04:57,942 - ERROR - Cloak Retry Count input box failed to accept 100 random characters
+2025-04-08 10:04:58,259 - INFO - Cloak Retry Count input box accepted 100 numbers: 0390876152550309005691930235103244043475435697218505853558306721584500231275600679724219705876317004
+2025-04-08 10:04:58,615 - ERROR - Cloak Retry Count input box failed to accept 100 letters
+2025-04-08 10:04:58,987 - ERROR - Cloak Retry Count input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 10:04:58,990 - INFO - Verifying the input box functionality for Maximum Power
+2025-04-08 10:04:59,359 - ERROR - Maximum Power input box failed to accept 100 random characters
+2025-04-08 10:04:59,720 - ERROR - Maximum Power input box failed to accept 100 numbers
+2025-04-08 10:05:00,074 - ERROR - Maximum Power input box failed to accept 100 letters
+2025-04-08 10:05:00,414 - ERROR - Maximum Power input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 10:05:00,417 - INFO - Verifying the checkbox functionality for OB Support
+2025-04-08 10:05:00,441 - INFO - OB Support checkbox is unchecked by default
+2025-04-08 10:05:00,521 - INFO - OB Support checkbox is now checked
+2025-04-08 10:05:00,589 - INFO - OB Support checkbox is now unchecked
+2025-04-08 10:05:00,592 - INFO - Verifying the checkbox functionality for Negotiation Support
+2025-04-08 10:05:00,620 - INFO - Negotiation Support checkbox is unchecked by default
+2025-04-08 10:05:00,690 - INFO - Negotiation Support checkbox is now checked
+2025-04-08 10:05:00,746 - INFO - Negotiation Support checkbox is now unchecked
+2025-04-08 10:05:00,749 - INFO - Verifying the checkbox functionality for XID Data Packet Support
+2025-04-08 10:05:00,773 - INFO - XID Data Packet Support checkbox is unchecked by default
+2025-04-08 10:05:00,856 - INFO - XID Data Packet Support checkbox is now checked
+2025-04-08 10:05:00,921 - INFO - XID Data Packet Support checkbox is now unchecked
+2025-04-08 10:05:00,925 - INFO - Verifying the checkbox functionality for Restricted Mode Support
+2025-04-08 10:05:00,944 - INFO - Restricted Mode Support checkbox is unchecked by default
+2025-04-08 10:05:01,033 - INFO - Restricted Mode Support checkbox is now checked
+2025-04-08 10:05:01,100 - INFO - Restricted Mode Support checkbox is now unchecked
+2025-04-08 10:05:01,104 - INFO - Verifying the checkbox functionality for Cloak Support
+2025-04-08 10:05:01,131 - INFO - Cloak Support checkbox is unchecked by default
+2025-04-08 10:05:01,218 - INFO - Cloak Support checkbox is now checked
+2025-04-08 10:05:01,323 - INFO - Cloak Support checkbox is now unchecked
+2025-04-08 10:05:01,326 - INFO - Verifying the checkbox functionality for Gain Linearization Support
+2025-04-08 10:05:01,345 - INFO - Gain Linearization Support checkbox is unchecked by default
+2025-04-08 10:05:01,414 - INFO - Gain Linearization Support checkbox is now checked
+2025-04-08 10:05:01,477 - INFO - Gain Linearization Support checkbox is now unchecked
+2025-04-08 10:05:01,481 - INFO - Verifying the checkbox functionality for Dup Support
+2025-04-08 10:05:01,502 - INFO - Dup Support checkbox is unchecked by default
+2025-04-08 10:05:01,570 - INFO - Dup Support checkbox is now checked
+2025-04-08 10:05:01,628 - INFO - Dup Support checkbox is now unchecked
+2025-04-08 10:05:01,631 - INFO - Verifying the checkbox functionality for WPID Support
+2025-04-08 10:05:01,654 - INFO - WPID Support checkbox is unchecked by default
+2025-04-08 10:05:01,709 - INFO - WPID Support checkbox is now checked
+2025-04-08 10:05:01,766 - INFO - WPID Support checkbox is now unchecked
+2025-04-08 10:05:01,770 - INFO - Verifying the checkbox functionality for PCH Data Packet Support
+2025-04-08 10:05:01,791 - INFO - PCH Data Packet Support checkbox is unchecked by default
+2025-04-08 10:05:01,849 - INFO - PCH Data Packet Support checkbox is now checked
+2025-04-08 10:05:01,906 - INFO - PCH Data Packet Support checkbox is now unchecked
+2025-04-08 10:05:01,909 - INFO - Verifying the checkbox functionality for Restricted To Full Mode
+2025-04-08 10:05:01,934 - INFO - Restricted To Full Mode checkbox is unchecked by default
+2025-04-08 10:05:02,026 - INFO - Restricted To Full Mode checkbox is now checked
+2025-04-08 10:05:02,088 - INFO - Restricted To Full Mode checkbox is now unchecked
+2025-04-08 10:05:02,091 - INFO - Verifying the checkbox functionality for Detect Ping Support
+2025-04-08 10:05:02,120 - INFO - Detect Ping Support checkbox is unchecked by default
+2025-04-08 10:05:02,210 - INFO - Detect Ping Support checkbox is now checked
+2025-04-08 10:05:02,282 - INFO - Detect Ping Support checkbox is now unchecked
+2025-04-08 10:05:02,284 - INFO - Verifying the checkbox functionality for HPM Ping Support
+2025-04-08 10:05:02,305 - INFO - HPM Ping Support checkbox is unchecked by default
+2025-04-08 10:05:02,381 - INFO - HPM Ping Support checkbox is now checked
+2025-04-08 10:05:02,444 - INFO - HPM Ping Support checkbox is now unchecked
+2025-04-08 10:05:02,448 - INFO - Verifying the checkbox functionality for Authentication Support
+2025-04-08 10:05:02,472 - INFO - Authentication Support checkbox is unchecked by default
+2025-04-08 10:05:02,563 - INFO - Authentication Support checkbox is now checked
+2025-04-08 10:05:02,620 - INFO - Authentication Support checkbox is now unchecked
+2025-04-08 10:05:02,623 - INFO - Verifying the dropdown functionality for Supported Specification
+2025-04-08 10:05:02,642 - ERROR - Supported Specification dropdown is not enabled
+2025-04-08 10:05:02,645 - INFO - Verifying the dropdown functionality for Power Profile
+2025-04-08 10:05:02,668 - ERROR - Power Profile dropdown is not enabled
+2025-04-08 10:05:02,672 - INFO - Verifying the dropdown functionality for Supported PROP Data Packets
+2025-04-08 10:05:02,758 - INFO - Available options in Supported PROP Data Packets:
+2025-04-08 10:05:02,860 - INFO - Verifying the dropdown functionality for Supported Protocols
+2025-04-08 10:05:02,946 - INFO - Available options in Supported Protocols:
+2025-04-08 10:05:03,046 - INFO - Verifying the dropdown functionality for Supported Cloak Reasons
+2025-04-08 10:05:11,264 - INFO - Available options in Supported Cloak Reasons:
+2025-04-08 10:05:11,447 - INFO - Verifying the dropdown functionality for Supported GetRequests
+2025-04-08 10:05:11,559 - INFO - Available options in Supported GetRequests:
+2025-04-08 10:05:11,653 - INFO - Tearing down the browser
+2025-04-08 10:05:15,142 - INFO - Opening browser using way1
+2025-04-08 10:05:25,530 - INFO - Tester status: Connected
+2025-04-08 10:05:25,530 - INFO - Checking if the browser is landing on the Connection Panel
+2025-04-08 10:05:25,546 - INFO - Connection button is available, so the browser is on the Connection Page
+2025-04-08 10:05:29,815 - INFO - Opening browser using way1
+2025-04-08 10:05:39,979 - INFO - Tester status: Connected
+2025-04-08 10:05:39,979 - INFO - Verify The browser title in the UI tab should contain the text GRL-C3-TPT.
+2025-04-08 10:05:39,996 - INFO - The browser title is GRL-C3-TPT
+2025-04-08 10:05:44,241 - INFO - Opening browser using way1
+2025-04-08 10:05:54,426 - INFO - Tester status: Connected
+2025-04-08 10:05:54,426 - INFO - Verifying the 'Scan Network' button is visible on the UI
+2025-04-08 10:05:54,453 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-08 10:05:54,453 - INFO - Verifying the 'Scan Network' button is clickable
+2025-04-08 10:05:54,462 - INFO - The 'Scan Network' button is clickable.
+2025-04-08 10:05:54,463 - INFO - Clicking the 'Scan Network' button
+2025-04-08 10:06:04,758 - WARNING - Could not confirm that the scan has started via button state: Message: 
+
+2025-04-08 10:06:04,759 - INFO - Scan button click registered. Proceeding without disabled state confirmation as the UI may not change the button's state.
+2025-04-08 10:06:04,766 - INFO - Scan completed in 10.30 seconds
+2025-04-08 10:06:04,926 - INFO - Screenshot of available networks taken.
+2025-04-08 10:06:08,458 - INFO - Opening browser using way1
+2025-04-08 10:06:18,621 - INFO - Tester status: Connected
+2025-04-08 10:06:18,639 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-08 10:06:18,639 - INFO - Clicking the 'Scan Network' button.
+2025-04-08 10:06:18,758 - INFO - The 'Connect' button is disabled during scanning as expected.
+2025-04-08 10:07:18,779 - INFO - Scanning process completed. The 'connection' button is visible again.
+2025-04-08 10:07:22,249 - INFO - Opening browser using way1
+2025-04-08 10:07:34,606 - INFO - Tester status: Connected
+2025-04-08 10:07:34,607 - INFO - Waiting for the Setup Diagram element to be visible
+2025-04-08 10:07:34,630 - INFO - Setup Diagram element is visible. Clicking it now.
+2025-04-08 10:07:34,728 - INFO - Waiting for the modal to display the expected text
+2025-04-08 10:07:34,769 - INFO - Modal displays the expected text: 'GRL-C3-TPT Setup Diagram'
+2025-04-08 10:07:34,955 - INFO - Screenshot of the Setup Diagram view taken after clicking OK.
+2025-04-08 10:07:34,956 - INFO - Waiting for the OK button to be clickable
+2025-04-08 10:07:34,988 - INFO - Clicking the OK button in the modal
+2025-04-08 10:07:35,083 - INFO - Modal dismissed; back to the Connection Panel.
+2025-04-08 10:07:38,583 - INFO - Opening browser using way1
+2025-04-08 10:07:48,714 - INFO - Tester status: Connected
+2025-04-08 10:07:48,715 - INFO - Opening application URL
+2025-04-08 10:07:50,194 - INFO - Initial tester status: Connected
+2025-04-08 10:07:50,334 - INFO - Entered wrong IP: 192.168.255.22
+2025-04-08 10:08:00,524 - INFO - Clicked on the Connect button.
+2025-04-08 10:08:05,546 - INFO - Tester status after clicking Connect: Invalid IP address format : 192.168.5.74192.168.255.22
+2025-04-08 10:08:05,547 - INFO - Expected error message is present: Invalid IP address format : 192.168.5.74192.168.255.22
+2025-04-08 10:08:07,784 - INFO - Starting test: Check for the Readme file
+2025-04-08 10:08:07,787 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-08 10:08:07,788 - INFO - File content verified: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-08 10:08:07,789 - INFO - Readme file verification passed.
+2025-04-08 10:08:07,791 - INFO - Starting test: Check for the Release Notes file
+2025-04-08 10:08:07,792 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\GRL-C3-TPT Release Notes.pdf
+2025-04-08 10:08:07,793 - INFO - Release Notes file verification passed.
+2025-04-08 10:08:07,797 - INFO - Starting test: Check for the Eload files
+2025-04-08 10:08:07,799 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\PPS_ELOAD.bin
+2025-04-08 10:08:07,799 - INFO - Eload file verification passed.
+2025-04-08 10:08:07,802 - INFO - Starting test: Check for the Firmware files
+2025-04-08 10:08:07,803 - INFO - Directory found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP
+2025-04-08 10:08:07,803 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\BOOT.BIN
+2025-04-08 10:08:07,804 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\image.ub
+2025-04-08 10:08:07,804 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\start.sh
+2025-04-08 10:08:07,805 - INFO - All firmware files are present.
+2025-04-08 10:08:07,805 - INFO - Firmware files verification passed.
+2025-04-08 10:08:09,067 - INFO - Opening browser using way1
+2025-04-08 10:08:21,015 - INFO - Tester status: Disconnected
+2025-04-08 10:08:33,645 - INFO - Tester status: Connected
+2025-04-08 10:08:33,646 - INFO - Checking if Help button is present
+2025-04-08 10:08:33,664 - INFO - Help button is present
+2025-04-08 10:08:35,854 - INFO - Starting test_TC2
+2025-04-08 10:08:37,147 - INFO - Opening browser using way1
+2025-04-08 10:08:47,714 - INFO - Tester status: Connected
+2025-04-08 10:08:47,715 - INFO - Clicking on Help button
+2025-04-08 10:08:47,877 - INFO - APP version matches expected version.
+2025-04-08 10:08:50,451 - INFO - Starting test_TC3
+2025-04-08 10:08:51,763 - INFO - Opening browser using way1
+2025-04-08 10:09:02,075 - INFO - Tester status: Connected
+2025-04-08 10:09:07,076 - INFO - Clicking on Help button
+2025-04-08 10:09:15,361 - INFO - Switched to new window: Knowledge Base | Create Support Ticket
+2025-04-08 10:09:15,368 - INFO - New page title: Knowledge Base | Create Support Ticket
+2025-04-08 10:09:17,676 - INFO - Starting test_TC4
+2025-04-08 10:09:18,979 - INFO - Opening browser using way1
+2025-04-08 10:09:29,170 - INFO - Tester status: Connected
+2025-04-08 10:09:34,171 - INFO - Checking if Email Support button is clickable
+2025-04-08 10:09:34,309 - INFO - Help tab clicked successfully.
+2025-04-08 10:09:34,350 - INFO - Email Support button located.
+2025-04-08 10:09:36,598 - INFO - Starting test_TC5
+2025-04-08 10:09:37,887 - INFO - Opening browser using way1
+2025-04-08 10:09:48,039 - INFO - Tester status: Connected
+2025-04-08 10:09:53,040 - INFO - Checking Downloads debug logs button working properly in Help Panel or not
+2025-04-08 10:09:53,169 - INFO - Help tab clicked successfully.
+2025-04-08 10:09:55,256 - INFO - Debug Logs button clicked successfully.
+2025-04-08 10:09:55,262 - INFO - Most recent file in download directory: C:\Users\GRL/Downloads\Debug_Log (2).txt
+2025-04-08 10:09:55,264 - INFO - Debug logs file renamed to Debug_Log_20250408_100955.txt.
+2025-04-08 10:09:55,266 - INFO - Debug logs match the reference log file.
+2025-04-08 10:09:58,852 - INFO - Opening browser using way1
+2025-04-08 10:10:11,086 - INFO - Tester status: Connected
+2025-04-08 10:10:11,087 - INFO - Step: Checking Report Button availability
+2025-04-08 10:10:11,110 - INFO - Report button is available.
+2025-04-08 10:10:11,198 - INFO - Clicked Report button.
+2025-04-08 10:10:13,202 - INFO - Step: Checking 'View Report' button availability
+2025-04-08 10:10:13,229 - INFO - View Report button is available.
+2025-04-08 10:10:13,232 - INFO - ====== Starting Download Current HTML Button Flow ======
+2025-04-08 10:10:13,233 - INFO - Step 1: Clicking Download Current HTML button
+2025-04-08 10:10:13,348 - INFO - Step 2: Waiting for popup OK and Cancel buttons
+2025-04-08 10:10:13,387 - INFO - Step 2 Result: Popup OK and Cancel buttons are available
+2025-04-08 10:10:13,387 - INFO - Step 3: Clicking Cancel
+2025-04-08 10:10:13,467 - INFO - Step 4: Verifying Download Current HTML button availability after Cancel
+2025-04-08 10:10:13,497 - INFO - Step 4 Result: Download Current HTML button is available after Cancel
+2025-04-08 10:10:13,498 - INFO - Step 5: Clicking Download Current HTML button again
+2025-04-08 10:10:13,579 - INFO - Step 6: Clicking OK in popup
+2025-04-08 10:10:13,653 - INFO - Step 7: Waiting for error popup to appear
+2025-04-08 10:10:14,717 - INFO - Step 8: Waiting for error popup to disappear (max 15 seconds)
+2025-04-08 10:10:19,310 - INFO - Step 9: Verifying Download Current HTML button availability after error popup
+2025-04-08 10:10:19,332 - INFO - ====== Completed Download Current HTML Button Flow Successfully ======
+2025-04-08 10:10:19,336 - INFO - ====== Starting Download Current BSUT Report Data Button Flow ======
+2025-04-08 10:10:19,337 - INFO - Step 1: Clicking Download Current BSUT Report Data button
+2025-04-08 10:10:19,475 - INFO - Step 2: Waiting for popup OK and Cancel buttons
+2025-04-08 10:10:19,497 - INFO - Step 2 Result: Popup OK and Cancel buttons are available
+2025-04-08 10:10:19,497 - INFO - Step 3: Clicking Cancel
+2025-04-08 10:10:19,552 - INFO - Step 4: Verifying Download Current BSUT Report Data button availability after Cancel
+2025-04-08 10:10:19,589 - INFO - Step 4 Result: Download Current BSUT Report Data button is available after Cancel
+2025-04-08 10:10:19,590 - INFO - Step 5: Clicking Download Current BSUT Report Data button again
+2025-04-08 10:10:19,711 - INFO - Step 6: Clicking OK in popup
+2025-04-08 10:10:19,802 - INFO - Step 7: Waiting for error popup to appear
+2025-04-08 10:10:20,353 - INFO - Step 8: Waiting for error popup to disappear (max 15 seconds)
+2025-04-08 10:10:25,469 - INFO - Step 9: Verifying Download Current BSUT Report Data button availability after error popup
+2025-04-08 10:10:25,487 - INFO - ====== Completed Download Current BSUT Report Data Button Flow Successfully ======
+2025-04-08 10:10:25,490 - INFO - ====== Starting Report Data Management Flow ======
+2025-04-08 10:10:25,491 - INFO - Step 1: Clicking Report Data Management button
+2025-04-08 10:10:25,597 - INFO - Step 2: Checking Delete Test Report button availability
+2025-04-08 10:10:25,614 - INFO - Step 3: Checking Test results folder size label
+2025-04-08 10:10:25,649 - INFO - Test results folder info: Test results folder size :0.00 MBs
+2025-04-08 10:10:25,650 - INFO - Step 4: Checking Delete Report button availability
+2025-04-08 10:10:25,672 - INFO - Step 5: Clicking Delete Report button
+2025-04-08 10:10:25,786 - INFO - Step 5.1: Checking OK and Cancel buttons in popup
+2025-04-08 10:10:25,852 - INFO - Step 5.2: Clicking Cancel on popup
+2025-04-08 10:10:25,930 - INFO - Step 6: Clicking Download Report button
+2025-04-08 10:10:26,016 - INFO - Step 6.1: Waiting for 10 seconds for download to process
+2025-04-08 10:10:36,017 - INFO - Step 7: Clicking Delete Test Report button (Re-fetching due to possible stale)
+2025-04-08 10:10:36,128 - INFO - Step 8: Checking Confirmation Text
+2025-04-08 10:10:36,172 - INFO - Confirmation popup text: Are you sure you want to permanently delete all 2 folders?
+2025-04-08 10:10:36,173 - INFO - Step 9: Checking OK and Cancel buttons in confirmation popup
+2025-04-08 10:10:36,215 - INFO - Step 9.1: Clicking Cancel on confirmation popup
+2025-04-08 10:10:36,398 - INFO - ====== Completed Report Data Management Flow Successfully ======
+2025-04-08 10:10:36,402 - INFO - ====== Starting Synthetic File Popup Dropdown Value Print ======
+2025-04-08 10:10:36,402 - INFO - Step 1: Clicking Synthetic File button
+2025-04-08 10:10:36,557 - INFO - Waiting for popup to be fully loaded...
+2025-04-08 10:10:36,572 - INFO - Step 3: Validating input box
+2025-04-08 10:10:36,681 - INFO - Typed and verified: 12345
+2025-04-08 10:10:36,795 - INFO - Typed and verified: abcDEF
+2025-04-08 10:10:36,888 - INFO - Typed and verified: !@#$%
+2025-04-08 10:10:36,982 - INFO - Typed and verified: abc123!@#
+2025-04-08 10:10:36,983 - INFO - Step 4: Toggling VC-Tx checkbox
+2025-04-08 10:10:37,056 - INFO - Checkbox clicked
+2025-04-08 10:10:37,108 - INFO - Step 5: Handling dropdown: File Source
+2025-04-08 10:10:37,655 - INFO - File Source dropdown options:
+2025-04-08 10:10:37,667 - INFO -     File Source --> External File
+2025-04-08 10:10:37,679 - INFO -     File Source --> TPT File
+2025-04-08 10:10:38,189 - INFO - Step 5: Handling dropdown: Test Mode
+2025-04-08 10:10:38,736 - INFO - Test Mode dropdown options:
+2025-04-08 10:10:38,747 - INFO -     Test Mode --> 128kHz
+2025-04-08 10:10:38,760 - INFO -     Test Mode --> 360kHz
+2025-04-08 10:10:39,268 - INFO - Step 5: Handling dropdown: Test Type
+2025-04-08 10:10:39,810 - INFO - Test Type dropdown options:
+2025-04-08 10:10:39,820 - INFO -     Test Type --> 4.14.Eye test
+2025-04-08 10:10:39,831 - INFO -     Test Type --> 4.15.Real test
+2025-04-08 10:10:40,344 - INFO - Step 5: Handling dropdown: Channel Type
+2025-04-08 10:10:40,886 - INFO - Channel Type dropdown options:
+2025-04-08 10:10:40,896 - INFO -     Channel Type --> Magnitude
+2025-04-08 10:10:40,908 - INFO -     Channel Type --> Phase
+2025-04-08 10:10:40,920 - INFO -     Channel Type --> Both
+2025-04-08 10:10:41,429 - INFO - ====== Completed Synthetic File Popup Dropdown Value Print Successfully ======
+2025-04-08 10:10:41,433 - INFO - ====== Test: Write Button + Error Popup + Return to Report Page ======
+2025-04-08 10:10:41,435 - INFO - ====== Starting Write Button Verification Flow ======
+2025-04-08 10:10:41,435 - INFO - Step 1: Checking Write button availability
+2025-04-08 10:10:41,462 - INFO - Write button is available and visible.
+2025-04-08 10:10:41,462 - INFO - Step 2: Checking Write button clickability
+2025-04-08 10:10:41,493 - INFO - Step 3: Clicking Write button
+2025-04-08 10:10:41,561 - INFO - Waiting 1.5 seconds to allow popup to render
+2025-04-08 10:10:46,562 - INFO - Step 4: Verifying Error popup
+2025-04-08 10:10:46,585 - INFO - Error popup appeared as expected
+2025-04-08 10:10:46,585 - INFO - Step 5: Clicking Close button on error popup
+2025-04-08 10:10:46,677 - INFO - Step 6: Verifying navigation back to Report page
+2025-04-08 10:10:46,696 - INFO - Successfully navigated back to Report page after closing the popup
+2025-04-08 10:10:46,697 - INFO - ====== Completed Write Button Verification Flow Successfully ======
+2025-04-08 12:00:28,611 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 12:00:28,659 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-08 12:00:31,396 - INFO - Opening browser using way1
+2025-04-08 12:00:44,414 - INFO - Tester status: Connected
+2025-04-08 12:00:44,415 - INFO - Opening Qi Exerciser Panel
+2025-04-08 12:00:51,545 - INFO - Verifying the input box functionality for A0
+2025-04-08 12:00:51,963 - ERROR - A0 input box failed to accept 100 random characters
+2025-04-08 12:00:52,220 - ERROR - A0 input box failed to accept 100 numbers
+2025-04-08 12:00:52,557 - ERROR - A0 input box failed to accept 100 letters
+2025-04-08 12:00:52,899 - ERROR - A0 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 12:00:52,904 - INFO - Verifying the input box functionality for A1
+2025-04-08 12:00:53,259 - ERROR - A1 input box failed to accept 100 random characters
+2025-04-08 12:00:53,514 - ERROR - A1 input box failed to accept 100 numbers
+2025-04-08 12:00:53,804 - ERROR - A1 input box failed to accept 100 letters
+2025-04-08 12:00:54,126 - ERROR - A1 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 12:00:54,160 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-04-08 12:00:54,175 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-04-08 12:00:54,178 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-04-08 12:00:54,206 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-04-08 12:00:54,305 - INFO - Q Factor Measurement Checkbox checkbox is now checked
+2025-04-08 12:00:54,402 - INFO - Q Factor Measurement Checkbox checkbox is now unchecked
+2025-04-08 12:00:54,406 - INFO - Verifying the dropdown functionality for Coil Type
+2025-04-08 12:00:54,595 - INFO - Available options in Coil Type:
+2025-04-08 12:00:54,771 - INFO - Verifying the dropdown functionality for Demodulator
+2025-04-08 12:00:54,883 - INFO - Available options in Demodulator:
+2025-04-08 12:00:55,056 - INFO - Tearing down the browser
+2025-04-08 12:39:55,099 - INFO - Starting test: Check for the Readme file
+2025-04-08 12:39:55,100 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-08 12:39:55,100 - INFO - File content verified: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-08 12:39:55,100 - INFO - Readme file verification passed.
+2025-04-08 12:39:55,103 - INFO - Starting test: Check for the Release Notes file
+2025-04-08 12:39:55,104 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\GRL-C3-TPT Release Notes.pdf
+2025-04-08 12:39:55,105 - INFO - Release Notes file verification passed.
+2025-04-08 12:39:55,107 - INFO - Starting test: Check for the Eload files
+2025-04-08 12:39:55,107 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\PPS_ELOAD.bin
+2025-04-08 12:39:55,108 - INFO - Eload file verification passed.
+2025-04-08 12:39:55,111 - INFO - Starting test: Check for the Firmware files
+2025-04-08 12:39:55,112 - INFO - Directory found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP
+2025-04-08 12:39:55,112 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\BOOT.BIN
+2025-04-08 12:39:55,113 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\image.ub
+2025-04-08 12:39:55,113 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\start.sh
+2025-04-08 12:39:55,114 - INFO - All firmware files are present.
+2025-04-08 12:39:55,114 - INFO - Firmware files verification passed.
+2025-04-08 12:40:18,472 - INFO - Starting test: Check for the Readme file
+2025-04-08 12:40:18,473 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-08 12:40:18,474 - INFO - File content verified: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-08 12:40:18,474 - INFO - Readme file verification passed.
+2025-04-08 12:40:18,476 - INFO - Starting test: Check for the Release Notes file
+2025-04-08 12:40:18,477 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\GRL-C3-TPT Release Notes.pdf
+2025-04-08 12:40:18,478 - INFO - Release Notes file verification passed.
+2025-04-08 12:40:18,483 - INFO - Starting test: Check for the Eload files
+2025-04-08 12:40:18,484 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\PPS_ELOAD.bin
+2025-04-08 12:40:18,485 - INFO - Eload file verification passed.
+2025-04-08 12:40:18,488 - INFO - Starting test: Check for the Firmware files
+2025-04-08 12:40:18,489 - INFO - Directory found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP
+2025-04-08 12:40:18,490 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\BOOT.BIN
+2025-04-08 12:40:18,491 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\image.ub
+2025-04-08 12:40:18,491 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\start.sh
+2025-04-08 12:40:18,492 - INFO - All firmware files are present.
+2025-04-08 12:40:18,493 - INFO - Firmware files verification passed.
+2025-04-08 12:40:58,896 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 12:41:00,217 - INFO - Opening browser using way1
+2025-04-08 12:41:13,132 - INFO - Tester status: Connected
+2025-04-08 12:41:13,133 - INFO - Checking if Help button is present
+2025-04-08 12:41:13,150 - INFO - Help button is present
+2025-04-08 12:41:16,494 - INFO - Starting test_TC2
+2025-04-08 12:41:17,953 - INFO - Opening browser using way1
+2025-04-08 12:41:28,208 - INFO - Tester status: Connected
+2025-04-08 12:41:28,209 - INFO - Clicking on Help button
+2025-04-08 12:41:28,421 - INFO - APP version matches expected version.
+2025-04-08 12:41:31,207 - INFO - Starting test_TC3
+2025-04-08 12:41:32,855 - INFO - Opening browser using way1
+2025-04-08 12:41:43,480 - INFO - Tester status: Connected
+2025-04-08 12:41:48,482 - INFO - Clicking on Help button
+2025-04-08 12:41:56,698 - INFO - Switched to new window: Knowledge Base | Create Support Ticket
+2025-04-08 12:41:56,700 - INFO - New page title: Knowledge Base | Create Support Ticket
+2025-04-08 12:41:59,008 - INFO - Starting test_TC4
+2025-04-08 12:42:00,324 - INFO - Opening browser using way1
+2025-04-08 12:42:10,622 - INFO - Tester status: Connected
+2025-04-08 12:42:15,624 - INFO - Checking if Email Support button is clickable
+2025-04-08 12:42:15,716 - INFO - Help tab clicked successfully.
+2025-04-08 12:42:15,748 - INFO - Email Support button located.
+2025-04-08 12:42:18,510 - INFO - Starting test_TC5
+2025-04-08 12:42:19,786 - INFO - Opening browser using way1
+2025-04-08 12:42:30,213 - INFO - Tester status: Connected
+2025-04-08 12:42:35,214 - INFO - Checking Downloads debug logs button working properly in Help Panel or not
+2025-04-08 12:42:35,303 - INFO - Help tab clicked successfully.
+2025-04-08 12:42:37,378 - INFO - Debug Logs button clicked successfully.
+2025-04-08 12:42:37,388 - INFO - Most recent file in download directory: C:\Users\GRL/Downloads\Debug_Log (2).txt
+2025-04-08 12:42:37,389 - INFO - Debug logs file renamed to Debug_Log_20250408_124237.txt.
+2025-04-08 12:42:37,391 - INFO - Debug logs match the reference log file.
+2025-04-08 12:47:43,290 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 12:47:43,374 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 12:47:43,382 - INFO - Starting test_TC3
+2025-04-08 12:47:45,039 - INFO - Opening browser using way1
+2025-04-08 12:47:45,050 - INFO - Opening browser using way1
+2025-04-08 12:47:55,530 - INFO - Tester status: Connected
+2025-04-08 12:47:55,530 - INFO - Checking if Help button is present
+2025-04-08 12:47:55,556 - INFO - Help button is present
+2025-04-08 12:47:58,284 - INFO - Starting test_TC2
+2025-04-08 12:47:59,070 - INFO - Tester status: Connected
+2025-04-08 12:47:59,690 - INFO - Opening browser using way1
+2025-04-08 12:48:04,071 - INFO - Clicking on Help button
+2025-04-08 12:48:10,030 - INFO - Tester status: Connected
+2025-04-08 12:48:10,031 - INFO - Clicking on Help button
+2025-04-08 12:48:10,208 - INFO - APP version matches expected version.
+2025-04-08 12:48:12,478 - INFO - Switched to new window: Knowledge Base | Create Support Ticket
+2025-04-08 12:48:12,484 - INFO - New page title: Knowledge Base | Create Support Ticket
+2025-04-08 12:48:12,803 - INFO - Starting test_TC5
+2025-04-08 12:48:14,255 - INFO - Opening browser using way1
+2025-04-08 12:48:14,989 - INFO - Starting test_TC4
+2025-04-08 12:48:16,535 - INFO - Opening browser using way1
+2025-04-08 12:48:24,758 - INFO - Tester status: Connected
+2025-04-08 12:48:26,800 - INFO - Tester status: Connected
+2025-04-08 12:48:29,759 - INFO - Checking Downloads debug logs button working properly in Help Panel or not
+2025-04-08 12:48:29,891 - INFO - Help tab clicked successfully.
+2025-04-08 12:48:31,801 - INFO - Checking if Email Support button is clickable
+2025-04-08 12:48:31,986 - INFO - Help tab clicked successfully.
+2025-04-08 12:48:32,008 - INFO - Debug Logs button clicked successfully.
+2025-04-08 12:48:32,015 - INFO - Most recent file in download directory: C:\Users\GRL/Downloads\Debug_Log (2).txt
+2025-04-08 12:48:32,016 - INFO - Debug logs file renamed to Debug_Log_20250408_124832.txt.
+2025-04-08 12:48:32,017 - INFO - Debug logs match the reference log file.
+2025-04-08 12:48:32,041 - INFO - Email Support button located.
+2025-04-08 12:58:46,573 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 12:58:46,641 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 12:58:46,649 - INFO - Starting test_TC3
+2025-04-08 12:58:48,040 - INFO - Opening browser using way1
+2025-04-08 12:58:48,218 - INFO - Opening browser using way1
+2025-04-08 12:58:58,943 - INFO - Tester status: Connected
+2025-04-08 12:58:58,944 - INFO - Checking if Help button is present
+2025-04-08 12:58:58,954 - INFO - Tester status: Connected
+2025-04-08 12:58:58,988 - INFO - Help button is present
+2025-04-08 12:59:01,510 - INFO - Starting test_TC2
+2025-04-08 12:59:03,053 - INFO - Opening browser using way1
+2025-04-08 12:59:03,955 - INFO - Clicking on Help button
+2025-04-08 12:59:12,248 - INFO - Switched to new window: Knowledge Base | Create Support Ticket
+2025-04-08 12:59:12,251 - INFO - New page title: Knowledge Base | Create Support Ticket
+2025-04-08 12:59:13,489 - INFO - Tester status: Connected
+2025-04-08 12:59:13,490 - INFO - Clicking on Help button
+2025-04-08 12:59:13,650 - INFO - APP version matches expected version.
+2025-04-08 12:59:14,543 - INFO - Starting test_TC4
+2025-04-08 12:59:15,961 - INFO - Opening browser using way1
+2025-04-08 12:59:16,483 - INFO - Starting test_TC5
+2025-04-08 12:59:18,285 - INFO - Opening browser using way1
+2025-04-08 12:59:26,283 - INFO - Tester status: Connected
+2025-04-08 12:59:29,017 - INFO - Tester status: Connected
+2025-04-08 12:59:31,283 - INFO - Checking if Email Support button is clickable
+2025-04-08 12:59:31,415 - INFO - Help tab clicked successfully.
+2025-04-08 12:59:31,471 - INFO - Email Support button located.
+2025-04-08 12:59:34,018 - INFO - Checking Downloads debug logs button working properly in Help Panel or not
+2025-04-08 12:59:34,129 - INFO - Help tab clicked successfully.
+2025-04-08 12:59:36,217 - INFO - Debug Logs button clicked successfully.
+2025-04-08 12:59:36,220 - INFO - Most recent file in download directory: C:\Users\GRL/Downloads\Debug_Log (2).txt
+2025-04-08 12:59:36,221 - INFO - Debug logs file renamed to Debug_Log_20250408_125936.txt.
+2025-04-08 12:59:36,221 - INFO - Debug logs match the reference log file.
+2025-04-08 14:40:17,916 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 14:40:17,968 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-08 14:40:19,419 - INFO - Opening browser using way1
+2025-04-08 14:40:30,019 - INFO - Tester status: Connected
+2025-04-08 14:40:30,020 - INFO - Opening Qi Exerciser Panel
+2025-04-08 14:40:54,413 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 14:40:54,549 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 14:40:54,665 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 14:40:54,788 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 14:40:54,881 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 14:40:54,925 - INFO - Setting up the WebDriver
+2025-04-08 14:40:54,925 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-08 14:40:54,925 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-08 14:40:54,925 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-08 14:40:58,081 - INFO - Opening browser using way1
+2025-04-08 14:40:58,104 - INFO - Opening browser using way1
+2025-04-08 14:40:58,304 - INFO - Opening browser using way1
+2025-04-08 14:40:59,189 - INFO - Opening browser using way1
+2025-04-08 14:41:09,783 - INFO - Tester status: Connected
+2025-04-08 14:41:09,783 - INFO - Opening Qi Exerciser Panel
+2025-04-08 14:41:10,159 - INFO - Tester status: Connected
+2025-04-08 14:41:10,160 - INFO - Opening Qi Exerciser Panel
+2025-04-08 14:41:10,819 - INFO - Tester status: Connected
+2025-04-08 14:41:10,827 - INFO - Page title: GRL-C3-TPT Software
+2025-04-08 14:41:10,833 - INFO - Page URL: http://localhost:2004/v3220129.html
+2025-04-08 14:41:10,834 - INFO - Clicking on Test Configuration
+2025-04-08 14:41:10,982 - INFO - Clicking on body of the UI to enable interactions
+2025-04-08 14:41:11,130 - INFO - Clicking on Edit SDF Button
+2025-04-08 14:41:11,468 - INFO - Entering Applicant Name
+2025-04-08 14:41:11,757 - INFO - Entering Product Name
+2025-04-08 14:41:11,918 - INFO - Clicking WPID Support Checkbox
+2025-04-08 14:41:14,051 - INFO - Clicking Update Button
+2025-04-08 14:41:17,025 - INFO - Verifying the dropdown functionality for Demodulator
+2025-04-08 14:41:17,383 - INFO - Tester status: Connected
+2025-04-08 14:41:17,384 - INFO - Opening Qi Exerciser Panel
+2025-04-08 14:41:17,914 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-04-08 14:41:18,066 - INFO - Tester status: Connected
+2025-04-08 14:41:18,066 - INFO - Opening Qi Exerciser Panel
+2025-04-08 14:41:18,326 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-04-08 14:41:18,327 - INFO - Tearing down the browser
+2025-04-08 14:41:19,906 - INFO - Available options in Demodulator:
+2025-04-08 14:41:20,301 - INFO - Clicking Export Button
+2025-04-08 14:41:20,365 - INFO - Tearing down the browser
+2025-04-08 14:41:22,393 - INFO - Setting up the browser
+2025-04-08 14:41:22,834 - INFO - Setting up the WebDriver
+2025-04-08 14:41:24,963 - INFO - Opening browser using way1
+2025-04-08 14:41:25,626 - INFO - Waiting for JSON file to download
+2025-04-08 14:41:25,741 - INFO - Verifying the input box functionality for A0
+2025-04-08 14:41:25,998 - INFO - Opening browser using way1
+2025-04-08 14:41:26,662 - INFO - Downloaded file renamed to: SDF_Export_20250408_144125.json
+2025-04-08 14:41:27,182 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-04-08 14:41:27,427 - ERROR - A0 input box failed to accept 100 random characters
+2025-04-08 14:41:27,631 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-04-08 14:41:28,613 - ERROR - A0 input box failed to accept 100 numbers
+2025-04-08 14:41:29,080 - INFO - Q Factor Measurement Checkbox checkbox is now checked
+2025-04-08 14:41:29,643 - ERROR - A0 input box failed to accept 100 letters
+2025-04-08 14:41:29,795 - INFO - Q Factor Measurement Checkbox checkbox is now unchecked
+2025-04-08 14:41:29,808 - INFO - Verifying the dropdown functionality for Coil Type
+2025-04-08 14:41:30,567 - ERROR - A0 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 14:41:30,594 - INFO - Verifying the input box functionality for A1
+2025-04-08 14:41:31,515 - INFO - Available options in Coil Type:
+2025-04-08 14:41:32,758 - INFO - Tearing down the browser
+2025-04-08 14:41:32,794 - ERROR - A1 input box failed to accept 100 random characters
+2025-04-08 14:41:33,584 - ERROR - A1 input box failed to accept 100 numbers
+2025-04-08 14:41:34,300 - ERROR - A1 input box failed to accept 100 letters
+2025-04-08 14:41:34,840 - ERROR - A1 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 14:41:34,842 - INFO - Tearing down the browser
+2025-04-08 14:41:35,347 - INFO - Setting up the browser
+2025-04-08 14:41:35,917 - INFO - Uploading downloaded JSON file
+2025-04-08 14:41:35,923 - INFO - C:\Users\GRL\Downloads\SDF_Export_20250408_144125.json
+2025-04-08 14:41:35,978 - INFO - File uploaded: C:\Users\GRL\Downloads\SDF_Export_20250408_144125.json
+2025-04-08 14:41:37,145 - INFO - Setting up the browser
+2025-04-08 14:41:37,276 - INFO - Opening browser using way1
+2025-04-08 14:41:40,980 - INFO - Waiting for 'Create Project' button to be clickable
+2025-04-08 14:41:42,375 - INFO - Opening browser using way1
+2025-04-08 14:41:42,928 - INFO - Tester status: Connected
+2025-04-08 14:41:42,929 - INFO - Opening Test Configuration Panel
+2025-04-08 14:41:43,028 - INFO - Clicked on 'Create Project' successfully
+2025-04-08 14:41:44,595 - INFO - Tester status: Connected
+2025-04-08 14:41:44,597 - INFO - Verifying tester connection status
+2025-04-08 14:41:44,727 - INFO - Tester connection status: Connected
+2025-04-08 14:41:44,728 - INFO - Tester connected successfully.
+2025-04-08 14:41:45,060 - INFO - Extracted Tester Status: Connected
+2025-04-08 14:41:45,134 - INFO - Extracted Serial Number: GRL-C3-MP-2023006
+2025-04-08 14:41:45,297 - INFO - Extracted Firmware Version: 5.0.1.33 / 1.9
+2025-04-08 14:41:45,393 - INFO - Extracted Next Calibration Date: Thursday, May 22, 2025
+2025-04-08 14:41:45,517 - INFO - Extracted Tester IP Address: 192.168.5.74
+2025-04-08 14:41:45,972 - INFO - Extracted Port: 5002
+2025-04-08 14:41:45,973 - INFO - Test execution completed.
+2025-04-08 14:41:45,975 - INFO - Closing the WebDriver
+2025-04-08 14:41:46,428 - INFO - clicking on body of the UI to enble the UI
+2025-04-08 14:41:48,033 - INFO - Validating Product Name after upload
+2025-04-08 14:41:48,241 - INFO - Tester status: Connected
+2025-04-08 14:41:48,242 - INFO - Opening Test Configuration Panel
+2025-04-08 14:41:49,113 - INFO - Page title: GRL-C3-TPT Software
+2025-04-08 14:41:49,133 - INFO - Page URL: http://localhost:2004/v3220129.html
+2025-04-08 14:41:49,134 - INFO - Locating PRx Compliance Tests MPP V2.0.1 checkbox
+2025-04-08 14:41:50,495 - INFO - clicking on body of the UI to enble the UI
+2025-04-08 14:41:52,162 - INFO - Clicking on Edit SDF Button
+2025-04-08 14:41:52,599 - INFO - Verifying the input box functionality for Product Name
+2025-04-08 14:41:53,549 - ERROR - Product Name input box failed to accept 100 random characters
+2025-04-08 14:41:54,180 - ERROR - Product Name input box failed to accept 100 numbers
+2025-04-08 14:41:54,449 - INFO - Tester status: Connected
+2025-04-08 14:41:54,450 - INFO - Opening Test Configuration Panel
+2025-04-08 14:41:54,992 - ERROR - Product Name input box failed to accept 100 letters
+2025-04-08 14:41:55,345 - INFO - Setting up the browser
+2025-04-08 14:41:55,475 - ERROR - Product Name input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 14:41:55,479 - INFO - Verifying the input box functionality for Applicant Name
+2025-04-08 14:41:55,709 - INFO - Clicking on Edit SDF Button
+2025-04-08 14:41:56,093 - ERROR - Applicant Name input box failed to accept 100 random characters
+2025-04-08 14:41:56,448 - INFO - Verifying the input box functionality for Maximum Power
+2025-04-08 14:41:56,682 - INFO - clicking on body of the UI to enble the UI
+2025-04-08 14:41:57,136 - ERROR - Applicant Name input box failed to accept 100 numbers
+2025-04-08 14:41:59,466 - INFO - Opening browser using way1
+2025-04-08 14:41:59,994 - ERROR - Applicant Name input box failed to accept 100 letters
+2025-04-08 14:42:00,093 - ERROR - Maximum Power input box failed to accept 100 random characters
+2025-04-08 14:42:01,163 - ERROR - Maximum Power input box failed to accept 100 numbers
+2025-04-08 14:42:01,533 - ERROR - Applicant Name input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 14:42:01,563 - INFO - Verifying the input box functionality for Part Number
+2025-04-08 14:42:02,142 - ERROR - Maximum Power input box failed to accept 100 letters
+2025-04-08 14:42:02,433 - ERROR - Part Number input box failed to accept 100 random characters
+2025-04-08 14:42:03,547 - ERROR - Part Number input box failed to accept 100 numbers
+on of letters, numbers, and special characters
+2025-04-08 14:42:03,554 - INFO - Verifying the checkbox functionality for OB Support
+2025-04-08 14:42:03,680 - INFO - OB Support checkbox is unchecked by default
+2025-04-08 14:42:04,165 - INFO - OB Support checkbox is now checked
+2025-04-08 14:42:04,745 - ERROR - Part Number input box failed to accept 100 letters
+2025-04-08 14:42:04,926 - INFO - Clicking on Edit SDF Button
+2025-04-08 14:42:05,041 - INFO - OB Support checkbox is now unchecked
+2025-04-08 14:42:05,049 - INFO - Verifying the checkbox functionality for Negotiation Support
+2025-04-08 14:42:05,106 - INFO - Negotiation Support checkbox is unchecked by default
+2025-04-08 14:42:05,626 - INFO - Negotiation Support checkbox is now checked
+2025-04-08 14:42:05,882 - INFO - Negotiation Support checkbox is now unchecked
+2025-04-08 14:42:05,889 - INFO - Verifying the checkbox functionality for PCH Data Packet Support
+2025-04-08 14:42:05,925 - INFO - PCH Data Packet Support checkbox is unchecked by default
+2025-04-08 14:42:06,113 - ERROR - Part Number input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 14:42:06,119 - INFO - Verifying the checkbox functionality for Dup Support
+2025-04-08 14:42:06,193 - INFO - PCH Data Packet Support checkbox is now checked
+2025-04-08 14:42:06,239 - INFO - Dup Support checkbox is unchecked by default
+2025-04-08 14:42:06,310 - INFO - Verifying the checkbox functionality for XID Data Packet Support
+2025-04-08 14:42:06,431 - INFO - PCH Data Packet Support checkbox is now unchecked
+2025-04-08 14:42:06,540 - INFO - Verifying the checkbox functionality for Restricted To Full Mode
+2025-04-08 14:42:06,548 - INFO - XID Data Packet Support checkbox is unchecked by default
+2025-04-08 14:42:06,658 - INFO - Restricted To Full Mode checkbox is unchecked by default
+2025-04-08 14:42:06,779 - INFO - Dup Support checkbox is now checked
+2025-04-08 14:42:06,993 - INFO - Restricted To Full Mode checkbox is now checked
+2025-04-08 14:42:07,116 - INFO - XID Data Packet Support checkbox is now checked
+2025-04-08 14:42:07,179 - INFO - Dup Support checkbox is now unchecked
+2025-04-08 14:42:07,183 - INFO - Restricted To Full Mode checkbox is now unchecked
+2025-04-08 14:42:07,189 - INFO - Verifying the checkbox functionality for Detect Ping Support
+2025-04-08 14:42:07,190 - INFO - Verifying the checkbox functionality for WPID Support
+2025-04-08 14:42:07,274 - INFO - Detect Ping Support checkbox is unchecked by default
+2025-04-08 14:42:07,279 - INFO - WPID Support checkbox is unchecked by default
+2025-04-08 14:42:07,342 - INFO - XID Data Packet Support checkbox is now unchecked
+2025-04-08 14:42:07,350 - INFO - Verifying the checkbox functionality for Restricted Mode Support
+2025-04-08 14:42:07,552 - INFO - WPID Support checkbox is now checked
+2025-04-08 14:42:07,552 - INFO - Restricted Mode Support checkbox is unchecked by default
+2025-04-08 14:42:07,557 - INFO - Detect Ping Support checkbox is now checked
+2025-04-08 14:42:07,781 - INFO - WPID Support checkbox is now unchecked
+2025-04-08 14:42:07,790 - INFO - Detect Ping Support checkbox is now unchecked
+2025-04-08 14:42:07,791 - INFO - Verifying the checkbox functionality for Authentication Support
+2025-04-08 14:42:07,792 - INFO - Restricted Mode Support checkbox is now checked
+2025-04-08 14:42:07,797 - INFO - Verifying the checkbox functionality for HPM Ping Support
+2025-04-08 14:42:07,862 - INFO - HPM Ping Support checkbox is unchecked by default
+2025-04-08 14:42:07,866 - INFO - Authentication Support checkbox is unchecked by default
+2025-04-08 14:42:08,066 - INFO - Restricted Mode Support checkbox is now unchecked
+2025-04-08 14:42:08,076 - INFO - Verifying the dropdown functionality for Supported Specification
+2025-04-08 14:42:08,144 - INFO - HPM Ping Support checkbox is now checked
+2025-04-08 14:42:08,179 - ERROR - Supported Specification dropdown is not enabled
+2025-04-08 14:42:08,189 - INFO - Verifying the dropdown functionality for Supported Protocols
+2025-04-08 14:42:08,262 - INFO - Authentication Support checkbox is now checked
+2025-04-08 14:42:08,325 - INFO - HPM Ping Support checkbox is now unchecked
+2025-04-08 14:42:08,331 - INFO - Verifying the dropdown functionality for Supported PROP Data Packets
+2025-04-08 14:42:08,462 - INFO - Authentication Support checkbox is now unchecked
+2025-04-08 14:42:08,468 - INFO - Verifying the dropdown functionality for Power Profile
+2025-04-08 14:42:08,550 - INFO - Available options in Supported Protocols:
+2025-04-08 14:42:08,559 - ERROR - Power Profile dropdown is not enabled
+2025-04-08 14:42:08,561 - INFO - Tearing down the browser
+2025-04-08 14:42:08,708 - INFO - Available options in Supported PROP Data Packets:
+2025-04-08 14:42:09,030 - INFO - Verifying the dropdown functionality for Supported Cloak Reasons
+2025-04-08 14:42:09,031 - INFO - Verifying the dropdown functionality for Supported GetRequests
+2025-04-08 14:42:09,206 - INFO - Available options in Supported GetRequests:
+2025-04-08 14:42:09,214 - INFO - Available options in Supported Cloak Reasons:
+2025-04-08 14:42:09,329 - ERROR - Tester is not having 2.2 license.
+2025-04-08 14:42:09,331 - INFO - Closing the WebDriver
+2025-04-08 14:42:09,611 - INFO - Tearing down the browser
+2025-04-08 14:42:09,786 - INFO - Tearing down the browser
+2025-04-08 14:42:10,411 - INFO - Tester status: Connected
+2025-04-08 14:42:10,412 - INFO - Opening Test Configuration Panel
+2025-04-08 14:42:11,868 - INFO - Setting up the browser
+2025-04-08 14:42:12,622 - INFO - clicking on body of the UI to enble the UI
+2025-04-08 14:42:12,902 - INFO - Opening browser using way1
+2025-04-08 14:42:14,544 - INFO - Opening browser using way1
+2025-04-08 14:42:14,741 - INFO - Opening browser using way1
+2025-04-08 14:42:16,315 - INFO - Opening browser using way1
+2025-04-08 14:42:20,723 - INFO - Clicking on Edit SDF Button
+2025-04-08 14:42:22,682 - INFO - Verifying the input box functionality for QIID
+2025-04-08 14:42:23,396 - INFO - Tester status: Connected
+2025-04-08 14:42:23,396 - INFO - Checking if the browser is landing on the Connection Panel
+2025-04-08 14:42:23,448 - INFO - Connection button is available, so the browser is on the Connection Page
+2025-04-08 14:42:24,064 - ERROR - QIID input box failed to accept 100 random characters
+2025-04-08 14:42:24,861 - ERROR - QIID input box failed to accept 100 numbers
+2025-04-08 14:42:25,595 - ERROR - QIID input box failed to accept 100 letters
+2025-04-08 14:42:25,843 - INFO - Tester status: Connected
+2025-04-08 14:42:25,843 - INFO - Verifying the 'Scan Network' button is visible on the UI
+2025-04-08 14:42:25,924 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-08 14:42:25,924 - INFO - Verifying the 'Scan Network' button is clickable
+2025-04-08 14:42:25,978 - INFO - The 'Scan Network' button is clickable.
+2025-04-08 14:42:25,978 - INFO - Clicking the 'Scan Network' button
+2025-04-08 14:42:26,075 - ERROR - QIID input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 14:42:26,079 - INFO - Verifying the input box functionality for Manufacturer Code
+2025-04-08 14:42:26,110 - INFO - Tester status: Connected
+2025-04-08 14:42:26,110 - INFO - Opening Test Configuration Panel
+2025-04-08 14:42:26,884 - ERROR - Manufacturer Code input box failed to accept 100 random characters
+2025-04-08 14:42:27,293 - INFO - Tester status: Connected
+2025-04-08 14:42:27,293 - INFO - Verify The browser title in the UI tab should contain the text GRL-C3-TPT.
+2025-04-08 14:42:27,323 - INFO - The browser title is GRL-C3-TPT
+2025-04-08 14:42:27,624 - ERROR - Manufacturer Code input box failed to accept 100 numbers
+2025-04-08 14:42:28,396 - INFO - clicking on body of the UI to enble the UI
+2025-04-08 14:42:28,813 - INFO - Opening browser using way1
+2025-04-08 14:42:29,264 - ERROR - Manufacturer Code input box failed to accept 100 letters
+2025-04-08 14:42:31,182 - ERROR - Manufacturer Code input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 14:42:31,194 - INFO - Verifying the input box functionality for Cloak Retry Count
+2025-04-08 14:42:32,831 - INFO - Opening browser using way1
+2025-04-08 14:42:34,709 - ERROR - Cloak Retry Count input box failed to accept 100 random characters
+2025-04-08 14:42:35,142 - INFO - Clicking on Edit SDF Button
+2025-04-08 14:42:36,358 - WARNING - Could not confirm that the scan has started via button state: Message: 
+
+2025-04-08 14:42:36,359 - INFO - Scan button click registered. Proceeding without disabled state confirmation as the UI may not change the button's state.
+2025-04-08 14:42:36,394 - INFO - Scan completed in 10.42 seconds
+2025-04-08 14:42:36,548 - INFO - Verifying the checkbox functionality for Cloak Support
+2025-04-08 14:42:36,754 - INFO - Screenshot of available networks taken.
+2025-04-08 14:42:36,837 - ERROR - Cloak Retry Count input box failed to accept 100 numbers
+2025-04-08 14:42:37,265 - INFO - Cloak Support checkbox is unchecked by default
+2025-04-08 14:42:39,170 - ERROR - Cloak Retry Count input box failed to accept 100 letters
+2025-04-08 14:42:39,188 - INFO - Cloak Support checkbox is now checked
+2025-04-08 14:42:39,827 - INFO - Tester status: Connected
+2025-04-08 14:42:39,923 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-08 14:42:39,924 - INFO - Clicking the 'Scan Network' button.
+2025-04-08 14:42:40,148 - INFO - Cloak Support checkbox is now unchecked
+2025-04-08 14:42:40,172 - INFO - Verifying the checkbox functionality for Gain Linearization Support
+2025-04-08 14:42:40,362 - INFO - Gain Linearization Support checkbox is unchecked by default
+2025-04-08 14:42:40,646 - ERROR - Cloak Retry Count input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 14:42:40,648 - INFO - Tearing down the browser
+2025-04-08 14:42:40,657 - ERROR - The 'Connect' button is not disabled during scanning.
+2025-04-08 14:42:41,030 - INFO - Gain Linearization Support checkbox is now checked
+2025-04-08 14:42:41,231 - INFO - Gain Linearization Support checkbox is now unchecked
+2025-04-08 14:42:41,234 - INFO - Tearing down the browser
+2025-04-08 14:42:43,536 - INFO - Starting test: Check for the Eload files
+2025-04-08 14:42:43,536 - INFO - Starting test: Check for the Firmware files
+2025-04-08 14:42:43,537 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\PPS_ELOAD.bin
+2025-04-08 14:42:43,537 - INFO - Eload file verification passed.
+2025-04-08 14:42:43,537 - INFO - Directory found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP
+2025-04-08 14:42:43,537 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\BOOT.BIN
+2025-04-08 14:42:43,537 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\image.ub
+2025-04-08 14:42:43,537 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\Firmware_Files\BPP_EPP\start.sh
+2025-04-08 14:42:43,538 - INFO - All firmware files are present.
+2025-04-08 14:42:43,538 - INFO - Firmware files verification passed.
+2025-04-08 14:42:43,539 - INFO - Starting test_TC3
+2025-04-08 14:42:43,541 - INFO - Starting test_TC2
+2025-04-08 14:42:43,677 - INFO - Tester status: Connected
+2025-04-08 14:42:43,678 - INFO - Waiting for the Setup Diagram element to be visible
+2025-04-08 14:42:43,703 - INFO - Setup Diagram element is visible. Clicking it now.
+2025-04-08 14:42:43,841 - INFO - Waiting for the modal to display the expected text
+2025-04-08 14:42:43,909 - INFO - Modal displays the expected text: 'GRL-C3-TPT Setup Diagram'
+2025-04-08 14:42:44,161 - INFO - Screenshot of the Setup Diagram view taken after clicking OK.
+2025-04-08 14:42:44,162 - INFO - Waiting for the OK button to be clickable
+2025-04-08 14:42:44,238 - INFO - Clicking the OK button in the modal
+2025-04-08 14:42:44,578 - INFO - Starting test: Check for the Readme file
+2025-04-08 14:42:44,579 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-08 14:42:44,580 - INFO - File content verified: C:\GRL\GRL-C3-MP-TPT\ReadMe.txt
+2025-04-08 14:42:44,581 - INFO - Readme file verification passed.
+2025-04-08 14:42:44,911 - INFO - Opening browser using way1
+2025-04-08 14:42:45,175 - INFO - Modal dismissed; back to the Connection Panel.
+2025-04-08 14:42:46,927 - INFO - Opening browser using way1
+2025-04-08 14:42:46,945 - INFO - Opening browser using way1
+2025-04-08 14:42:50,238 - INFO - Opening browser using way1
+2025-04-08 14:42:51,294 - INFO - Starting test: Check for the Release Notes file
+2025-04-08 14:42:51,297 - INFO - File found: C:\GRL\GRL-C3-MP-TPT\GRL-C3-TPT Release Notes.pdf
+2025-04-08 14:42:51,300 - INFO - Release Notes file verification passed.
+2025-04-08 14:42:55,571 - INFO - Tester status: Connected
+2025-04-08 14:42:55,572 - INFO - Opening application URL
+2025-04-08 14:42:55,988 - INFO - Opening browser using way1
+2025-04-08 14:42:58,568 - INFO - Tester status: Connected
+2025-04-08 14:42:58,569 - INFO - Clicking on Help button
+2025-04-08 14:42:59,630 - INFO - APP version matches expected version.
+2025-04-08 14:43:00,448 - INFO - Initial tester status: Connected
+2025-04-08 14:43:00,975 - INFO - Entered wrong IP: 192.168.255.22
+2025-04-08 14:43:01,226 - INFO - Tester status: Connected
+2025-04-08 14:43:01,228 - INFO - Step: Checking Report Button availability
+2025-04-08 14:43:01,343 - INFO - Report button is available.
+2025-04-08 14:43:01,824 - INFO - Clicked Report button.
+2025-04-08 14:43:03,831 - INFO - Step: Checking 'View Report' button availability
+2025-04-08 14:43:03,841 - INFO - Tester status: Connected
+2025-04-08 14:43:03,875 - INFO - View Report button is available.
+2025-04-08 14:43:03,883 - INFO - ====== Starting Report Data Management Flow ======
+2025-04-08 14:43:03,883 - INFO - Step 1: Clicking Report Data Management button
+2025-04-08 14:43:04,109 - INFO - Step 2: Checking Delete Test Report button availability
+2025-04-08 14:43:04,146 - INFO - Step 3: Checking Test results folder size label
+2025-04-08 14:43:04,261 - INFO - Test results folder info: Test results folder size :0.00 MBs
+2025-04-08 14:43:04,261 - INFO - Step 4: Checking Delete Report button availability
+2025-04-08 14:43:04,331 - INFO - Step 5: Clicking Delete Report button
+2025-04-08 14:43:04,618 - INFO - Step 5.1: Checking OK and Cancel buttons in popup
+2025-04-08 14:43:04,653 - INFO - Starting test_TC5
+2025-04-08 14:43:04,745 - INFO - Step 5.2: Clicking Cancel on popup
+2025-04-08 14:43:05,638 - INFO - Step 6: Clicking Download Report button
+2025-04-08 14:43:06,287 - INFO - Step 6.1: Waiting for 10 seconds for download to process
+2025-04-08 14:43:07,039 - INFO - Tester status: Connected
+2025-04-08 14:43:07,041 - INFO - ====== Starting Download Current HTML Button Flow ======
+2025-04-08 14:43:07,042 - INFO - Step 1: Clicking Download Current HTML button
+2025-04-08 14:43:08,757 - INFO - Opening browser using way1
+2025-04-08 14:43:08,843 - INFO - Clicking on Help button
+2025-04-08 14:43:12,296 - INFO - Clicked on the Connect button.
+2025-04-08 14:43:16,288 - INFO - Step 7: Clicking Delete Test Report button (Re-fetching due to possible stale)
+2025-04-08 14:43:16,838 - INFO - Step 8: Checking Confirmation Text
+2025-04-08 14:43:17,061 - INFO - Confirmation popup text: Are you sure you want to permanently delete all 2 folders?
+2025-04-08 14:43:17,062 - INFO - Step 9: Checking OK and Cancel buttons in confirmation popup
+2025-04-08 14:43:17,160 - INFO - Step 9.1: Clicking Cancel on confirmation popup
+2025-04-08 14:43:17,676 - INFO - Tester status after clicking Connect: Invalid IP address format : 192.168.5.74192.168.255.22
+2025-04-08 14:43:17,676 - INFO - Expected error message is present: Invalid IP address format : 192.168.5.74192.168.255.22
+2025-04-08 14:43:18,725 - INFO - ====== Completed Report Data Management Flow Successfully ======
+2025-04-08 14:43:18,741 - INFO - ====== Starting Synthetic File Popup Dropdown Value Print ======
+2025-04-08 14:43:18,741 - INFO - Step 1: Clicking Synthetic File button
+2025-04-08 14:43:19,414 - INFO - Waiting for popup to be fully loaded...
+2025-04-08 14:43:19,510 - INFO - Step 3: Validating input box
+2025-04-08 14:43:19,979 - INFO - Typed and verified: 12345
+2025-04-08 14:43:20,267 - INFO - Typed and verified: abcDEF
+2025-04-08 14:43:20,486 - INFO - Typed and verified: !@#$%
+2025-04-08 14:43:20,671 - INFO - Typed and verified: abc123!@#
+2025-04-08 14:43:20,671 - INFO - Step 4: Toggling VC-Tx checkbox
+2025-04-08 14:43:20,780 - INFO - Checkbox clicked
+2025-04-08 14:43:20,908 - INFO - Step 5: Handling dropdown: File Source
+2025-04-08 14:43:21,489 - INFO - File Source dropdown options:
+2025-04-08 14:43:21,502 - INFO -     File Source --> External File
+2025-04-08 14:43:21,512 - INFO -     File Source --> TPT File
+2025-04-08 14:43:22,024 - INFO - Step 5: Handling dropdown: Test Mode
+2025-04-08 14:43:22,110 - INFO - Switched to new window: Knowledge Base | Create Support Ticket
+2025-04-08 14:43:22,117 - INFO - New page title: Knowledge Base | Create Support Ticket
+2025-04-08 14:43:22,602 - INFO - Test Mode dropdown options:
+2025-04-08 14:43:22,612 - INFO -     Test Mode --> 128kHz
+2025-04-08 14:43:22,628 - INFO -     Test Mode --> 360kHz
+2025-04-08 14:43:23,140 - INFO - Step 5: Handling dropdown: Test Type
+2025-04-08 14:43:23,694 - INFO - Test Type dropdown options:
+2025-04-08 14:43:23,721 - INFO -     Test Type --> 4.14.Eye test
+2025-04-08 14:43:23,735 - INFO -     Test Type --> 4.15.Real test
+2025-04-08 14:43:24,244 - INFO - Step 5: Handling dropdown: Channel Type
+2025-04-08 14:43:24,425 - INFO - Starting test_TC4
+2025-04-08 14:43:24,733 - INFO - Tester status: Disconnected
+2025-04-08 14:43:24,902 - INFO - Channel Type dropdown options:
+2025-04-08 14:43:24,943 - INFO -     Channel Type --> Magnitude
+2025-04-08 14:43:25,110 - INFO -     Channel Type --> Phase
+2025-04-08 14:43:25,129 - INFO -     Channel Type --> Both
+2025-04-08 14:43:25,589 - INFO - Opening browser using way1
+2025-04-08 14:43:25,706 - INFO - ====== Completed Synthetic File Popup Dropdown Value Print Successfully ======
+2025-04-08 14:43:27,525 - INFO - Opening browser using way1
+2025-04-08 14:43:27,929 - ERROR - Download Current HTML flow failed: Message: 
+
+2025-04-08 14:43:36,264 - INFO - Tester status: Disconnected
+2025-04-08 14:43:38,041 - INFO - Tester status: Disconnected
+2025-04-08 14:43:39,280 - INFO - Tester status: Connected
+2025-04-08 14:43:44,281 - INFO - Checking Downloads debug logs button working properly in Help Panel or not
+2025-04-08 14:43:44,511 - INFO - Help tab clicked successfully.
+2025-04-08 14:43:45,041 - INFO - ====== Starting Download Current BSUT Report Data Button Flow ======
+2025-04-08 14:43:45,042 - INFO - Step 1: Clicking Download Current BSUT Report Data button
+2025-04-08 14:43:46,770 - INFO - Debug Logs button clicked successfully.
+2025-04-08 14:43:46,793 - INFO - Most recent file in download directory: C:\Users\GRL/Downloads\Debug_Log (2).txt
+2025-04-08 14:43:46,794 - INFO - Debug logs file renamed to Debug_Log_20250408_144346.txt.
+2025-04-08 14:43:46,796 - INFO - Debug logs match the reference log file.
+2025-04-08 14:43:48,805 - INFO - Tester status: Connected
+2025-04-08 14:43:48,805 - INFO - Checking if Help button is present
+2025-04-08 14:43:48,826 - INFO - Help button is present
+2025-04-08 14:43:50,676 - INFO - Opening browser using way1
+2025-04-08 14:43:50,992 - INFO - Tester status: Connected
+2025-04-08 14:43:55,994 - INFO - Checking if Email Support button is clickable
+2025-04-08 14:43:56,176 - INFO - Help tab clicked successfully.
+2025-04-08 14:43:56,219 - INFO - Email Support button located.
+2025-04-08 14:44:01,366 - INFO - Tester status: Connected
+2025-04-08 14:44:01,368 - INFO - ====== Test: Write Button + Error Popup + Return to Report Page ======
+2025-04-08 14:44:01,368 - INFO - ====== Starting Write Button Verification Flow ======
+2025-04-08 14:44:01,368 - INFO - Step 1: Checking Write button availability
+2025-04-08 14:44:05,193 - ERROR - Download Current BSUT Report Data flow failed: Message: 
+
+2025-04-08 14:44:05,357 - INFO - Screenshot saved for debugging.
+2025-04-08 14:44:21,765 - ERROR - Write button flow failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CFA64C25+3179557]
+	(No symbol) [0x00007FF6CF6C88A0]
+	(No symbol) [0x00007FF6CF5591CA]
+	(No symbol) [0x00007FF6CF5AFA67]
+	(No symbol) [0x00007FF6CF5AFC9C]
+	(No symbol) [0x00007FF6CF603627]
+	(No symbol) [0x00007FF6CF5D7C6F]
+	(No symbol) [0x00007FF6CF6002F3]
+	(No symbol) [0x00007FF6CF5D7A03]
+	(No symbol) [0x00007FF6CF5A06D0]
+	(No symbol) [0x00007FF6CF5A1983]
+	GetHandleVerifier [0x00007FF6CFAC67CD+3579853]
+	GetHandleVerifier [0x00007FF6CFADD1D2+3672530]
+	GetHandleVerifier [0x00007FF6CFAD2153+3627347]
+	GetHandleVerifier [0x00007FF6CF83092A+868650]
+	(No symbol) [0x00007FF6CF6D2FFF]
+	(No symbol) [0x00007FF6CF6CF4A4]
+	(No symbol) [0x00007FF6CF6CF646]
+	(No symbol) [0x00007FF6CF6BEAA9]
+	BaseThreadInitThunk [0x00007FF85A3353E0+16]
+	RtlUserThreadStart [0x00007FF85BD6485B+43]
+
+2025-04-08 15:30:27,413 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 15:30:27,479 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-08 15:30:30,144 - INFO - Opening browser using way1
+2025-04-08 15:30:43,497 - INFO - Tester status: Connected
+2025-04-08 15:30:43,497 - INFO - Opening Qi Exerciser Panel
+2025-04-08 15:30:50,655 - INFO - Verifying the input box functionality for A0
+2025-04-08 15:30:51,094 - ERROR - A0 input box failed to accept 100 random characters
+2025-04-08 15:30:51,407 - ERROR - A0 input box failed to accept 100 numbers
+2025-04-08 15:30:51,746 - ERROR - A0 input box failed to accept 100 letters
+2025-04-08 15:30:52,095 - ERROR - A0 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 15:30:52,099 - INFO - Verifying the input box functionality for A1
+2025-04-08 15:30:52,438 - ERROR - A1 input box failed to accept 100 random characters
+2025-04-08 15:30:52,756 - ERROR - A1 input box failed to accept 100 numbers
+2025-04-08 15:30:53,074 - ERROR - A1 input box failed to accept 100 letters
+2025-04-08 15:30:53,452 - ERROR - A1 input box failed to accept a combination of letters, numbers, and special characters
+2025-04-08 15:30:53,492 - INFO - Verifying the checkbox functionality for PPS Volts Checkbox
+2025-04-08 15:30:53,512 - ERROR - PPS Volts Checkbox checkbox is not available on the page
+2025-04-08 15:30:53,515 - INFO - Verifying the checkbox functionality for Q Factor Measurement Checkbox
+2025-04-08 15:30:53,545 - INFO - Q Factor Measurement Checkbox checkbox is unchecked by default
+2025-04-08 15:30:53,641 - INFO - Q Factor Measurement Checkbox checkbox is now checked
+2025-04-08 15:30:53,706 - INFO - Q Factor Measurement Checkbox checkbox is now unchecked
+2025-04-08 15:30:53,709 - INFO - Verifying the dropdown functionality for Coil Type
+2025-04-08 15:30:53,878 - INFO - Available options in Coil Type:
+2025-04-08 15:30:54,020 - INFO - Verifying the dropdown functionality for Demodulator
+2025-04-08 15:30:54,128 - INFO - Available options in Demodulator:
+2025-04-08 15:30:54,271 - INFO - Tearing down the browser
+2025-04-08 15:30:56,474 - INFO - Setting up the WebDriver
+2025-04-08 15:30:58,845 - INFO - Opening browser using way1
+2025-04-08 15:31:11,314 - INFO - Tester status: Disconnected
+2025-04-08 15:32:12,975 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 15:32:14,413 - INFO - Opening browser using way1
+2025-04-08 15:32:24,946 - INFO - Tester status: Connected
+2025-04-08 15:32:24,947 - INFO - Checking if Help button is present
+2025-04-08 15:32:24,970 - INFO - Help button is present
+2025-04-08 15:32:40,528 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 15:32:40,633 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 15:32:40,642 - INFO - Starting test_TC3
+2025-04-08 15:32:42,499 - INFO - Opening browser using way1
+2025-04-08 15:32:42,583 - INFO - Opening browser using way1
+2025-04-08 15:32:49,096 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000128F513CB90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/72d90186e832d5d9cdffd15a09b1a7c8/element
+2025-04-08 15:46:54,924 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 15:46:54,980 - INFO - Setting up the browser for Qi Exerciser Panel
+2025-04-08 15:46:56,681 - INFO - Opening browser using way1
+2025-04-08 15:47:03,058 - ERROR - Connection attempt 1 failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-08 15:47:07,143 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019E36B6A490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a000801799e6b0a7739e37711e1130c4/screenshot
+2025-04-08 15:47:11,217 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019E36B6A350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a000801799e6b0a7739e37711e1130c4/screenshot
+2025-04-08 15:47:15,306 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019E36B88C30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a000801799e6b0a7739e37711e1130c4/screenshot
+2025-04-08 16:05:25,589 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 16:05:27,498 - INFO - Opening browser using way1
+2025-04-08 16:05:37,828 - INFO - Tester status: Connected
+2025-04-08 16:05:37,829 - INFO - Checking if the browser is landing on the Connection Panel
+2025-04-08 16:05:37,861 - INFO - Connection button is available, so the browser is on the Connection Page
+2025-04-08 16:05:42,436 - INFO - Opening browser using way1
+2025-04-08 16:05:52,881 - INFO - Tester status: Connected
+2025-04-08 16:05:52,882 - INFO - Verify The browser title in the UI tab should contain the text GRL-C3-TPT.
+2025-04-08 16:05:52,912 - INFO - The browser title is GRL-C3-TPT
+2025-04-08 16:05:57,578 - INFO - Opening browser using way1
+2025-04-08 16:06:08,124 - INFO - Tester status: Connected
+2025-04-08 16:06:08,125 - INFO - Verifying the 'Scan Network' button is visible on the UI
+2025-04-08 16:06:08,175 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-08 16:06:08,176 - INFO - Verifying the 'Scan Network' button is clickable
+2025-04-08 16:06:08,190 - INFO - The 'Scan Network' button is clickable.
+2025-04-08 16:06:08,191 - INFO - Clicking the 'Scan Network' button
+2025-04-08 16:06:18,593 - WARNING - Could not confirm that the scan has started via button state: Message: 
+
+2025-04-08 16:06:18,595 - INFO - Scan button click registered. Proceeding without disabled state confirmation as the UI may not change the button's state.
+2025-04-08 16:06:18,608 - INFO - Scan completed in 10.42 seconds
+2025-04-08 16:06:18,991 - INFO - Screenshot of available networks taken.
+2025-04-08 16:06:23,004 - INFO - Opening browser using way1
+2025-04-08 16:06:33,499 - INFO - Tester status: Connected
+2025-04-08 16:06:33,538 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-08 16:06:33,539 - INFO - Clicking the 'Scan Network' button.
+2025-04-08 16:06:33,731 - INFO - The 'Connect' button is disabled during scanning as expected.
+2025-04-08 16:07:33,766 - INFO - Scanning process completed. The 'connection' button is visible again.
+2025-04-08 16:07:38,133 - INFO - Opening browser using way1
+2025-04-08 16:07:48,453 - INFO - Tester status: Connected
+2025-04-08 16:07:48,455 - INFO - Waiting for the Setup Diagram element to be visible
+2025-04-08 16:07:48,511 - INFO - Setup Diagram element is visible. Clicking it now.
+2025-04-08 16:07:48,732 - INFO - Waiting for the modal to display the expected text
+2025-04-08 16:07:48,800 - INFO - Modal displays the expected text: 'GRL-C3-TPT Setup Diagram'
+2025-04-08 16:07:49,249 - INFO - Screenshot of the Setup Diagram view taken after clicking OK.
+2025-04-08 16:07:49,251 - INFO - Waiting for the OK button to be clickable
+2025-04-08 16:07:49,297 - INFO - Clicking the OK button in the modal
+2025-04-08 16:07:49,420 - INFO - Modal dismissed; back to the Connection Panel.
+2025-04-08 16:07:53,285 - INFO - Opening browser using way1
+2025-04-08 16:08:05,990 - INFO - Tester status: Connected
+2025-04-08 16:08:05,991 - INFO - Opening application URL
+2025-04-08 16:08:08,954 - INFO - Initial tester status: Connected
+2025-04-08 16:08:09,296 - INFO - Entered wrong IP: 192.168.255.22
+2025-04-08 16:08:19,572 - INFO - Clicked on the Connect button.
+2025-04-08 16:08:24,613 - INFO - Tester status after clicking Connect: Invalid IP address format : 192.168.5.74192.168.255.22
+2025-04-08 16:08:24,616 - INFO - Expected error message is present: Invalid IP address format : 192.168.5.74192.168.255.22
+2025-04-08 16:39:59,446 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 16:39:59,551 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-08 16:40:02,854 - INFO - Opening browser using way1
+2025-04-08 16:40:03,815 - INFO - Opening browser using way1
+2025-04-08 16:40:13,799 - INFO - Tester status: Disconnected
+2025-04-08 16:40:14,567 - INFO - Tester status: Disconnected
+2025-04-08 16:40:23,536 - INFO - Popup detected. Clicking OK.
+2025-04-08 16:40:24,656 - INFO - Popup detected. Clicking OK.
+2025-04-08 16:40:25,698 - INFO - Tester status: Disconnected
+2025-04-08 16:40:26,805 - INFO - Tester status: Connected
+2025-04-08 16:40:26,806 - INFO - Checking if the browser is landing on the Connection Panel
+2025-04-08 16:40:26,832 - INFO - Connection button is available, so the browser is on the Connection Page
+2025-04-08 16:40:34,513 - INFO - Opening browser using way1
+2025-04-08 16:40:38,585 - INFO - Tester status: Connected
+2025-04-08 16:40:38,586 - INFO - Verifying the 'Scan Network' button is visible on the UI
+2025-04-08 16:40:38,708 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-08 16:40:38,708 - INFO - Verifying the 'Scan Network' button is clickable
+2025-04-08 16:40:38,725 - INFO - The 'Scan Network' button is clickable.
+2025-04-08 16:40:38,727 - INFO - Clicking the 'Scan Network' button
+2025-04-08 16:40:45,115 - INFO - Tester status: Connected
+2025-04-08 16:40:45,116 - INFO - Verify The browser title in the UI tab should contain the text GRL-C3-TPT.
+2025-04-08 16:40:45,147 - INFO - The browser title is GRL-C3-TPT
+2025-04-08 16:40:49,458 - WARNING - Could not confirm that the scan has started via button state: Message: 
+
+2025-04-08 16:40:49,459 - INFO - Scan button click registered. Proceeding without disabled state confirmation as the UI may not change the button's state.
+2025-04-08 16:40:49,472 - INFO - Scan completed in 10.74 seconds
+2025-04-08 16:40:49,477 - INFO - Opening browser using way1
+2025-04-08 16:40:49,785 - INFO - Screenshot of available networks taken.
+2025-04-08 16:40:57,625 - INFO - Opening browser using way1
+2025-04-08 16:41:00,190 - INFO - Tester status: Connected
+2025-04-08 16:41:00,191 - INFO - Waiting for the Setup Diagram element to be visible
+2025-04-08 16:41:00,237 - INFO - Setup Diagram element is visible. Clicking it now.
+2025-04-08 16:41:00,415 - INFO - Waiting for the modal to display the expected text
+2025-04-08 16:41:00,503 - INFO - Modal displays the expected text: 'GRL-C3-TPT Setup Diagram'
+2025-04-08 16:41:00,786 - INFO - Screenshot of the Setup Diagram view taken after clicking OK.
+2025-04-08 16:41:00,787 - INFO - Waiting for the OK button to be clickable
+2025-04-08 16:41:00,849 - INFO - Clicking the OK button in the modal
+2025-04-08 16:41:01,010 - INFO - Modal dismissed; back to the Connection Panel.
+2025-04-08 16:41:04,913 - INFO - Opening browser using way1
+2025-04-08 16:41:08,258 - INFO - Tester status: Connected
+2025-04-08 16:41:08,294 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-08 16:41:08,295 - INFO - Clicking the 'Scan Network' button.
+2025-04-08 16:41:08,515 - ERROR - The 'Connect' button is not disabled during scanning.
+2025-04-08 16:41:18,254 - INFO - Tester status: Connected
+2025-04-08 16:41:18,254 - INFO - Opening application URL
+2025-04-08 16:41:20,455 - INFO - Initial tester status: Connected
+2025-04-08 16:41:20,675 - INFO - Entered wrong IP: 192.168.255.22
+2025-04-09 10:58:20,279 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-09 10:58:20,391 - INFO - Using TESTER_IP: 192.168.5.74
+2025-04-09 10:58:22,411 - INFO - Opening browser using way1
+2025-04-09 10:58:22,575 - INFO - Opening browser using way1
+2025-04-09 10:58:33,136 - INFO - Tester status: Disconnected
+2025-04-09 10:58:36,939 - INFO - Tester status: Disconnected
+2025-04-09 10:58:46,087 - INFO - Tester status: Connected
+2025-04-09 10:58:46,087 - INFO - Verifying the 'Scan Network' button is visible on the UI
+2025-04-09 10:58:46,110 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-09 10:58:46,111 - INFO - Verifying the 'Scan Network' button is clickable
+2025-04-09 10:58:46,118 - INFO - The 'Scan Network' button is clickable.
+2025-04-09 10:58:46,118 - INFO - Clicking the 'Scan Network' button
+2025-04-09 10:58:50,469 - INFO - Tester status: Connected
+2025-04-09 10:58:50,469 - INFO - Checking if the browser is landing on the Connection Panel
+2025-04-09 10:58:50,486 - INFO - Connection button is available, so the browser is on the Connection Page
+2025-04-09 10:58:56,369 - WARNING - Could not confirm that the scan has started via button state: Message: 
+
+2025-04-09 10:58:56,369 - INFO - Scan button click registered. Proceeding without disabled state confirmation as the UI may not change the button's state.
+2025-04-09 10:58:56,375 - INFO - Scan completed in 10.26 seconds
+2025-04-09 10:58:56,610 - INFO - Screenshot of available networks taken.
+2025-04-09 10:58:58,245 - INFO - Opening browser using way1
+2025-04-09 10:59:04,203 - INFO - Opening browser using way1
+2025-04-09 10:59:08,815 - INFO - Tester status: Disconnected
+2025-04-09 10:59:17,054 - INFO - Tester status: Disconnected
+2025-04-09 10:59:21,906 - INFO - Tester status: IP address "192.168.5.74" unreachable
+2025-04-09 10:59:30,126 - INFO - Tester status: Connected
+2025-04-09 10:59:30,147 - INFO - The 'Scan Network' button is visible on the UI.
+2025-04-09 10:59:30,148 - INFO - Clicking the 'Scan Network' button.
+2025-04-09 10:59:30,290 - INFO - The 'Connect' button is disabled during scanning as expected.
+2025-04-09 10:59:34,518 - INFO - Tester status: Connected
+2025-04-09 10:59:34,518 - INFO - Verify The browser title in the UI tab should contain the text GRL-C3-TPT.
+2025-04-09 10:59:34,544 - INFO - The browser title is GRL-C3-TPT
+2025-04-09 10:59:38,200 - INFO - Opening browser using way1
+2025-04-09 10:59:48,393 - INFO - Tester status: Connected
+2025-04-09 10:59:48,393 - INFO - Waiting for the Setup Diagram element to be visible
+2025-04-09 10:59:48,426 - INFO - Setup Diagram element is visible. Clicking it now.
+2025-04-09 10:59:48,553 - INFO - Waiting for the modal to display the expected text
+2025-04-09 10:59:48,594 - INFO - Modal displays the expected text: 'GRL-C3-TPT Setup Diagram'
+2025-04-09 10:59:48,883 - INFO - Screenshot of the Setup Diagram view taken after clicking OK.
+2025-04-09 10:59:48,883 - INFO - Waiting for the OK button to be clickable
+2025-04-09 10:59:48,918 - INFO - Clicking the OK button in the modal
+2025-04-09 10:59:49,031 - INFO - Modal dismissed; back to the Connection Panel.
+2025-04-09 11:00:30,306 - INFO - Scanning process completed. The 'connection' button is visible again.
+2025-04-09 11:00:33,853 - INFO - Opening browser using way1
+2025-04-09 11:00:46,982 - INFO - Tester status: Connected
+2025-04-09 11:00:46,982 - INFO - Opening application URL
+2025-04-09 11:00:48,814 - INFO - Initial tester status: Connected
+2025-04-09 11:00:49,034 - INFO - Entered wrong IP: 192.168.255.22
+2025-04-09 11:00:59,283 - INFO - Clicked on the Connect button.
+2025-04-09 11:01:04,304 - INFO - Tester status after clicking Connect: Invalid IP address format : 192.168.5.74192.168.255.22
+2025-04-09 11:01:04,304 - INFO - Expected error message is present: Invalid IP address format : 192.168.5.74192.168.255.22
