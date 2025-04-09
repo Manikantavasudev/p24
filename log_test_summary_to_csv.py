@@ -49,5 +49,5 @@ file_exists = os.path.exists(csv_file)
 with open(csv_file, "a", newline="") as f:
     writer = csv.writer(f)
     if not file_exists:
-        writer.writerow(["Job #", "SW Version", "Result", "Expected", "Total", "Passed", "Failed", "Skipped", "Timestamp", "Remarks"])
-    writer.writerow([f"#{job_number}", build_version, result, expected, total, passed, failed, skipped, timestamp, remarks])
+        writer.writerow([ "SW Version", "Result", "Expected", "Total", "Passed", "Failed", "Skipped", "Timestamp", "Remarks"])
+    writer.writerow([build_version, result, expected, total, passed, failed, skipped, timestamp, remarks])
