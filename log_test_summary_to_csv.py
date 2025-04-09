@@ -3,44 +3,46 @@ import csv
 import os
 from datetime import datetime
 
+# Load environment variable for build version
+version_file = "version.properties"
+build_version = "Unknown"
+if os.path.exists(version_file):
+    with open(version_file) as f:
+        for line in f:
+            if line.startswith("BUILD_VERSION="):
+                build_version = line.strip().split("=")[1]
+
+# Load pytest JSON report
 json_file = "pytest-report.json"
-csv_file = "build_results_log.csv"
-job_number = os.getenv("BUILD_NUMBER", "#Unknown")
-sw_version = os.getenv("BUILD_VERSION", "Unknown")
-
-# Check if the JSON report exists
-if not os.path.exists(json_file):
-    print(f"Error: {json_file} not found.")
-    exit(1)
-
-# Load test result JSON
 with open(json_file, "r") as f:
     data = json.load(f)
 
+# Extract test summary
 summary = data.get("summary", {})
-tests = data.get("tests", [])
-
-# Extract test counts
-total = summary.get("collected", 0)
+total = summary.get("total", 0)
 passed = summary.get("passed", 0)
 failed = summary.get("failed", 0)
 skipped = summary.get("skipped", 0)
-
-# Determine result
-result = "Passed" if failed == 0 else "Failed"
 expected = "Pass"
+result = "Passed" if failed == 0 else "Failed"
 
-# Capture failed test names
-failed_tests = [t["nodeid"] for t in tests if t["outcome"] == "failed"]
-remarks = ", ".join(failed_tests) if failed_tests else "All Passed"
+# Collect remarks
+remarks = ""
+if "tests" in data:
+    for test in data["tests"]:
+        if test.get("outcome") == "failed":
+            remarks += f"{test['nodeid']} failed. "
 
-# Timestamp
-timestamp = datetime.now().strftime("%-m/%-d/%Y %H:%M")
+# Jenkins Environment Variable for Build Number
+job_number = os.getenv("BUILD_NUMBER", "Unknown")
+timestamp = datetime.now().strftime("%m/%d/%Y %H:%M")
 
-# Write to CSV
-file_exists = os.path.exists(csv_file)
+# CSV log
+csv_file = "build_results_log.csv"
+file_exists = os.path.isfile(csv_file)
+
 with open(csv_file, "a", newline="") as f:
     writer = csv.writer(f)
     if not file_exists:
         writer.writerow(["Job #", "SW Version", "Result", "Expected", "Total", "Passed", "Failed", "Skipped", "Timestamp", "Remarks"])
-    writer.writerow([f"#{job_number}", sw_version, result, expected, total, passed, failed, skipped, timestamp, remarks])
+    writer.writerow([f"#{job_number}", build_version, result, expected, total, passed, failed, skipped, timestamp, remarks])
