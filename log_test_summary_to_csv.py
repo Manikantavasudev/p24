@@ -211,4 +211,4 @@ if __name__ == "__main__":
             error_message
         )
 
-    print(f"✅ Test result comparison logged to {output_csv}")
+    print(f" Test result comparison logged to {output_csv}")
