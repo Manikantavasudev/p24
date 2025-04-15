@@ -67,83 +67,73 @@ def load_version(file_path):
                     build_version = line.strip().split("=")[1]
     return build_version
 
-# Load pytest JSON report and extract summary
+# Load pytest JSON report
 def load_pytest_report(file_path):
     with open(file_path, "r") as f:
         return json.load(f)
 
-# Extract the summary details from the pytest report
-def extract_summary(data):
-    summary = data.get("summary", {})
-    return summary.get("total", 0), summary.get("passed", 0), summary.get("failed", 0), summary.get("skipped", 0)
-
-# Gather remarks from failed tests and comparison with previous version
-def gather_remarks(data, previous_version_results):
-    remarks = []
-    if "tests" in data:
-        for test in data["tests"]:
-            nodeid = test.get("nodeid", "unknown_test")
-            outcome = test.get("outcome")
-            if outcome == "failed":
-                msg = test.get("call", {}).get("longrepr", "No details")
-                remarks.append(f"{nodeid} failed. Details: {msg}")
-            # Check for comparison between versions if result is different
-            test_name = test.get("nodeid")
-            if previous_version_results.get(test_name) != outcome:
-                remarks.append(f"Comparison mismatch for {test_name}: Sw v1: {previous_version_results.get(test_name)} vs Sw v2: {outcome}")
-    return remarks if remarks else ["All tests passed."]
-
-# Write results to CSV
-def write_to_csv(file_path, test_category, test_name, sw_v1_result, sw_v2_result, comparison, error_message, timestamp):
+# Write results to CSV (matching your Excel format)
+def write_to_csv(file_path, job_number, timestamp, test_name, sw_v1_result, sw_v2_result, error_message):
     file_exists = os.path.exists(file_path)
 
     with open(file_path, "a", newline="") as f:
         writer = csv.writer(f)
         if not file_exists:
-            # Write headers only if the file is new
-            writer.writerow([ "Test Category", "Test Case Name", "Sw v1 Result", "Sw v2 Result", "Comparison", "Error Message (if any)"])
-        writer.writerow([test_category, test_name, sw_v1_result, sw_v2_result, comparison, error_message])
+            writer.writerow([
+                "Job number from jenkins", "Date time", "Test case name",
+                "SWv Result 1.1", "SWv Result1.2", "Error Message (if any)"
+            ])
+        writer.writerow([
+            job_number, timestamp, test_name,
+            sw_v1_result, sw_v2_result, error_message
+        ])
 
 # Main execution
 if __name__ == "__main__":
-    # Load software version
+    # File paths
     version_file = "version.properties"
+    json_file = "pytest-report.json"
+    csv_file = "build_results_log.csv"
+
+    # Load build version (if needed)
     build_version = load_version(version_file)
 
-    # Load pytest JSON report
-    json_file = "pytest-report.json"
+    # Load pytest results
     data = load_pytest_report(json_file)
-
-    # Extract summary data
-    total, passed, failed, skipped = extract_summary(data)
-    expected = "Pass"
-    result = "Passed" if failed == 0 else "Failed"
-
-    # Assume that we get previous test results from a CSV or another file. Here, using a sample comparison dictionary.
-    previous_version_results = {
-        "test_TC35_Coil_Type_dropdown_checking": "PASS",
-        "test_TC36_Coil_Type_dropdown_checking": "PASS",
-        # Add more test results here for Sw v1
-    }
-
-    # Gather remarks and comparison results
-    remarks = gather_remarks(data, previous_version_results)
 
     # Jenkins build number and timestamp
     job_number = os.getenv("BUILD_NUMBER", "Unknown")
-    timestamp = datetime.now().strftime("%m/%d/%Y %H:%M")
+    timestamp = datetime.now().strftime("%d:%m:%Y %I:%M:%S %p")
 
-    # Output CSV file
-    csv_file = "build_results_log.csv"
-    
-    for remark in remarks:
-        test_category = "test_Qi_Exerciser_checks"  # You can change the logic to extract actual test categories from data
-        test_name = "test_TC35_Coil_Type_dropdown_checking"  # Example, extract test name from data
-        sw_v1_result = "PASS"  # Assume v1 result from previous version or stored somewhere
-        sw_v2_result = "PASS"  # This will be from the current test run
-        comparison = "PASS" if sw_v1_result == sw_v2_result else "FAIL"
-        error_message = remark if "failed" in remark else ""
-        
-        write_to_csv(csv_file, test_category, test_name, sw_v1_result, sw_v2_result, comparison, error_message, timestamp)
+    # Previous version test results (simulate or load from DB/CSV)
+    previous_version_results = {
+        "test_TC35_Coil_Type_dropdown_checking": "PASS",
+        "test_TC36_Coil_Type_dropdown_checking": "PASS",
+        # Add more mappings as needed
+    }
 
-    print(f"Test result logged to {csv_file}")
+    # Iterate over each test result in the JSON
+    for test in data.get("tests", []):
+        test_name = test.get("nodeid", "unknown_test")
+        sw_v2_result = test.get("outcome", "UNKNOWN").upper()
+        sw_v1_result = previous_version_results.get(test_name, "UNKNOWN")
+
+        # If failed, get long error message
+        error_message = ""
+        if sw_v2_result == "FAILED":
+            error_message = test.get("call", {}).get("longrepr", "No details")
+        elif sw_v1_result != sw_v2_result:
+            error_message = f"Comparison mismatch: Sw v1: {sw_v1_result} vs Sw v2: {sw_v2_result}"
+
+        # Write to CSV
+        write_to_csv(
+            csv_file,
+            job_number,
+            timestamp,
+            test_name,
+            sw_v1_result,
+            sw_v2_result,
+            error_message
+        )
+
+    print(f"✅ Test results logged to {csv_file}")
