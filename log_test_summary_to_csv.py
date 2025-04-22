@@ -1,143 +1,3 @@
-# import json
-# import csv
-# import os
-# from datetime import datetime
-
-# # Load software version from version.properties
-# version_file = "version.properties"
-# build_version = "Unknown"
-# if os.path.exists(version_file):
-#     with open(version_file) as f:
-#         for line in f:
-#             if line.startswith("BUILD_VERSION="):
-#                 build_version = line.strip().split("=")[1]
-
-# # Load pytest JSON report
-# json_file = "pytest-report.json"
-# with open(json_file, "r") as f:
-#     data = json.load(f)
-
-# # Extract summary
-# summary = data.get("summary", {})
-# total = summary.get("total", 0)
-# passed = summary.get("passed", 0)
-# failed = summary.get("failed", 0)
-# skipped = summary.get("skipped", 0)
-# expected = "Pass"
-# result = "Passed" if failed == 0 else "Failed"
-
-# # Gather remarks from failed tests
-# remarks = ""
-# if "tests" in data:
-#     for test in data["tests"]:
-#         if test.get("outcome") == "failed":
-#             nodeid = test.get("nodeid", "unknown_test")
-#             msg = test.get("call", {}).get("longrepr", "No details")
-#             remarks += f"{nodeid} failed. "
-
-# if not remarks:
-#     remarks = "All tests passed."
-
-# # Jenkins build number and timestamp
-# job_number = os.getenv("BUILD_NUMBER", "Unknown")
-# timestamp = datetime.now().strftime("%m/%d/%Y %H:%M")
-
-# # Output CSV
-# csv_file = "build_results_log.csv"
-# file_exists = os.path.exists(csv_file)
-
-# with open(csv_file, "a", newline="") as f:
-#     writer = csv.writer(f)
-#     if not file_exists:
-#         writer.writerow([ "SW Version", "Result", "Expected", "Total", "Passed", "Failed", "Skipped", "Timestamp", "Remarks"])
-#     writer.writerow([build_version, result, expected, total, passed, failed, skipped, timestamp, remarks])
-
-# import json
-# import csv
-# import os
-# from datetime import datetime
-
-# # Load software version from version.properties
-# def load_version(file_path):
-#     build_version = "Unknown"
-#     if os.path.exists(file_path):
-#         with open(file_path) as f:
-#             for line in f:
-#                 if line.startswith("BUILD_VERSION="):
-#                     build_version = line.strip().split("=")[1]
-#     return build_version
-
-# # Load pytest JSON report
-# def load_pytest_report(file_path):
-#     with open(file_path, "r") as f:
-#         return json.load(f)
-
-# # Write results to CSV (matching your Excel format)
-# def write_to_csv(file_path, job_number, timestamp, test_name, sw_v1_result, sw_v2_result, error_message):
-#     file_exists = os.path.exists(file_path)
-
-#     with open(file_path, "a", newline="") as f:
-#         writer = csv.writer(f)
-#         if not file_exists:
-#             writer.writerow([
-#                 "Job number from jenkins", "Date time", "Test case name",
-#                 "SWv Result 1.1", "SWv Result1.2", "Error Message (if any)"
-#             ])
-#         writer.writerow([
-#             job_number, timestamp, test_name,
-#             sw_v1_result, sw_v2_result, error_message
-#         ])
-
-# # Main execution
-# if __name__ == "__main__":
-#     # File paths
-#     version_file = "version.properties"
-#     json_file = "pytest-report.json"
-#     csv_file = "build_results_log.csv"
-
-#     # Load build version (if needed)
-#     build_version = load_version(version_file)
-
-#     # Load pytest results
-#     data = load_pytest_report(json_file)
-
-#     # Jenkins build number and timestamp
-#     job_number = os.getenv("BUILD_NUMBER", "Unknown")
-#     timestamp = datetime.now().strftime("%d:%m:%Y %I:%M:%S %p")
-
-#     # Previous version test results (simulate or load from DB/CSV)
-#     previous_version_results = {
-#         "test_TC35_Coil_Type_dropdown_checking": "PASS",
-#         "test_TC36_Coil_Type_dropdown_checking": "PASS",
-#         # Add more mappings as needed
-#     }
-
-#     # Iterate over each test result in the JSON
-#     for test in data.get("tests", []):
-#         test_name = test.get("nodeid", "unknown_test")
-#         sw_v2_result = test.get("outcome", "UNKNOWN").upper()
-#         sw_v1_result = previous_version_results.get(test_name, "UNKNOWN")
-
-#         # If failed, get long error message
-#         error_message = ""
-#         if sw_v2_result == "FAILED":
-#             error_message = test.get("call", {}).get("longrepr", "No details")
-#         elif sw_v1_result != sw_v2_result:
-#             error_message = f"Comparison mismatch: Sw v1: {sw_v1_result} vs Sw v2: {sw_v2_result}"
-
-#         # Write to CSV
-#         write_to_csv(
-#             csv_file,
-#             job_number,
-#             timestamp,
-#             test_name,
-#             sw_v1_result,
-#             sw_v2_result,
-#             error_message
-#         )
-
-#     print(f"✅ Test results logged to {csv_file}")
-
 import json
 import csv
 import os
@@ -155,7 +15,7 @@ def load_previous_results(file_path):
             reader = csv.DictReader(f)
             for row in reader:
                 test_case_name = row["Test case name"].strip()
-                sw_v1_result = row["SWv Result 1.1"].strip().upper()
+                sw_v1_result = row.get("SWv Result 1.1", "").strip().upper()
                 previous_results[test_case_name] = sw_v1_result
     return previous_results
 
@@ -170,20 +30,19 @@ def extract_counts_from_console(log_text):
         total, deselected, selected = map(int, match.groups())
     return total, selected, deselected
 
-def write_to_csv(file_path, job_number, timestamp, test_name, sw_v1_result, sw_v2_result, error_message):
+def write_to_csv(file_path, job_number, timestamp, test_name, sw_v1_result, sw_v2_result, error_message, sw_version_v1, sw_version_v2):
     file_exists = os.path.exists(file_path)
     with open(file_path, "a", newline="") as f:
         writer = csv.writer(f)
         if not file_exists:
             writer.writerow([
                 "Job number from jenkins", "Date time", "Test case name",
-                "SWv Result 1.1", "SWv Result1.2", "Error Message (if any)"
+                f"SW v1.1 ({sw_version_v1})", f"SW v1.2 ({sw_version_v2})", "Error Message (if any)"
             ])
         writer.writerow([
             job_number, timestamp, test_name,
             sw_v1_result, sw_v2_result, error_message
         ])
-    return file_exists
 
 def generate_summary(test_results):
     summary = {
@@ -225,27 +84,27 @@ if __name__ == "__main__":
     previous_csv = "previous_results.csv"
     json_file = "pytest-report.json"
     output_csv = "build_results_log.csv"
-    console_log = "jenkins_console.log"  # log saved from Jenkins if needed
+    console_log = "jenkins_console.log"
 
-    # Extract SW version
-    sw_version = "UNKNOWN"
+    # Extract current SW version from ReadMe.txt or fallback
+    sw_version_v2 = "UNKNOWN"
     try:
         with open("ReadMe.txt", "r") as version_file:
             for line in version_file:
                 if "Version" in line:
-                    sw_version = line.split(":")[-1].strip()
+                    sw_version_v2 = line.split(":")[-1].strip()
                     break
     except:
-        sw_version = os.getenv("SOFTWARE_VERSION", "3.210.1.20")
+        sw_version_v2 = os.getenv("SOFTWARE_VERSION", "3.210.1.20")
 
-    # Jenkins job details
+    # Define previous version manually or load dynamically if needed
+    sw_version_v1 = "3.210.1.19"
+
     job_number = os.getenv("BUILD_NUMBER", "104")
     timestamp = datetime.now().strftime("%d:%m:%Y %I:%M:%S %p")
 
-    # Load previous results
     previous_results = load_previous_results(previous_csv)
 
-    # Load pytest data
     try:
         test_data = load_pytest_report(json_file)
     except FileNotFoundError:
@@ -264,7 +123,7 @@ if __name__ == "__main__":
         elif sw_v1_result != sw_v2_result:
             error_message = f"Mismatch: v1={sw_v1_result} vs v2={sw_v2_result}"
 
-        write_to_csv(output_csv, job_number, timestamp, test_name, sw_v1_result, sw_v2_result, error_message)
+        write_to_csv(output_csv, job_number, timestamp, test_name, sw_v1_result, sw_v2_result, error_message, sw_version_v1, sw_version_v2)
         all_test_results.append({
             "test_name": test_name,
             "sw_v1_result": sw_v1_result,
@@ -272,21 +131,19 @@ if __name__ == "__main__":
             "error_message": error_message
         })
 
-    # Get selected/deselected counts from console
     selected = deselected = total = 0
     try:
         with open(console_log, "r") as log:
             log_data = log.read()
             total, selected, deselected = extract_counts_from_console(log_data)
     except:
-        pass  # optional if log not saved
+        pass
 
     summary = generate_summary(all_test_results)
-    print_summary(summary, sw_version, job_number, selected, deselected)
+    print_summary(summary, sw_version_v2, job_number, selected, deselected)
 
-    # Write to text file too
     with open("test_summary.txt", "w") as f:
-        f.write(f"Test Summary - SW Version: {sw_version}, Build: {job_number}\n")
+        f.write(f"Test Summary - SW Version: {sw_version_v2}, Build: {job_number}\n")
         f.write(f"Total: {summary['total']}, Passed: {summary['passed']}, Failed: {summary['failed']}, Unknown: {summary['unknown']}, Mismatches: {summary['mismatch']}\n")
         f.write(f"Selected: {selected}, Deselected: {deselected}, Pass Rate: {(summary['passed'] / summary['total']) * 100:.2f}%\n")
 
