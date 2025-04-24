@@ -105,7 +105,9 @@ def test_SDF_jsonval(driver):
         driver.find_element(By.XPATH, "//div[@class='modal-body']//input[@id='ApplicantName']").send_keys("ApplicantName")
 
         logging.info("Entering Product Name")
-        driver.find_element(By.XPATH, "//div[@class='modal-body']//input[@id='ProductName']").send_keys("ProductName")
+        product = driver.find_element(By.XPATH, "//div[@class='modal-body']//input[@id='ProductName']")
+        product.clear()
+        product.send_keys("ProductName")
 
         logging.info("Clicking WPID Support Checkbox")
         driver.find_element(By.XPATH, "//div[@class='modal-body']//input[@id='WPIDSupport-editEsdf']").click()

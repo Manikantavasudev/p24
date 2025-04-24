@@ -146,7 +146,7 @@ from selenium.common.exceptions import TimeoutException
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Environment Configurations
-TEST_IP = os.getenv("TESTER_IP", "192.168.5.74")  # Default IP if not passed
+TEST_IP = os.getenv("TESTER_IP", "192.168.5.23")  # Default IP if not passed
 BROWSER_NAME = os.getenv("BROWSER", "chrome").lower()  # Default browser if not passed
 TEST_TYPE = os.getenv("TEST_TYPE", "TPT").upper()  # TPT or TPR
 
