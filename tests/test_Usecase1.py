@@ -155,7 +155,7 @@ def test_SDF_jsonval(driver):
         # Navigating back
         driver.find_element(By.XPATH, "//span[@class='project-name-label cursorPointer']").click()
         time.sleep(5)
-        driver.find_element(By.XPATH, "//input[@class='project-name-input panelcontrol textbox me-1']").send_keys("sample")
+        driver.find_element(By.XPATH, "//input[@class='grl-border-red project-name-input panelcontrol textbox me-1']").send_keys("sample")
         time.sleep(2)
 
         # **Uploading the JSON File**

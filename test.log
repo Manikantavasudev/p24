@@ -6937,3 +6937,18 @@ Stacktrace:
 2025-04-24 17:30:50,280 - INFO - Clicked on 'Create Project' successfully
 2025-04-24 17:30:55,282 - INFO - Validating Product Name after upload
 2025-04-24 17:30:55,310 - INFO - Closing the WebDriver
+2025-04-24 17:41:05,253 - INFO - Setting up the browser
+2025-04-24 17:41:05,254 - INFO - Initializing browser: chrome
+2025-04-24 17:41:06,635 - INFO - Opening browser using way1 with URL: http://localhost:2004
+2025-04-24 17:41:16,762 - INFO - No popup appeared
+2025-04-24 17:41:16,784 - INFO - Tester status: Disconnected
+2025-04-24 17:41:27,415 - INFO - No popup appeared
+2025-04-24 17:41:29,430 - INFO - Tester status: IP address "192.168.5.23" unreachable
+2025-04-24 17:41:32,294 - INFO - Popup detected. Clicking OK.
+2025-04-24 17:41:34,362 - INFO - Tester status: Connected
+2025-04-24 17:41:34,363 - INFO - Opening Test Configuration Panel
+2025-04-24 17:41:36,423 - INFO - clicking on body of the UI to enble the UI
+2025-04-24 17:41:41,468 - INFO - Clicking on Edit SDF Button
+2025-04-24 17:41:41,590 - INFO - Verifying the dropdown functionality for Supported Cloak Reasons
+2025-04-24 17:41:41,738 - INFO - Available options in Supported Cloak Reasons:
+2025-04-24 17:41:41,857 - INFO - Tearing down the browser
