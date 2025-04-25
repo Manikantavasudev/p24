@@ -164,169 +164,97 @@ class TestConfigPage:
         else:
             logging.error(f"{checkbox_name} checkbox could not be unchecked")
     
-    # def dropdown_test(self, dropdown_xpath, dropdown_name):
-    #     """Verify the dropdown functionality."""
-    #     logging.info(f"Verifying the dropdown functionality for {dropdown_name}")        
-    #     # Check if the dropdown is present
-    #     try:
-    #         dropdown_element = self.driver.find_element(By.XPATH, dropdown_xpath)
-    #     except NoSuchElementException:
-    #         logging.error(f"{dropdown_name} dropdown is not available on the page")
-    #         return False
+    def dropdown_test(self, dropdown_xpath, dropdown_name):
+        """Verify the dropdown functionality."""
+        logging.info(f"Verifying the dropdown functionality for {dropdown_name}")        
+        # Check if the dropdown is present
+        try:
+            dropdown_element = self.driver.find_element(By.XPATH, dropdown_xpath)
+        except NoSuchElementException:
+            logging.error(f"{dropdown_name} dropdown is not available on the page")
+            return False
         
-    #     # Verify if the dropdown can be selected
-    #     try:
-    #         dropdown = Select(dropdown_element)
-    #     except Exception as e:
-    #         logging.error(f"{dropdown_name} dropdown cannot be selected: {e}")
-    #         return False
+        # Verify if the dropdown can be selected
+        try:
+            dropdown = Select(dropdown_element)
+        except Exception as e:
+            logging.error(f"{dropdown_name} dropdown cannot be selected: {e}")
+            return False
         
-    #     # Check if the dropdown is enabled
-    #     if not dropdown_element.is_enabled():
-    #         logging.error(f"{dropdown_name} dropdown is not enabled")
-    #         return False
+        # Check if the dropdown is enabled
+        if not dropdown_element.is_enabled():
+            logging.error(f"{dropdown_name} dropdown is not enabled")
+            return False
         
-    #     # Get all options in the dropdown
-    #     options = dropdown.options
-    #     if not options:
-    #         logging.error(f"{dropdown_name} dropdown has no options")
-    #         return False
+        # Get all options in the dropdown
+        options = dropdown.options
+        if not options:
+            logging.error(f"{dropdown_name} dropdown has no options")
+            return False
         
-    #     # Print all available options
-    #     logging.info(f"Available options in {dropdown_name}:")
-    #     for option in options:
-    #         logging.info(f"- {option.text}")
+        # Print all available options
+        logging.info(f"Available options in {dropdown_name}:")
+        for option in options:
+            logging.info(f"- {option.text}")
         
-    #     # Select each option and verify selection
-    #     for option in options:
-    #         option_text = option.text
-    #         dropdown.select_by_visible_text(option_text)
-    #         selected_option = dropdown.first_selected_option.text
+        # Select each option and verify selection
+        for option in options:
+            option_text = option.text
+            dropdown.select_by_visible_text(option_text)
+            selected_option = dropdown.first_selected_option.text
             
-    #         assert selected_option == option_text, \
-    #             f"Failed to select '{option_text}' in {dropdown_name}"
+            assert selected_option == option_text, \
+                f"Failed to select '{option_text}' in {dropdown_name}"
         
-    #     # Verify dropdown disappears when clicking outside
-    #     dropdown_element.click()  # Open the dropdown
-    #     self.driver.find_element(By.XPATH, "//body").click()  # Click outside the dropdown
-    #     assert not dropdown_element.is_displayed(), \
-    #         f"{dropdown_name} dropdown did not disappear after clicking outside"
+        # Verify dropdown disappears when clicking outside
+        dropdown_element.click()  # Open the dropdown
+        self.driver.find_element(By.XPATH, "//body").click()  # Click outside the dropdown
+        assert not dropdown_element.is_displayed(), \
+            f"{dropdown_name} dropdown did not disappear after clicking outside"
         
-    #     return True
-
-    # def dropdown_test(self, dropdown_xpath, dropdown_name):
-    #     """Verify the dropdown functionality for non-<select> dropdowns."""
-    #     logging.info(f"Verifying the dropdown functionality for {dropdown_name}")
-
-    #     # Check if the dropdown is present
-    #     try:
-    #         dropdown_element = self.driver.find_element(By.XPATH, dropdown_xpath)
-    #     except NoSuchElementException:
-    #         logging.error(f"{dropdown_name} dropdown is not available on the page")
-    #         return False
-
-    #     # Verify if the dropdown is enabled
-    #     if not dropdown_element.is_enabled():
-    #         logging.error(f"{dropdown_name} dropdown is not enabled")
-    #         return False
-
-    #     # Open the dropdown
-    #     dropdown_element.click()
-
-    #     # Locate all options (adjust the XPath as needed)
-    #     options_xpath = f"{dropdown_xpath}//div[@role='option']"
-    #     try:
-    #         options = self.driver.find_elements(By.XPATH, options_xpath)
-    #     except NoSuchElementException:
-    #         logging.error(f"{dropdown_name} dropdown has no options")
-    #         return False
-
-    #     # Print all available options
-    #     logging.info(f"Available options in {dropdown_name}:")
-    #     for option in options:
-    #         logging.info(f"- {option.text}")
-
-    #     # Select each option and verify selection
-    #     for option in options:
-    #         option_text = option.text
-    #         option.click()
-    #         selected_option = dropdown_element.text  # Adjust this based on how the selected option is displayed
-
-    #         assert selected_option == option_text, \
-    #             f"Failed to select '{option_text}' in {dropdown_name}"
-
-    #     # Verify dropdown disappears when clicking outside
-    #     dropdown_element.click()  # Open the dropdown
-    #     self.driver.find_element(By.XPATH, "//body").click()  # Click outside the dropdown
-
+        return True
 
     def dropdown_test(self, dropdown_xpath, dropdown_name):
-        """Verify the dropdown functionality for non-<select> dropdowns with safe click."""
-
+        """Verify the dropdown functionality for non-<select> dropdowns."""
         logging.info(f"Verifying the dropdown functionality for {dropdown_name}")
-        wait = WebDriverWait(self.driver, 10)
 
-        # Locate dropdown element
+        # Check if the dropdown is present
         try:
-            dropdown_element = wait.until(EC.presence_of_element_located((By.XPATH, dropdown_xpath)))
-        except TimeoutException:
+            dropdown_element = self.driver.find_element(By.XPATH, dropdown_xpath)
+        except NoSuchElementException:
             logging.error(f"{dropdown_name} dropdown is not available on the page")
             return False
 
-        # Verify if dropdown is enabled
+        # Verify if the dropdown is enabled
         if not dropdown_element.is_enabled():
             logging.error(f"{dropdown_name} dropdown is not enabled")
             return False
 
-        # Safe click: Scroll into view + JS click to bypass overlays
-        try:
-            self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", dropdown_element)
-            wait.until(EC.invisibility_of_element_located((By.CLASS_NAME, "invalid-tooltip")))  # if tooltip exists
-            self.driver.execute_script("arguments[0].click();", dropdown_element)
-        except ElementClickInterceptedException as e:
-            logging.error(f"{dropdown_name} dropdown click intercepted: {e}")
-            return False
-        except Exception as e:
-            logging.error(f"{dropdown_name} dropdown click failed: {e}")
-            return False
+        # Open the dropdown
+        dropdown_element.click()
 
-        # Locate all options
+        # Locate all options (adjust the XPath as needed)
         options_xpath = f"{dropdown_xpath}//div[@role='option']"
         try:
-            wait.until(EC.presence_of_element_located((By.XPATH, options_xpath)))
             options = self.driver.find_elements(By.XPATH, options_xpath)
         except NoSuchElementException:
             logging.error(f"{dropdown_name} dropdown has no options")
             return False
 
-        if not options:
-            logging.warning(f"{dropdown_name} dropdown options list is empty")
-            return False
-
+        # Print all available options
         logging.info(f"Available options in {dropdown_name}:")
         for option in options:
             logging.info(f"- {option.text}")
 
-        # Select each option and verify
+        # Select each option and verify selection
         for option in options:
-            try:
-                option_text = option.text
-                self.driver.execute_script("arguments[0].click();", option)  # safer than option.click()
-                time.sleep(1)  # allow UI to reflect selection
+            option_text = option.text
+            option.click()
+            selected_option = dropdown_element.text  # Adjust this based on how the selected option is displayed
 
-                selected_option = dropdown_element.text.strip()
-                assert selected_option == option_text, \
-                    f"Failed to select '{option_text}' in {dropdown_name}, got '{selected_option}'"
-                logging.info(f"✅ Successfully selected: {option_text}")
+            assert selected_option == option_text, \
+                f"Failed to select '{option_text}' in {dropdown_name}"
 
-                # Reopen dropdown for next selection (if it closes after selection)
-                self.driver.execute_script("arguments[0].click();", dropdown_element)
-                time.sleep(1)
-            except Exception as e:
-                logging.error(f"❌ Error selecting option '{option_text}' in {dropdown_name}: {e}")
-
-        # Close dropdown by clicking outside
-        self.driver.find_element(By.XPATH, "//body").click()
-        logging.info(f"✅ Dropdown test completed for {dropdown_name}")
-        return True
-
+        # Verify dropdown disappears when clicking outside
+        dropdown_element.click()  # Open the dropdown
+        self.driver.find_element(By.XPATH, "//body").click()  # Click outside the dropdown
