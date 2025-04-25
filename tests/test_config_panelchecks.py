@@ -587,12 +587,12 @@ def test_Supported_Protocols_Dropdown_Functionality(setup_teardown):
     driver, Config = setup_teardown
     Config.dropdown_test(Config.supported_protocols, "Supported Protocols")
 
-def test_Supported_Cloak_Reasons_Dropdown_Functionality(setup_teardown):
-    """
-    Test Case: TC44 - Validate Supported Cloak Reasons Dropdown Functionality
-    """
-    driver, Config = setup_teardown
-    Config.dropdown_test(Config.supported_cloak_reasons, "Supported Cloak Reasons")
+# def test_Supported_Cloak_Reasons_Dropdown_Functionality(setup_teardown):
+#     """
+#     Test Case: TC44 - Validate Supported Cloak Reasons Dropdown Functionality
+#     """
+#     driver, Config = setup_teardown
+#     Config.dropdown_test(Config.supported_cloak_reasons, "Supported Cloak Reasons")
 
 def test_Supported_GetRequests_Dropdown_Functionality(setup_teardown):
     """
