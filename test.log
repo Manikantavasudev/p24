@@ -6952,3 +6952,84 @@ Stacktrace:
 2025-04-24 17:41:41,590 - INFO - Verifying the dropdown functionality for Supported Cloak Reasons
 2025-04-24 17:41:41,738 - INFO - Available options in Supported Cloak Reasons:
 2025-04-24 17:41:41,857 - INFO - Tearing down the browser
+2025-04-26 13:29:04,300 - INFO - Setting up the WebDriver
+2025-04-26 13:29:04,302 - INFO - Initializing browser: chrome
+2025-04-26 13:29:06,046 - INFO - Opening browser using way1 with URL: http://localhost:2004
+2025-04-26 13:29:18,809 - INFO - No popup appeared
+2025-04-26 13:29:18,871 - INFO - Tester status: Disconnected
+2025-04-26 13:29:30,161 - INFO - No popup appeared
+2025-04-26 13:29:32,189 - INFO - Tester status: IP address "192.168.5.23" unreachable
+2025-04-26 13:29:45,249 - INFO - Setting up the WebDriver
+2025-04-26 13:29:45,250 - INFO - Initializing browser: chrome
+2025-04-26 13:29:46,962 - INFO - Opening browser using way1 with URL: http://localhost:2004
+2025-04-26 13:29:50,302 - ERROR - Unexpected popup error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.179)
+Stacktrace:
+	GetHandleVerifier [0x00007FF608B14C25+3179557]
+	(No symbol) [0x00007FF6087788A0]
+	(No symbol) [0x00007FF6086091CA]
+	(No symbol) [0x00007FF6085F4F85]
+	(No symbol) [0x00007FF608619F94]
+	(No symbol) [0x00007FF60868F9DF]
+	(No symbol) [0x00007FF6086AFBE2]
+	(No symbol) [0x00007FF608687A03]
+	(No symbol) [0x00007FF6086506D0]
+	(No symbol) [0x00007FF608651983]
+	GetHandleVerifier [0x00007FF608B767CD+3579853]
+	GetHandleVerifier [0x00007FF608B8D1D2+3672530]
+	GetHandleVerifier [0x00007FF608B82153+3627347]
+	GetHandleVerifier [0x00007FF6088E092A+868650]
+	(No symbol) [0x00007FF608782FFF]
+	(No symbol) [0x00007FF60877F4A4]
+	(No symbol) [0x00007FF60877F646]
+	(No symbol) [0x00007FF60876EAA9]
+	BaseThreadInitThunk [0x00007FF85A3353E0+16]
+	RtlUserThreadStart [0x00007FF85BD6485B+43]
+
+2025-04-26 13:29:50,449 - ERROR - Connection attempt 1 failed: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF608B14C25+3179557]
+	(No symbol) [0x00007FF6087788A0]
+	(No symbol) [0x00007FF608608FFC]
+	(No symbol) [0x00007FF60864F8DF]
+	(No symbol) [0x00007FF608687AF2]
+	(No symbol) [0x00007FF60868244E]
+	(No symbol) [0x00007FF6086814F9]
+	(No symbol) [0x00007FF6085D55E5]
+	GetHandleVerifier [0x00007FF608B767CD+3579853]
+	GetHandleVerifier [0x00007FF608B8D1D2+3672530]
+	GetHandleVerifier [0x00007FF608B82153+3627347]
+	GetHandleVerifier [0x00007FF6088E092A+868650]
+	(No symbol) [0x00007FF608782FFF]
+	(No symbol) [0x00007FF6085D41FF]
+	GetHandleVerifier [0x00007FF608BFFA28+4141608]
+	BaseThreadInitThunk [0x00007FF85A3353E0+16]
+	RtlUserThreadStart [0x00007FF85BD6485B+43]
+
+2025-04-26 13:31:01,267 - INFO - Setting up the WebDriver
+2025-04-26 13:31:01,270 - INFO - Initializing browser: chrome
+2025-04-26 13:31:02,893 - INFO - Opening browser using way1 with URL: http://localhost:2004
+2025-04-26 13:31:13,297 - INFO - No popup appeared
+2025-04-26 13:31:13,344 - INFO - Tester status: Disconnected
+2025-04-26 13:31:24,478 - INFO - No popup appeared
+2025-04-26 13:31:26,518 - INFO - Tester status: IP address "192.168.5.23" unreachable
+2025-04-26 13:31:37,675 - INFO - No popup appeared
+2025-04-26 13:31:56,043 - INFO - Setting up the WebDriver
+2025-04-26 13:31:56,045 - INFO - Initializing browser: chrome
+2025-04-26 13:31:57,740 - INFO - Opening browser using way1 with URL: http://192.168.0.175:2004
+2025-04-26 16:46:54,314 - INFO - Setting up the WebDriver
+2025-04-26 16:46:54,315 - INFO - Initializing browser: chrome
+2025-04-26 16:47:57,608 - INFO - Setting up the WebDriver
+2025-04-26 16:47:57,611 - INFO - Initializing browser: chrome
+2025-04-26 16:48:43,620 - INFO - Setting up the WebDriver
+2025-04-26 16:48:43,621 - INFO - Initializing browser: chrome
+2025-04-26 16:50:36,900 - INFO - Setting up the WebDriver
+2025-04-26 16:50:36,902 - INFO - Initializing browser: chrome
+2025-04-26 16:55:37,872 - INFO - Setting up the WebDriver
+2025-04-26 16:55:37,874 - INFO - Initializing browser: chrome
+2025-04-26 16:55:38,707 - INFO - Opening browser using way1 with URL: http://localhost:2004
+2025-04-26 16:55:49,028 - INFO - No popup appeared
+2025-04-26 16:55:49,074 - INFO - Tester status: Disconnected
+2025-04-26 16:55:59,530 - INFO - No popup appeared
+2025-04-26 16:56:01,592 - INFO - Tester status: IP address "192.168.5.23" unreachable
