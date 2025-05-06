@@ -7033,3 +7033,6 @@ Stacktrace:
 2025-04-26 16:55:49,074 - INFO - Tester status: Disconnected
 2025-04-26 16:55:59,530 - INFO - No popup appeared
 2025-04-26 16:56:01,592 - INFO - Tester status: IP address "192.168.5.23" unreachable
+2025-04-26 19:16:06,392 - INFO - Setting up the WebDriver
+2025-04-26 19:16:06,394 - INFO - Initializing browser: chrome
+2025-04-26 19:16:08,585 - INFO - Opening browser using way1 with URL: http://localhost:2004
